@@ -1,0 +1,14 @@
+{
+ "request_id": "dcdc6609e20e4336a9e1c9cf85dac5e6",
+ "target": "Proof.lean",
+ "theorem": "Round189E.native_boundary_jet_norm_integrable_iff",
+ "source_sha256": {
+  "Proof.lean": "1d12a7fbc0ac4f1ca7a774c056bbbdff89bdf9e66230543d8fe20c2b1185245d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.046414067968726,
+ "stdout": "Round189E.native_boundary_density_comparison (m : ℕ) (s x : ℝ) (hs : 0 ≤ s) (hx : 1 ≤ x) :\n  2 ^ (-s / 2) * x ^ (2 * ↑m - s) ≤ nativeBoundaryDensity m s x ∧ nativeBoundaryDensity m s x ≤ x ^ (2 * ↑m - s)\n'Round189E.native_boundary_density_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound189E.native_boundary_jet_norm_integrable_iff (m : ℕ) (s : ℝ) (hs : 0 ≤ s) :\n  IntegrableOn (nativeBoundaryDensity m s) (Ioi 1) volume ↔ 2 * ↑m + 1 < s\n'Round189E.native_boundary_jet_norm_integrable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round189E.native_boundary_jet_norm_integrable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound189E.native_boundary_jet_norm_integrable_iff (m : ℕ) (s : ℝ) (hs : 0 ≤ s) :\n  IntegrableOn (Round189E.nativeBoundaryDensity m s) (Ioi 1) volume ↔ 2 * ↑m + 1 < s\n",
+ "stderr": ""
+}

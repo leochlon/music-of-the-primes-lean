@@ -1,0 +1,14 @@
+{
+ "request_id": "F_r04_integrated_invariance",
+ "target": "ConvolutionInvariantR04.lean",
+ "theorem": "GeometricTraceR04.integrated_projection_order",
+ "source_sha256": {
+  "ConvolutionInvariantR04.lean": "d6e0e10885a6cba4339bd6b076ea190b1e6fe5b3aeac059c3c29945f5cc39e01"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.895383174996823,
+ "stdout": "'GeometricTraceR04.integrated_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.integrated_projection_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.integrated_projection_order' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTraceR04.integrated_projection_order.{u_1, u_2} {G : Type u_1} {H : Type u_2} [MeasurableSpace G]\n  [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] (μ : Measure G) (V : Submodule ℂ H)\n  [V.HasOrthogonalProjection] (R : G → H →L[ℂ] H) (hR : ∀ (g : G), ∀ v ∈ V, (R g) v ∈ V) (h : G → ℂ) (A : H →L[ℂ] H)\n  (hint : ∀ (v : H), Integrable (fun g => h g • (R g) v) μ) (hA : ∀ (v : H), A v = ∫ (g : G), h g • (R g) v ∂μ) :\n  (ContinuousLinearMap.id ℂ H - V.starProjection).comp A =\n    ((ContinuousLinearMap.id ℂ H - V.starProjection).comp A).comp (ContinuousLinearMap.id ℂ H - V.starProjection)\n",
+ "stderr": ""
+}

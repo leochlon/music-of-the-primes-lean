@@ -1,0 +1,14 @@
+{
+ "request_id": "390e5b042f144a1481c95553460c3196",
+ "target": "MOriginalHaarCutoffCheck.lean",
+ "theorem": "MQuotientHaar.originalHaar_shell_L1_limit",
+ "source_sha256": {
+  "MOriginalHaarCutoffCheck.lean": "3cba1bb8b5f4553f167b5dbc4dd7fa4e66b42e29af9eba8ca616ea1495f57379"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 35.91487908700947,
+ "stdout": "MQuotientHaar.originalHaar_shell_L1_limit.{u_1, u_2} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] {J : Type u_2} (lambda : Measure (MasulloGRH.HeckeIdeles K))\n  [lambda.IsHaarMeasure] (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [mu.IsHaarMeasure] (v : ℕ → FinitePlace K)\n  (F : J → MasulloGRH.HeckeIdeleClasses K → ℂ) (G : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hF : ∀ (j : J), Integrable (F j) mu) (hG : Integrable G mu) (L : Filter J)\n  (hlim : Tendsto (fun j => ∫ (z : MasulloGRH.HeckeIdeleClasses K), ‖F j z - G z‖ ∂mu) L (𝓝 0)) :\n  Tendsto\n    (fun j =>\n      ∑' (e : Option ℕ),\n        ‖∫ (y : MasulloGRH.HeckeIdeles K),\n              ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) *\n                F j ↑y ∂lambda -\n            ∫ (y : MasulloGRH.HeckeIdeles K),\n              ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) *\n                G ↑y ∂lambda‖)\n    L (𝓝 0)\n'MQuotientHaar.originalHaar_shell_L1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MQuotientHaar.originalHaar_L1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MQuotientHaar.originalHaar_shell_L1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nMQuotientHaar.originalHaar_shell_L1_limit.{u_1, u_2} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] {J : Type u_2} (lambda : Measure (MasulloGRH.HeckeIdeles K))\n  [lambda.IsHaarMeasure] (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [mu.IsHaarMeasure] (v : ℕ → FinitePlace K)\n  (F : J → MasulloGRH.HeckeIdeleClasses K → ℂ) (G : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hF : ∀ (j : J), Integrable (F j) mu) (hG : Integrable G mu) (L : Filter J)\n  (hlim : Tendsto (fun j => ∫ (z : MasulloGRH.HeckeIdeleClasses K), ‖F j z - G z‖ ∂mu) L (𝓝 0)) :\n  Tendsto\n    (fun j =>\n      ∑' (e : Option ℕ),\n        ‖∫ (y : MasulloGRH.HeckeIdeles K),\n              ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) *\n                F j ↑y ∂lambda -\n            ∫ (y : MasulloGRH.HeckeIdeles K),\n              ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) *\n                G ↑y ∂lambda‖)\n    L (𝓝 0)\n",
+ "stderr": ""
+}

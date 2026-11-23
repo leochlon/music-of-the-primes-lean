@@ -1,0 +1,14 @@
+{
+ "request_id": "babaa16acda04fd599653478acb0db42",
+ "target": "Proof.lean",
+ "theorem": "Round91C.liftedSum_convergence_forces_residual_zero",
+ "source_sha256": {
+  "Proof.lean": "aaf6247eeb874e58147387a1d0ff9c4610f6031ba93d425b9f25f5ed01807c27"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.706567594024818,
+ "stdout": "Round91C.geometric_lift_obstruction.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A : H →L[ℂ] H)\n  (eta : H →L[ℂ] ℂ) (u v : H) : 2 * ‖A v‖ * ‖eta‖ ≤ ‖A (u + v)‖ * ‖eta‖ + ‖A (u - v)‖ * ‖eta‖\n'Round91C.geometric_lift_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.liftedSum_error_lower_bound.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A P : H →L[ℂ] H)\n  (u : ℕ → H) (eta : ℕ → H →L[ℂ] ℂ) (i : ℕ) (J : Finset ℕ) (hi : i ∈ J)\n  (hbio : ∀ (j : ℕ), (eta j) (u i) = if j = i then 1 else 0) :\n  ‖A (u i - P (u i))‖ ≤ ‖liftedSum A u eta J - A.comp P‖ * ‖u i‖\n'Round91C.liftedSum_error_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.liftedSum_convergence_forces_residual_zero.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (A P : H →L[ℂ] H) (u : ℕ → H) (eta : ℕ → H →L[ℂ] ℂ) (i : ℕ) (hbio : ∀ (j : ℕ), (eta j) (u i) = if j = i then 1 else 0)\n  (hconv : Tendsto (fun n => liftedSum A u eta (Finset.range n)) atTop (nhds (A.comp P))) : A (u i - P (u i)) = 0\n'Round91C.liftedSum_convergence_forces_residual_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.convolved_lift_correction_cost.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A : H →L[ℂ] H)\n  (eta : H →L[ℂ] ℂ) (u p : H) : ‖A u - A p‖ * ‖eta‖ ≤ ‖A‖ * (‖u - p‖ * ‖eta‖)\n'Round91C.convolved_lift_correction_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.finite_lift_correction_cost.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A : H →L[ℂ] H)\n  (eta : ℕ → H →L[ℂ] ℂ) (u p : ℕ → H) (J : Finset ℕ) :\n  ∑ i ∈ J, ‖A (u i) - A (p i)‖ * ‖eta i‖ ≤ ‖A‖ * ∑ i ∈ J, ‖u i - p i‖ * ‖eta i‖\n'Round91C.finite_lift_correction_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round91C.liftedSum_convergence_forces_residual_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.liftedSum_convergence_forces_residual_zero.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (A P : H →L[ℂ] H) (u : ℕ → H) (eta : ℕ → H →L[ℂ] ℂ) (i : ℕ) (hbio : ∀ (j : ℕ), (eta j) (u i) = if j = i then 1 else 0)\n  (hconv : Filter.Tendsto (fun n => Round91C.liftedSum A u eta (Finset.range n)) Filter.atTop (nhds (A.comp P))) :\n  A (u i - P (u i)) = 0\n",
+ "stderr": ""
+}

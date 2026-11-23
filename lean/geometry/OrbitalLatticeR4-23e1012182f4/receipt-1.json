@@ -1,0 +1,14 @@
+{
+ "request_id": "a-r04-lattice",
+ "target": "OrbitalLatticeR4.lean",
+ "theorem": "GeometricTraceR4.weighted_lattice_sum_zero",
+ "source_sha256": {
+  "OrbitalLatticeR4.lean": "23e1012182f439ed0f8cf07a40c9aa96f23679eb6fa94e9160b150d471eb000b"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.644165173987858,
+ "stdout": "'GeometricTraceR4.integer_lattice_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR4.weighted_lattice_sum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR4.weighted_lattice_sum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTraceR4.weighted_lattice_sum_zero (L : ℝ) (hL : 0 < L) (f : ℝ → ℂ) (hzero : f 0 = 0)\n  (hsupport : ∀ (u : ℝ), L ≤ |u| → f u = 0) (c : ℤ → ℂ) : HasSum (fun k => c k * f (↑k * L)) 0\n",
+ "stderr": ""
+}

@@ -1,0 +1,10 @@
+import Mathlib
+#check Nat.descFactorial_le_pow
+#check Nat.descFactorial_le
+#check pow_le_pow_right₀
+#check pow_le_pow_left₀
+#check one_le_pow₀
+#check Nat.cast_pow
+#check pow_le_pow_right₀
+#check Real.exp_nat_mul
+#check Real.exp_log

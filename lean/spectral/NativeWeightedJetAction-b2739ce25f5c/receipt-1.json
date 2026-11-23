@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-d879-weighted-dual-v2",
+ "target": "NativeWeightedJetAction.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeWeightedJetAction.lean": "b2739ce25f5c29bc7f172eea66c8c9268b80b1d48e9f02ee77c5e051777a797b",
+  "preserved/NativeWeightedJetAction.v2.lean": "b2739ce25f5c29bc7f172eea66c8c9268b80b1d48e9f02ee77c5e051777a797b"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 40.52007520402549,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralRound11B.genuineMellinJet_normalization.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : UnitaryHeckeCharacter K) (z : ℂ) (a s alpha : ℝ) (m : ℕ) (x : HeckeIdeleClasses K) :\n  genuineNormalizedMellinJet K chi z a s alpha m x * ↑(nativeHalfWeight alpha s (classLog K x)) =\n    genuineMellinJet K chi z a m x\n'SpectralRound11B.genuineMellinJet_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_convolution_product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_weighted_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD879.native_weighted_convolution_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD879.nativeConvolutionJetFunctional_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

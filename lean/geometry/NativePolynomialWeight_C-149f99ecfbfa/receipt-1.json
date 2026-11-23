@@ -1,0 +1,14 @@
+{
+ "request_id": "9fef3c6cc8ab43dba005dcfdee2f5e6a",
+ "target": "NativePolynomialWeight_C.lean",
+ "theorem": "NativePolynomialWeightC.native_weight_ratio",
+ "source_sha256": {
+  "NativePolynomialWeight_C.lean": "149f99ecfbfa9587814ce2207b1e1be7040bbbe03299e1d09aa763b4a42f08a1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.843194459041115,
+ "stdout": "'NativePolynomialWeightC.translation_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativePolynomialWeightC.native_weight_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativePolynomialWeightC.native_weight_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativePolynomialWeightC.native_weight_ratio (x t : ℝ) : (1 + x ^ 2) / (1 + (x - t) ^ 2) ≤ (1 + |t|) ^ 2\n",
+ "stderr": ""
+}

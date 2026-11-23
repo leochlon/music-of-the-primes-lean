@@ -1,0 +1,15 @@
+{
+ "request_id": "followupF639-uniform-v2",
+ "target": "preserved/ActualSchwartzUniformBound.639.v2.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualSchwartzUniformBound.lean": "595df56f02aad8be9755b73265884a9cd40ce3de97fafa7e8fc28fd8426dd308",
+  "preserved/ActualSchwartzUniformBound.639.v2.lean": "595df56f02aad8be9755b73265884a9cd40ce3de97fafa7e8fc28fd8426dd308"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.762401300948113,
+ "stdout": "'FollowupF639.actual_ideal_uniform_schwartz_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

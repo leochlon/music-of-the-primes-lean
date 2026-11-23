@@ -1,0 +1,14 @@
+{
+ "request_id": "spectralG905-joint-orbit-v2",
+ "target": "JointOrbitMeasurability.lean",
+ "theorem": null,
+ "source_sha256": {
+  "JointOrbitMeasurability.lean": "8f10f66c4fa18024aca1aa8f4b3d33777057b09ccbe5c9848aa12cf0a913cbc8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 31.630536298034713,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9G.actual_translation_joint_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9G.actual_convolution_joint_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "F_r03_endpoint_bridge",
+ "target": "EndpointAndTestBridge.lean",
+ "theorem": "GeometricTrace.actual_projection_order",
+ "source_sha256": {
+  "EndpointAndTestBridge.lean": "b8aad07c49cc8676a9b87a5bad212a2aa9aaa05a7b545c1450d32e04b9b41af9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.6124076709966175,
+ "stdout": "'GeometricTrace.boundary_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.sharp_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.projection_order' depends on axioms: [propext]\n'GeometricTrace.actual_projection_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.actual_projection_order' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTrace.actual_projection_order.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (V : Submodule ℂ H) [V.HasOrthogonalProjection] (A : H →L[ℂ] H) (hA : ∀ v ∈ V, A v ∈ V) :\n  (ContinuousLinearMap.id ℂ H - V.starProjection).comp A =\n    ((ContinuousLinearMap.id ℂ H - V.starProjection).comp A).comp (ContinuousLinearMap.id ℂ H - V.starProjection)\n",
+ "stderr": ""
+}

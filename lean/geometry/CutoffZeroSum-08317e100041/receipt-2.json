@@ -1,0 +1,14 @@
+{
+ "request_id": "r04_cutoff_zero_sum_fixed",
+ "target": "CutoffZeroSum.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CutoffZeroSum.lean": "08317e100041d0675147eaebf4810bfaefe88a0b37d8bbb8d394dbec547681e5"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.982846088008955,
+ "stdout": "'GeometricTraceRound4.cutoff_zero_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceRound4.finite_band_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

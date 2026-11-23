@@ -1,0 +1,14 @@
+{
+ "request_id": "ec9153491e844fb3b42d9832a3ac4c1a",
+ "target": "Proof.lean",
+ "theorem": "Round173E.finite_block_cutoffs_operator_error",
+ "source_sha256": {
+  "Proof.lean": "ff86c6d17a5c1e8161b687337cb69c51e5eb8c7e53d95e2df757db805e886d96"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.643515074974857,
+ "stdout": "Round173E.finite_block_cutoffs_operator_error.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} (l : Filter J) {d : ℕ} (u v : Fin d → H) (P : J → H →L[ℂ] H)\n  (hself : ∀ (j : J) (x y : H), ⟪x, (P j) y⟫_ℂ = ⟪(P j) x, y⟫_ℂ)\n  (hstrong : ∀ (x : H), Tendsto (fun j => (P j) x) l (nhds x)) :\n  Tendsto (fun j => ‖(block u v).comp (P j) - block u v‖) l (nhds 0)\n'Round173E.finite_block_cutoffs_operator_error' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173E.finite_block_cutoffs_nuclear_error.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} (l : Filter J) {d : ℕ} (u v : Fin d → H) (P : J → H →L[ℂ] H)\n  (hself : ∀ (j : J) (x y : H), ⟪x, (P j) y⟫_ℂ = ⟪(P j) x, y⟫_ℂ)\n  (hstrong : ∀ (x : H), Tendsto (fun j => (P j) x) l (nhds x)) :\n  (∀ (j : J), FiniteNuclearCost ((block u v).comp (P j) - block u v) (∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖)) ∧\n    (∀ (j : J), 0 ≤ ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) ∧ Tendsto (fun j => ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) l (nhds 0)\n'Round173E.finite_block_cutoffs_nuclear_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173E.finite_block_cutoffs_operator_error' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173E.finite_block_cutoffs_operator_error.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} (l : Filter J) {d : ℕ} (u v : Fin d → H) (P : J → H →L[ℂ] H)\n  (hself : ∀ (j : J) (x y : H), ⟪x, (P j) y⟫_ℂ = ⟪(P j) x, y⟫_ℂ)\n  (hstrong : ∀ (x : H), Tendsto (fun j => (P j) x) l (nhds x)) :\n  Tendsto (fun j => ‖(Round173E.block u v).comp (P j) - Round173E.block u v‖) l (nhds 0)\n",
+ "stderr": ""
+}

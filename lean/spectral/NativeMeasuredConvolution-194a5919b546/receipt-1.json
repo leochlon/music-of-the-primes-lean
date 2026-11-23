@@ -1,0 +1,14 @@
+{
+ "request_id": "spectralC902measured1",
+ "target": "NativeMeasuredConvolution.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeMeasuredConvolution.lean": "194a5919b54630b542d225499590d12951f9019bbfdec3c2b398e0ed70808693"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 15.554714779020287,
+ "stdout": "'SpectralCycle6C.classCharacter_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6C.native_jet_multiplication' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6C.native_jet_zero_multiplication' depends on axioms: [propext, Classical.choice, Quot.sound]\nHasCompactSupport.mul_right.{u_2, u_4} {α : Type u_2} {β : Type u_4} [TopologicalSpace α] [MulZeroClass β]\n  {f f' : α → β} (hf : HasCompactSupport f) : HasCompactSupport (f * f')\nHasCompactSupport.mul_left.{u_2, u_4} {α : Type u_2} {β : Type u_4} [TopologicalSpace α] [MulZeroClass β] {f f' : α → β}\n  (hf : HasCompactSupport f') : HasCompactSupport (f * f')\nContinuous.integrable_of_hasCompactSupport.{u_1, u_6} {X : Type u_1} {E : Type u_6} [MeasurableSpace X]\n  [TopologicalSpace X] [NormedAddCommGroup E] {μ : Measure X} [OpensMeasurableSpace X] {f : X → E}\n  [IsFiniteMeasureOnCompacts μ] (hf : Continuous f) (hcf : HasCompactSupport f) : Integrable f μ\n'SpectralCycle6C.native_measured_transpose_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6C.native_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

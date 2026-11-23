@@ -1,0 +1,14 @@
+{
+ "request_id": "9ad0eb4e6616413bb23a1da6e6f94594",
+ "target": "LTwoCutoffCheck.lean",
+ "theorem": "LCutoffRegime.logarithmic_cutoff_length",
+ "source_sha256": {
+  "LTwoCutoffCheck.lean": "8bb1569216e8bc035b0290b4ee9e73402273419c79b2e0170e39e34aff8291a7"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.865862197009847,
+ "stdout": "LCutoffRegime.localRegime_products :\n  Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.1) LCutoffRegime.localRegime (nhds 0) ∧\n    Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.2) LCutoffRegime.localRegime (nhds 0)\n'LCutoffRegime.localRegime_products' depends on axioms: [propext, Classical.choice, Quot.sound]\nLCutoffRegime.logarithmic_cutoff_length (w Lambda Lambda' Lambda'' : ℝ) (hw : 0 < w) (hL : 0 < Lambda)\n  (hL' : 0 < Lambda') (hL'' : 0 < Lambda'') :\n  Real.log Lambda - Real.log (max (w / Lambda') (1 / Lambda'')) =\n    Real.log (Lambda * Lambda') - Real.log w - LCutoffRegime.lowerCutoffBoundary w Lambda' Lambda''\n'LCutoffRegime.logarithmic_cutoff_length' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LCutoffRegime.logarithmic_cutoff_length' depends on axioms: [propext, Classical.choice, Quot.sound]\nLCutoffRegime.logarithmic_cutoff_length (w Lambda Lambda' Lambda'' : ℝ) (hw : 0 < w) (hL : 0 < Lambda)\n  (hL' : 0 < Lambda') (hL'' : 0 < Lambda'') :\n  Real.log Lambda - Real.log (max (w / Lambda') (1 / Lambda'')) =\n    Real.log (Lambda * Lambda') - Real.log w - LCutoffRegime.lowerCutoffBoundary w Lambda' Lambda''\n",
+ "stderr": ""
+}

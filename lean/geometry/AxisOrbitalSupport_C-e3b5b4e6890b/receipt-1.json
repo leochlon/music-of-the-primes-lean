@@ -1,0 +1,14 @@
+{
+ "request_id": "c-r02-axis-v1",
+ "target": "AxisOrbitalSupport_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "AxisOrbitalSupport_C.lean": "e3b5b4e6890b42e3e5c23954a60826d3e4df320bbcf680a3451ba739ff125193"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.920499972009566,
+ "stdout": "'GeometricTraceC.missing_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.finite_axis_candidates' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.local_inversion_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

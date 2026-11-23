@@ -1,0 +1,14 @@
+{
+ "request_id": "spectralH909-jets-v1",
+ "target": "MixedSchwartzJets.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MixedSchwartzJets.lean": "c515c93564284c107a4a4942c4c7437b5185d2029fe359c414bafc7309d7f505"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 15.853974843979813,
+ "stdout": "'SpectralH909.mixed_jet_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH909.continuous_jetControl' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

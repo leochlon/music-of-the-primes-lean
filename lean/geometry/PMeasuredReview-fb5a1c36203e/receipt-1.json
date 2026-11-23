@@ -1,0 +1,14 @@
+{
+ "request_id": "7648ea69aac947ed8cb8a8409c8acf7e",
+ "target": "PMeasuredReview.lean",
+ "theorem": "PMeasuredReview.masked_original_haar",
+ "source_sha256": {
+  "PMeasuredReview.lean": "fb5a1c36203ea6a153e171b5bfa6e7068142fcf9cc475dfb2de59da480a760f0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 11.634621005039662,
+ "stdout": "'POriginalHaar.original_haar_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'POriginalHaar.rank_one_original_haar' depends on axioms: [propext, Classical.choice, Quot.sound]\n'POriginalHaar.weighted_rank_one_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewI.finite_source_compensator_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewI.regularized_source_shell_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewI.physical_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewI.omitted_edge_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.finite_shell_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.regularizer_plus' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.boundary_repairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.finite_residue_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PMeasuredReview.printed_shell_sign' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PMeasuredReview.masked_original_haar' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PMeasuredReview.masked_original_haar' depends on axioms: [propext, Classical.choice, Quot.sound]\nPMeasuredReview.masked_original_haar.{u_1} {X : Type u_1} [MeasurableSpace X] (nu : Measure X) (V : ℝ) (hV : 0 < V)\n  (w d : X → ℂ) : ∫ (x : X), w x * ((↑V)⁻¹ * d x) ∂ENNReal.ofReal V • nu = ∫ (x : X), w x * d x ∂nu\n",
+ "stderr": ""
+}

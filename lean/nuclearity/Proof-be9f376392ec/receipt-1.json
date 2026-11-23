@@ -1,0 +1,14 @@
+{
+ "request_id": "a5aae2e927b54b01a4c072a74e49ca22",
+ "target": "Proof.lean",
+ "theorem": "Round184C.poisson_zero_weight_domination",
+ "source_sha256": {
+  "Proof.lean": "be9f376392ec9a5e5ef32c804d5a0159b200be661315688c6244ba3fe258909d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.848012336005922,
+ "stdout": "Round184C.poisson_zero_weight_domination (beta gamma : ℝ) (hb0 : 0 ≤ beta) (hb1 : beta ≤ 1) :\n  1 / (1 + gamma ^ 2) ≤ 2 * ((2 - beta) / ((2 - beta) ^ 2 + gamma ^ 2))\n'Round184C.poisson_zero_weight_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184C.local_zero_poisson_mass (beta gamma height : ℝ) (hb0 : 0 ≤ beta) (hb1 : beta ≤ 1)\n  (hnear : |gamma - height| ≤ 1) : 1 / 5 ≤ (2 - beta) / ((2 - beta) ^ 2 + (height - gamma) ^ 2)\n'Round184C.local_zero_poisson_mass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round184C.poisson_zero_weight_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184C.poisson_zero_weight_domination (beta gamma : ℝ) (hb0 : 0 ≤ beta) (hb1 : beta ≤ 1) :\n  1 / (1 + gamma ^ 2) ≤ 2 * ((2 - beta) / ((2 - beta) ^ 2 + gamma ^ 2))\n",
+ "stderr": ""
+}

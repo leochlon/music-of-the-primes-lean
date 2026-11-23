@@ -1,0 +1,14 @@
+{
+ "request_id": "e-r03-independent-cutoff",
+ "target": "IndependentCutoffR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "IndependentCutoffR03.lean": "dcb6356f2d3148a75539b922bf0f8b623007bd8afc7c1827410843270e2e1c2b"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.9769305670051835,
+ "stdout": "'ActualIndependentCutoff.actual_volume' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualIndependentCutoff.smoothed_volume_integrand' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualIndependentCutoff.independent_integral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

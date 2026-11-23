@@ -1,0 +1,14 @@
+{
+ "request_id": "h-r06-polar-cutoff-v2",
+ "target": "ActualPolarCutoffR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualPolarCutoffR06.lean": "989b502928850cae63f01035a91f2b4f2e3a76ae5076bf4a2ade7472ca9516a6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 19.80129815696273,
+ "stdout": "'GeometricTraceRound4.tendsto_trace_left_hs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceRound4.tendsto_trace_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPolarCutoffR06.effective_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPolarCutoffR06.trace_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPolarCutoffR06.tendsto_trace_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

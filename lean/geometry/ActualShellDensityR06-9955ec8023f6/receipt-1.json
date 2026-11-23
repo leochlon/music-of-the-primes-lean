@@ -1,0 +1,14 @@
+{
+ "request_id": "b-global-r06-density-v2",
+ "target": "ActualShellDensityR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualShellDensityR06.lean": "9955ec8023f6baa286e30041b1ad9e738fa6e828e303580aca2f139314dd05c1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.270140503009316,
+ "stdout": "'ActualShellDensityR06.row_L1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellDensityR06.output_multiplier_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellDensityR06.cyclic_diagonal_countercheck' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

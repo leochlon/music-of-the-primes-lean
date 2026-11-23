@@ -1,0 +1,14 @@
+{
+ "request_id": "d25b784a6fd84c67a1b0a35b8672ab6a",
+ "target": "NMeasuredShells.lean",
+ "theorem": "NMeasuredShells.measurable_shell_contraction",
+ "source_sha256": {
+  "NMeasuredShells.lean": "9d7cececaba9070863ecc46bc901205ee9f94f3b430aa6b4fea70bfe907647ee"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.37147554801777,
+ "stdout": "'NMeasuredShells.finite_shell_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.regularizer_plus' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.boundary_repairs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.finite_residue_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NMeasuredShells.measurable_shell_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\nNMeasuredShells.measurable_shell_contraction.{u_1, u_2} {X : Type u_1} {E : Type u_2} [MeasurableSpace X]\n  (mu : Measure X) (F : Finset E) (p : E → X → ℝ) (f : X → ℂ) (hf : Integrable f mu) (hm : ∀ e ∈ F, Measurable (p e))\n  (hp : ∀ e ∈ F, ∀ (x : X), 0 ≤ p e x) (hs : ∀ (x : X), ∑ e ∈ F, p e x ≤ 1) :\n  ∑ e ∈ F, ‖NMeasuredShells.shell mu (p e) f‖ ≤ ∫ (x : X), ‖f x‖ ∂mu\n",
+ "stderr": ""
+}

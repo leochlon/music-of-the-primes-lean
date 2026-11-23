@@ -1,0 +1,14 @@
+{
+ "request_id": "760c8c17171a498f9e9b47f31225adb8",
+ "target": "NativeSourceDefectK34.lean",
+ "theorem": "NativeSourceDefectK34.finite_source_shells",
+ "source_sha256": {
+  "NativeSourceDefectK34.lean": "3bceef9d28f712b7f86cf2350c421bae9d5151213be244fb4aa101ae4ad90aba"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.820131148037035,
+ "stdout": "'NativeSourceDefectK34.ordered_local_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSourceDefectK34.error_composition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSourceDefectK34.finite_source_shells' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSourceDefectK34.source_pairing_subtract_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSourceDefectK34.finite_source_shells' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeSourceDefectK34.finite_source_shells (b : ℕ → ℂ) (n : ℕ) : ∑ k ∈ Finset.range n, (b k - b (k + 1)) = b 0 - b n\n",
+ "stderr": ""
+}

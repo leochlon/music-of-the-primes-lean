@@ -1,0 +1,14 @@
+{
+ "request_id": "f2bdfdf0da664a09becfc150a15c4ed7",
+ "target": "Proof.lean",
+ "theorem": "Round91C.geometric_lift_obstruction",
+ "source_sha256": {
+  "Proof.lean": "94b3260d23ca9f79a3e79af5b114df26b9feaa5d37a03cf5b8cffe20c93ee402"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.521172496024519,
+ "stdout": "Round91C.geometric_lift_obstruction.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A : H →L[ℂ] H)\n  (eta : H →L[ℂ] ℂ) (u v : H) : 2 * ‖A v‖ * ‖eta‖ ≤ ‖A (u + v)‖ * ‖eta‖ + ‖A (u - v)‖ * ‖eta‖\n'Round91C.geometric_lift_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round91C.geometric_lift_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound91C.geometric_lift_obstruction.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H] (A : H →L[ℂ] H)\n  (eta : H →L[ℂ] ℂ) (u v : H) : 2 * ‖A v‖ * ‖eta‖ ≤ ‖A (u + v)‖ * ‖eta‖ + ‖A (u - v)‖ * ‖eta‖\n",
+ "stderr": ""
+}

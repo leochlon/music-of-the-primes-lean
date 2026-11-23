@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralF906-translation-adjoint-v2",
+ "target": "NativeTranslationAdjoint.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeTranslationAdjoint.lean": "098d887eb531f34b784e23d0c468c78cfd030716df38408c1d6d56bd21ddcf9c",
+  "preserved/NativeTranslationAdjoint.906.v2.lean": "098d887eb531f34b784e23d0c468c78cfd030716df38408c1d6d56bd21ddcf9c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 41.742884003033396,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralRound11B.genuineMellinJet_normalization.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : UnitaryHeckeCharacter K) (z : ℂ) (a s alpha : ℝ) (m : ℕ) (x : HeckeIdeleClasses K) :\n  genuineNormalizedMellinJet K chi z a s alpha m x * ↑(nativeHalfWeight alpha s (classLog K x)) =\n    genuineMellinJet K chi z a m x\n'SpectralRound11B.genuineMellinJet_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralF906.actual_translation_adjoint_native_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

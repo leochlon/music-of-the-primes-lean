@@ -1,0 +1,14 @@
+{
+ "request_id": "9420a48a3b5c475dab142e02055bea21",
+ "target": "Proof.lean",
+ "theorem": "Round89E.actual_jet_density_slab_lower",
+ "source_sha256": {
+  "Proof.lean": "61147b89ec1e0c29c0bbe8e291b42454cedea3f08bf81cbaa923cfe0c6978935"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.899072913976852,
+ "stdout": "Round89E.actual_jet_density_slab_lower (alpha s : ℝ) (m : ℕ) (ha : 0 ≤ alpha) (hs : 0 ≤ s) (u : ℝ)\n  (hu : u ∈ Set.Icc 2 3) : 4 ^ m * Real.exp (-6 * alpha) / 10 ^ (s / 2) ≤ jetDensity alpha s m u\n'Round89E.actual_jet_density_slab_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round89E.actual_jet_density_slab_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound89E.actual_jet_density_slab_lower (alpha s : ℝ) (m : ℕ) (ha : 0 ≤ alpha) (hs : 0 ≤ s) (u : ℝ)\n  (hu : u ∈ Set.Icc 2 3) : 4 ^ m * Real.exp (-6 * alpha) / 10 ^ (s / 2) ≤ Round89E.jetDensity alpha s m u\n",
+ "stderr": ""
+}

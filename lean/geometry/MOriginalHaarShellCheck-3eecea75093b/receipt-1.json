@@ -1,0 +1,14 @@
+{
+ "request_id": "6c22d072b90c4ee9bbab46446c4c0b4f",
+ "target": "MOriginalHaarShellCheck.lean",
+ "theorem": "MQuotientHaar.integrable_integral_originalHaar_shell",
+ "source_sha256": {
+  "MOriginalHaarShellCheck.lean": "3eecea75093b3dc11c751639d1c0c5a759bdeb1e966ef8629fe10666abc51dc2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 35.24796268600039,
+ "stdout": "MQuotientHaar.integrable_integral_originalHaar_shell.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] (lambda : Measure (MasulloGRH.HeckeIdeles K))\n  [lambda.IsHaarMeasure] (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [mu.IsHaarMeasure] (v : ℕ → FinitePlace K)\n  (e : Option ℕ) (F : MasulloGRH.HeckeIdeleClasses K → ℂ) (hF : Integrable F mu) :\n  Integrable\n      (fun y => ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) * F ↑y)\n      lambda ∧\n    ∫ (y : MasulloGRH.HeckeIdeles K),\n        ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) * F ↑y ∂lambda =\n      ↑↑((NArithmeticUnfolding.quotientMeasure K lambda).haarScalarFactor mu) *\n        ∫ (z : MasulloGRH.HeckeIdeleClasses K),\n          ↑(NDivisorialShells.descendedMask K v (NDivisorialShells.arithmeticIndentation K) e z) * F z ∂mu\n'MQuotientHaar.integrable_integral_originalHaar_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MQuotientHaar.integral_norm_originalHaar' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MQuotientHaar.integrable_integral_originalHaar_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\nMQuotientHaar.integrable_integral_originalHaar_shell.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] (lambda : Measure (MasulloGRH.HeckeIdeles K))\n  [lambda.IsHaarMeasure] (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [mu.IsHaarMeasure] (v : ℕ → FinitePlace K)\n  (e : Option ℕ) (F : MasulloGRH.HeckeIdeleClasses K → ℂ) (hF : Integrable F mu) :\n  Integrable\n      (fun y => ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) * F ↑y)\n      lambda ∧\n    ∫ (y : MasulloGRH.HeckeIdeles K),\n        ↑(NDivisorialShells.arithmeticIndentation K y) * ↑(NDivisorialShells.upstairsMask K v e y) * F ↑y ∂lambda =\n      ↑↑((NArithmeticUnfolding.quotientMeasure K lambda).haarScalarFactor mu) *\n        ∫ (z : MasulloGRH.HeckeIdeleClasses K),\n          ↑(NDivisorialShells.descendedMask K v (NDivisorialShells.arithmeticIndentation K) e z) * F z ∂mu\n",
+ "stderr": ""
+}

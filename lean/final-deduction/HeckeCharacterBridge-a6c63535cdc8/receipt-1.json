@@ -1,0 +1,14 @@
+{
+ "request_id": "followupF22characterbridge2",
+ "target": "HeckeCharacterBridge.lean",
+ "theorem": "MasulloGRH.unitaryHeckeCharacterEquiv",
+ "source_sha256": {
+  "HeckeCharacterBridge.lean": "a6c63535cdc8ab11cfcc701f27ab0dea41d687898c97db88ec974e6be5206f3e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.224834853957873,
+ "stdout": "'MasulloGRH.unitaryHeckeCharacterEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.unitaryHeckeCharacterEquiv_local_values' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.UnitaryHeckeCharacter.toGround' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.UnitaryHeckeCharacter.ofGround' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.unitaryHeckeCharacterEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.unitaryHeckeCharacterEquiv.{u_1} (K : Type u_1) [Field K] [NumberField K] :\n  MasulloGRH.UnitaryHeckeCharacter K ≃ GroundTheory.Global.HeckeCharacter K\n",
+ "stderr": ""
+}

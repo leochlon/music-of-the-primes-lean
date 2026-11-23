@@ -1,0 +1,14 @@
+{
+ "request_id": "2ab626419cf54a7c9e31891d99bcbe25",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.zetaNormTwist_order_finite_left",
+ "source_sha256": {
+  "Proof.lean": "69234f54ae75feef0888f2d9c5ac07d45cdf70cded63c08dadffe89fd27af5d1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 23.023487522033975,
+ "stdout": "MasulloGRH.zetaNormTwist_differentiableOn (tau : ℝ) :\n  DifferentiableOn ℂ (MasulloGRH.zetaNormTwist tau) (MasulloGRH.regularZetaTwistDomain tau)\n'MasulloGRH.zetaNormTwist_differentiableOn' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.regularZetaTwistDomain_isOpen (tau : ℝ) : IsOpen (MasulloGRH.regularZetaTwistDomain tau)\n'MasulloGRH.regularZetaTwistDomain_isOpen' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaNormTwist_analyticOnNhd (tau : ℝ) :\n  AnalyticOnNhd ℂ (MasulloGRH.zetaNormTwist tau) (MasulloGRH.regularZetaTwistDomain tau)\n'MasulloGRH.zetaNormTwist_analyticOnNhd' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaNormTwistDivisor_apply (tau : ℝ) (s : ℂ) (hs : s + ↑tau * I ≠ 1) :\n  (MasulloGRH.zetaNormTwistDivisor tau) s = (meromorphicOrderAt (MasulloGRH.zetaNormTwist tau) s).untop₀\n'MasulloGRH.zetaNormTwistDivisor_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuine_zeta_analytic_left : AnalyticOnNhd ℂ riemannZeta {s | s.re < 1}\n'MasulloGRH.genuine_zeta_analytic_left' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuine_zeta_order_ne_top (s : ℂ) (hs : s.re < 1) : analyticOrderAt riemannZeta s ≠ ⊤\n'MasulloGRH.genuine_zeta_order_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuine_zeta_zeros_codiscrete : ∀ᶠ (s : ℂ) in codiscreteWithin {s | s.re < 1}, riemannZeta s ≠ 0\n'MasulloGRH.genuine_zeta_zeros_codiscrete' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuine_norm_twist_order_ne_top (τ : ℝ) (s : ℂ) (hs : s.re < 1) :\n  analyticOrderAt (MasulloGRH.genuineNormTwistedZeta τ) s ≠ ⊤\n'MasulloGRH.genuine_norm_twist_order_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaNormTwist_order_finite_left (tau : ℝ) (s : ℂ) (hs : s.re < 1) :\n  analyticOrderAt (MasulloGRH.zetaNormTwist tau) s ≠ ⊤\n'MasulloGRH.zetaNormTwist_order_finite_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.zetaNormTwist_order_finite_left' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaNormTwist_order_finite_left (tau : ℝ) (s : ℂ) (hs : s.re < 1) :\n  analyticOrderAt (MasulloGRH.zetaNormTwist tau) s ≠ ⊤\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "spectral-B-c12-mixed-v2",
+ "target": "MixedSchwartzControl.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MixedSchwartzControl.lean": "dece1257e490d3a2284a85db9088388225d42476273161fda076c345380ef18c",
+  "MixedSchwartzControl_v2.submitted.lean": "dece1257e490d3a2284a85db9088388225d42476273161fda076c345380ef18c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.632441348978318,
+ "stdout": "'SpectralB909.mixed_weighted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralB909.continuous_control' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralB909.uniform_weighted_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "190eb898d14e4f99a8c5c0283c35b22e",
+ "target": "Compression.lean",
+ "theorem": "GeometricTrace.projection_after_invariant_operator",
+ "source_sha256": {
+  "Compression.lean": "a31ff019f1d47ced567b1e11691e4913f48fb37481aa2adffab17b0eedfbe4b4"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.2780505729606375,
+ "stdout": "'GeometricTrace.projection_after_invariant_operator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.projection_after_invariant_operator' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTrace.projection_after_invariant_operator.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (V : Submodule ℂ H) [CompleteSpace ↥V] (A : H →L[ℂ] H) (hA : ∀ x ∈ V, A x ∈ V) :\n  (GeometricTrace.spectral V).comp A = ((GeometricTrace.spectral V).comp A).comp (GeometricTrace.spectral V)\n",
+ "stderr": ""
+}

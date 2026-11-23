@@ -1,0 +1,14 @@
+{
+ "request_id": "followupB23_trace_remainder_v2",
+ "target": "TraceRemainder.lean",
+ "theorem": null,
+ "source_sha256": {
+  "TraceRemainder.lean": "cb0a202fac97b0b1158c5ab7fba43608bcb98d03a11ac40ed533383c156e9209"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.720382264000364,
+ "stdout": "'Followup23B.boundaryCount_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Followup23B.retainedCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Followup23B.finite_genuine_divisor_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Followup23B.genuine_divisor_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Followup23B.corrected_selected_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

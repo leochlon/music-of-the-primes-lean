@@ -1,0 +1,14 @@
+{
+ "request_id": "289888c44055429a8efb200d1ae2cf42",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.stripWeight_translate_bound",
+ "source_sha256": {
+  "Proof.lean": "3888ea00363a350f29a8b7b2a697c4e811b91da96b6dbb446c5da32ce0f2aa20"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.240516023011878,
+ "stdout": "MasulloGRH.stripWeight_translate_bound (α : ℝ) (hα : 0 ≤ α) (d : ℕ) (x y : ℝ) :\n  stripWeight α d (x + y) ≤ Real.exp (2 * α * |y|) * (2 * (1 + y ^ 2)) ^ d * stripWeight α d x\n'MasulloGRH.stripWeight_translate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.lifted_amplitude_translate_bound (α : ℝ) (hα : 0 ≤ α) (d : ℕ) (x y : ℝ) (v : ℂ) :\n  ‖v‖ ^ 2 * stripWeight α d (x + y) ≤ Real.exp (2 * α * |y|) * (2 * (1 + y ^ 2)) ^ d * (‖v‖ ^ 2 * stripWeight α d x)\n'MasulloGRH.lifted_amplitude_translate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuineConvolution_lift_change.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (μ : Measure (HeckeIdeleClasses K)) (φ u h : HeckeIdeleClasses K → ℂ) (x : HeckeIdeleClasses K)\n  (hu : Integrable (fun g => φ g * u (g⁻¹ * x)) μ) (hh : Integrable (fun g => φ g * h (g⁻¹ * x)) μ) :\n  ideleClassConvolution K μ φ (fun y => u y + h y) x = ideleClassConvolution K μ φ u x + ideleClassConvolution K μ φ h x\n'MasulloGRH.genuineConvolution_lift_change' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.genuineConvolution_lift_leakage_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (μ : Measure (HeckeIdeleClasses K)) (φ u h : HeckeIdeleClasses K → ℂ) (x : HeckeIdeleClasses K)\n  (hu : Integrable (fun g => φ g * u (g⁻¹ * x)) μ) (hh : Integrable (fun g => φ g * h (g⁻¹ * x)) μ) :\n  ‖ideleClassConvolution K μ φ h x‖ ≤\n    ‖ideleClassConvolution K μ φ (fun y => u y + h y) x‖ + ‖ideleClassConvolution K μ φ u x‖\n'MasulloGRH.genuineConvolution_lift_leakage_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.stripWeight_translate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.stripWeight_translate_bound (α : ℝ) (hα : 0 ≤ α) (d : ℕ) (x y : ℝ) :\n  MasulloGRH.stripWeight α d (x + y) ≤ Real.exp (2 * α * |y|) * (2 * (1 + y ^ 2)) ^ d * MasulloGRH.stripWeight α d x\n",
+ "stderr": ""
+}

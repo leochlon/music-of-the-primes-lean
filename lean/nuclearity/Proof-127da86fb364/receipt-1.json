@@ -1,0 +1,14 @@
+{
+ "request_id": "9d507bed1efc42dc9548ed565639cfc7",
+ "target": "Proof.lean",
+ "theorem": "Round194H.native_dual_translation_integral",
+ "source_sha256": {
+  "Proof.lean": "127da86fb364588c9ec4aa236752e02c150a1d1412bb9dd9fce99a4c4e7e747e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.532468578021508,
+ "stdout": "Round194H.native_weight_translation (u v s x t : ℝ) (hs : 0 ≤ s) :\n  nativeWeight u v s (x + t) ≤ translationCost u v s t * nativeWeight u v s x\n'Round194H.native_weight_translation' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound194H.native_dual_weight_translation (u v s x t : ℝ) (hs : 0 ≤ s) :\n  1 / nativeWeight u v s (x - t) ≤ translationCost u v s t / nativeWeight u v s x\n'Round194H.native_dual_weight_translation' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound194H.native_dual_translation_integral (u v s t : ℝ) (hs : 0 ≤ s) (f : ℝ → ℂ) (hc : Continuous f)\n  (hf : Integrable (fun x => ‖f x‖ ^ 2 / nativeWeight u v s x) volume) :\n  Integrable (fun x => ‖f (x + t)‖ ^ 2 / nativeWeight u v s x) volume ∧\n    ∫ (x : ℝ), ‖f (x + t)‖ ^ 2 / nativeWeight u v s x ≤\n      translationCost u v s t * ∫ (x : ℝ), ‖f x‖ ^ 2 / nativeWeight u v s x\n'Round194H.native_dual_translation_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round194H.native_dual_translation_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound194H.native_dual_translation_integral (u v s t : ℝ) (hs : 0 ≤ s) (f : ℝ → ℂ) (hc : Continuous f)\n  (hf : Integrable (fun x => ‖f x‖ ^ 2 / Round194H.nativeWeight u v s x) volume) :\n  Integrable (fun x => ‖f (x + t)‖ ^ 2 / Round194H.nativeWeight u v s x) volume ∧\n    ∫ (x : ℝ), ‖f (x + t)‖ ^ 2 / Round194H.nativeWeight u v s x ≤\n      Round194H.translationCost u v s t * ∫ (x : ℝ), ‖f x‖ ^ 2 / Round194H.nativeWeight u v s x\n",
+ "stderr": ""
+}

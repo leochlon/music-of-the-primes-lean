@@ -1,0 +1,14 @@
+{
+ "request_id": "37548f953af147e6a5209ef9d766a564",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.dirichletPoleCleared_circleAverage_le_log",
+ "source_sha256": {
+  "Proof.lean": "499980d2d16670caeaf79698bcdc08b2c9417a476fa6a10876e2969ef9a699f7"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.445179807953537,
+ "stdout": "MasulloGRH.dirichletPoleCleared_entire {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ : ℝ) :\n  AnalyticOnNhd ℂ (MasulloGRH.dirichletPoleCleared χ τ) Set.univ\n'MasulloGRH.dirichletPoleCleared_entire' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletPoleCleared_log_circleIntegrable {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ : ℝ) (c : ℂ)\n  (R : ℝ) : CircleIntegrable (fun z => Real.log ‖MasulloGRH.dirichletPoleCleared χ τ z‖) c R\n'MasulloGRH.dirichletPoleCleared_log_circleIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletPoleCleared_circleAverage_le_log {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ : ℝ) (c : ℂ)\n  (R M : ℝ) (hM : 1 ≤ M) (hbound : ∀ z ∈ Metric.sphere c |R|, ‖MasulloGRH.dirichletPoleCleared χ τ z‖ ≤ M) :\n  Real.circleAverage (fun z => Real.log ‖MasulloGRH.dirichletPoleCleared χ τ z‖) c R ≤ Real.log M\n'MasulloGRH.dirichletPoleCleared_circleAverage_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.dirichletPoleCleared_circleAverage_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletPoleCleared_circleAverage_le_log {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ : ℝ) (c : ℂ)\n  (R M : ℝ) (hM : 1 ≤ M) (hbound : ∀ z ∈ Metric.sphere c |R|, ‖MasulloGRH.dirichletPoleCleared χ τ z‖ ≤ M) :\n  Real.circleAverage (fun z => Real.log ‖MasulloGRH.dirichletPoleCleared χ τ z‖) c R ≤ Real.log M\n",
+ "stderr": ""
+}

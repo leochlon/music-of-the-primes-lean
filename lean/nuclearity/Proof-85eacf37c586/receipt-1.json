@@ -1,0 +1,14 @@
+{
+ "request_id": "b380882568a348f48d0e978900949303",
+ "target": "Proof.lean",
+ "theorem": "Round173H.projected_quotient_factorization",
+ "source_sha256": {
+  "Proof.lean": "85eacf37c586e643d310789aeb536daa3c1ac86bb47f0624593e6ad1f986657c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.237096089986153,
+ "stdout": "Round173H.projected_quotient_factorization.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] (A : E →L[ℂ] E) (hA : G ≤ Submodule.comap (↑A) G)\n  (x : E) :\n  Gᗮ.orthogonalProjection (A x) =\n    (Round173H.quotientSectionCLM G) ((Round173H.inducedMap G A hA) ((Round173H.quotientCLM G) x))\n'Round173H.projected_quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173H.quotientSection_contracts.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] (q : E ⧸ G) :\n  ‖(Round173H.quotientSection G) q‖ ≤ ‖q‖\n'Round173H.quotientSection_contracts' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173H.quotient_transfer_map_bounds.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] :\n  ‖Round173H.quotientCLM G‖ ≤ 1 ∧ ‖Round173H.quotientSectionCLM G‖ ≤ 1\n'Round173H.quotient_transfer_map_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173H.quotient_section_right_inverse.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] (q : E ⧸ G) :\n  (Round173H.quotientCLM G) ↑((Round173H.quotientSectionCLM G) q) = q\n'Round173H.quotient_section_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173H.quotientSection_isometry_norm.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] (q : E ⧸ G) :\n  ‖(Round173H.quotientSectionCLM G) q‖ = ‖q‖\n'Round173H.quotientSection_isometry_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173H.projected_quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173H.projected_quotient_factorization.{u_1} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  [CompleteSpace E] (G : Submodule ℂ E) [G.HasOrthogonalProjection] (A : E →L[ℂ] E) (hA : G ≤ Submodule.comap (↑A) G)\n  (x : E) :\n  Gᗮ.orthogonalProjection (A x) =\n    (Round173H.quotientSectionCLM G) ((Round173H.inducedMap G A hA) ((Round173H.quotientCLM G) x))\n",
+ "stderr": ""
+}

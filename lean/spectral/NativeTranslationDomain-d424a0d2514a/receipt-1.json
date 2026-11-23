@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-c879-native-domain-v2",
+ "target": "NativeTranslationDomain.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeTranslationDomain.lean": "d424a0d2514a297b30fdf3b20a21d41b5a8b01b6e8d63ab15c79c31efe3f68a5",
+  "submitted/NativeTranslationDomain.v2.lean": "d424a0d2514a297b30fdf3b20a21d41b5a8b01b6e8d63ab15c79c31efe3f68a5"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 32.9168387640384,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeHaarAttachmentC878.native_haar_translated_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeHaarAttachmentC878.native_translated_pairing_triangular' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeHaarAttachmentC878.native_weighted_translated_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeTranslationDomainC879.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeTranslationDomainC879.native_weighted_translation_memLp' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

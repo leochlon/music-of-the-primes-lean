@@ -1,0 +1,14 @@
+{
+ "request_id": "1eb891352e774b9e90078ed077bf91ca",
+ "target": "CorrectionReview.lean",
+ "theorem": "Round140E.genuine_strip_correction_nuclear_integral",
+ "source_sha256": {
+  "CorrectionReview.lean": "417a1607f4464dc40085aa9eedbd9b85f62c8949fc1ad4a9ad8b9753589e5227"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 27.454567014996428,
+ "stdout": "",
+ "stderr": ""
+}

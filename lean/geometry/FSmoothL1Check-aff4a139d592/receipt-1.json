@@ -1,0 +1,14 @@
+{
+ "request_id": "25da2602969f4174b94a2d75c418719a",
+ "target": "FSmoothL1Check.lean",
+ "theorem": "FSmoothCutoff.integral_norm_error_tendsto",
+ "source_sha256": {
+  "FSmoothL1Check.lean": "aff4a139d5925cde48e08a6590cab2fdb8bf2a44114d38f564d758ce60a14927"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.365187841991428,
+ "stdout": "FSmoothCutoff.integral_norm_error_tendsto.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K)) (d : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hd : MeasureTheory.Integrable d mu) :\n  Filter.Tendsto\n    (fun p => ∫ (x : MasulloGRH.HeckeIdeleClasses K), ‖FSmoothCutoff.mask K p.1 (p.2 / p.1) x * d x - d x‖ ∂mu)\n    FPhysicalFilter.cutoffRegime (nhds 0)\n'FSmoothCutoff.integral_norm_error_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FSmoothCutoff.integral_norm_error_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\nFSmoothCutoff.integral_norm_error_tendsto.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K)) (d : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hd : MeasureTheory.Integrable d mu) :\n  Filter.Tendsto\n    (fun p => ∫ (x : MasulloGRH.HeckeIdeleClasses K), ‖FSmoothCutoff.mask K p.1 (p.2 / p.1) x * d x - d x‖ ∂mu)\n    FPhysicalFilter.cutoffRegime (nhds 0)\n",
+ "stderr": ""
+}

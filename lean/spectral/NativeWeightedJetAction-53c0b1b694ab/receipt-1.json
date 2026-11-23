@@ -1,0 +1,16 @@
+{
+ "request_id": "spectralA903-weighted-action-v2",
+ "target": "NativeWeightedJetAction.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeWeightedJetAction.lean": "53c0b1b694aba05cded326a1c058d9dc8ba8b414e54dbd1db4966f7bd4066a15",
+  "submitted/cycle07/v1/NativeWeightedJetAction.lean": "685037e4556edc00863e012c1ea93d145c9b6faaba1eba09efb735dcab906b24",
+  "submitted/cycle07/v2/NativeWeightedJetAction.lean": "53c0b1b694aba05cded326a1c058d9dc8ba8b414e54dbd1db4966f7bd4066a15"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 33.38409334298922,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralRound11B.genuineMellinJet_normalization.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : UnitaryHeckeCharacter K) (z : ℂ) (a s alpha : ℝ) (m : ℕ) (x : HeckeIdeleClasses K) :\n  genuineNormalizedMellinJet K chi z a s alpha m x * ↑(nativeHalfWeight alpha s (classLog K x)) =\n    genuineMellinJet K chi z a m x\n'SpectralRound11B.genuineMellinJet_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_convolution_product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_weighted_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA903.native_weighted_convolution_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

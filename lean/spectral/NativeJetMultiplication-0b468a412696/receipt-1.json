@@ -1,0 +1,14 @@
+{
+ "request_id": "cycle6-r902-native-moment",
+ "target": "NativeJetMultiplication.lean",
+ "theorem": "SpectralCycle6F.genuineMellinJet_compact_moment_integrable",
+ "source_sha256": {
+  "NativeJetMultiplication.lean": "0b468a412696d525193d9f27e4530c69e76fa9262c9412b401c71d5075495d28"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 16.824900592968334,
+ "stdout": "'SpectralCycle6F.genuineMellinJet_zero_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6F.genuineMellinJet_mul_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6F.genuineMellinJet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6F.genuineMellinJet_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle6F.genuineMellinJet_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralCycle6F.genuineMellinJet_compact_moment_integrable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : MasulloGRH.UnitaryHeckeCharacter K) (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [MeasureTheory.IsFiniteMeasureOnCompacts mu] (z : ℂ) (a : ℝ) (m : ℕ) (h : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hh : Continuous h) (hs : HasCompactSupport h) :\n  MeasureTheory.Integrable (fun x => h x * SpectralRound11B.genuineMellinJet K chi z a m x) mu\n",
+ "stderr": ""
+}

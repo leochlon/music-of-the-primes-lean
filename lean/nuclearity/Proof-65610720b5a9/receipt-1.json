@@ -1,0 +1,14 @@
+{
+ "request_id": "6726dcff6ecb4cf68e2fb55ba40fe43e",
+ "target": "Proof.lean",
+ "theorem": "Round188B.two_scale_seed_zero_divisors_disjoint",
+ "source_sha256": {
+  "Proof.lean": "65610720b5a939fff2f8c44c0b21397950273053a15a4b88cd53fd3de6fe1690"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 9.001269907981623,
+ "stdout": "Round183B.accretive_resolvent_column_bound.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (D R : H →L[ℂ] H) (c l : ℝ) (hD : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hR : ∀ (x : H), ↑l • R x - D (R x) = x)\n  (x : H) : (l - c) * ‖R x‖ ^ 2 ≤ (⟪R x, x⟫_ℂ).re\n'Round183B.accretive_resolvent_column_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound183B.accretive_resolvent_hilbert_schmidt_cost.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] {ι : Type u_2} (D R : H →L[ℂ] H) (c l : ℝ) (hl : c < l)\n  (hD : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hR : ∀ (x : H), ↑l • R x - D (R x) = x) (J : Finset ι) (b : ι → H) :\n  ∑ i ∈ J, ‖R (b i)‖ ^ 2 ≤ (∑ i ∈ J, (⟪R (b i), b i⟫_ℂ).re) / (l - c)\n'Round183B.accretive_resolvent_hilbert_schmidt_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound185B.native_endpoint_tail_iff (m : ℕ) (s : ℝ) :\n  IntegrableOn (fun x => x ^ (2 * ↑m - s)) (Ioi 1) volume ↔ 2 * ↑m < s - 1\n'Round185B.native_endpoint_tail_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound185B.native_critical_endpoint_diverges (m : ℕ) :\n  ¬IntegrableOn (fun x => x ^ (2 * ↑m - (2 * ↑m + 1))) (Ioi 1) volume\n'Round185B.native_critical_endpoint_diverges' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound185B.native_polynomial_translation_control (x t : ℝ) : 1 + (x + t) ^ 2 ≤ 2 * (1 + x ^ 2) * (1 + t ^ 2)\n'Round185B.native_polynomial_translation_control' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound187B.finite_translation_seed.{u_1} {V : Type u_1} [AddCommGroup V] [Module ℂ V] (T : V →ₗ[ℂ] V) (r : ℂ) (f : V)\n  (origin mass : V →ₗ[ℂ] ℂ) (M : ℂ → V →ₗ[ℂ] ℂ) (q : ℂ → ℂ) (horigin : ∀ (v : V), origin (T v) = origin v)\n  (hmass : ∀ (v : V), mass (T v) = r * mass v) (hM : ∀ (z : ℂ) (v : V), (M z) (T v) = q z * (M z) v) :\n  origin (twoMomentSeed T r f) = 0 ∧\n    mass (twoMomentSeed T r f) = 0 ∧ ∀ (z : ℂ), (M z) (twoMomentSeed T r f) = (q z - 1) * (q z - r) * (M z) f\n'Round187B.finite_translation_seed' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188B.two_scale_seed_zero_divisors_disjoint (z : ℂ) : ¬(extraSeedZero 1 z ∧ extraSeedZero (√2) z)\n'Round188B.two_scale_seed_zero_divisors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round188B.two_scale_seed_zero_divisors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188B.two_scale_seed_zero_divisors_disjoint (z : ℂ) :\n  ¬(Round188B.extraSeedZero 1 z ∧ Round188B.extraSeedZero (√2) z)\n",
+ "stderr": ""
+}

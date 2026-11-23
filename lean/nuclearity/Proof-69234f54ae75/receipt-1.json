@@ -1,0 +1,14 @@
+{
+ "request_id": "27579508dd7145dc92d5d97355905375",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.zetaNormTwist_order_finite_left",
+ "source_sha256": {
+  "Proof.lean": "69234f54ae75feef0888f2d9c5ac07d45cdf70cded63c08dadffe89fd27af5d1"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 8.537669432989787,
+ "stdout": "",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "888404091d944930b3ae652120b7ae14",
+ "target": "ProjectionBridge_C.lean",
+ "theorem": "GeometricTraceC.compression",
+ "source_sha256": {
+  "ProjectionBridge_C.lean": "825edaae93471fbe12b720b7f4d32a369998fbff5a8c850e3e499fd2d7b7de32"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.807723310019355,
+ "stdout": "'GeometricTraceC.P_eq_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.translation_weight_core' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.compression' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTraceC.compression.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (E : Submodule ℂ H)\n  [E.HasOrthogonalProjection] (A : H →L[ℂ] H) (hA : ∀ x ∈ E, A x ∈ E) :\n  (GeometricTraceC.P E).comp A = ((GeometricTraceC.P E).comp A).comp (GeometricTraceC.P E)\n",
+ "stderr": ""
+}

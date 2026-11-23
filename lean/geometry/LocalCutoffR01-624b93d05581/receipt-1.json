@@ -1,0 +1,14 @@
+{
+ "request_id": "e-r01-local-cutoff-2",
+ "target": "LocalCutoffR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "LocalCutoffR01.lean": "624b93d0558148f6bfa0557214f83448b66a9f478b30ca72f21e833c5c4b3593"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.9735594939556904,
+ "stdout": "'ActualLocalCutoff.independent_cutoff_volume' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalCutoff.lower_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalCutoff.upper_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

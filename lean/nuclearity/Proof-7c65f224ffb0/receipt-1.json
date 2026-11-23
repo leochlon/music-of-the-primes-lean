@@ -1,0 +1,14 @@
+{
+ "request_id": "cc41f9d8278746d1b9e8392c37673932",
+ "target": "Proof.lean",
+ "theorem": "NuclearBoundR88G.convolution_after_projection_split",
+ "source_sha256": {
+  "Proof.lean": "7c65f224ffb093a3b65a4d918729f4f55a109220aa8196d2caee1c7768aa7200"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.755587225023191,
+ "stdout": "NuclearBoundR88G.convolution_after_projection_split.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) : A.comp P = P.comp (A.comp P) + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\nNuclearBoundR88G.lifted_vector_norm_split.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) (u : E) : ‖A u‖ ≤ ‖P (A u)‖ + ‖A u - P (A u)‖\n'NuclearBoundR88G.convolution_after_projection_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.lifted_vector_norm_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.convolution_after_projection_split' depends on axioms: [propext, Classical.choice, Quot.sound]\nNuclearBoundR88G.convolution_after_projection_split.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) : A.comp P = P.comp (A.comp P) + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\n",
+ "stderr": ""
+}

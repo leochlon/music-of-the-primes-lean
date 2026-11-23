@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-b882-theta-lattice-v2",
+ "target": "ActualThetaLattice.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualThetaLattice.lean": "6a4fce7ec970fe464be8403bf8d2c49d4e5c2bf9ee6bcbe5423e6cfcf54f11be",
+  "preserved/cycle10/ActualThetaLattice.v2.lean": "6a4fce7ec970fe464be8403bf8d2c49d4e5c2bf9ee6bcbe5423e6cfcf54f11be"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 9.313549423008226,
+ "stdout": "'ConditionalB881.actual_ideal_schwartz_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB881.actual_ideal_schwartz_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

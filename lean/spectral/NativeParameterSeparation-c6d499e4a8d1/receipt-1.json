@@ -1,0 +1,14 @@
+{
+ "request_id": "spectral_H_c07_parameter_v6",
+ "target": "NativeParameterSeparation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeParameterSeparation.lean": "c6d499e4a8d154968e63b614f3db16fef1e7cc10bca6c4145c4fb3aadb83630a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.609947617980652,
+ "stdout": "'SpectralH902.genuineMellinJet_zero_parameter_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH903.normalized_parameter_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "e23_trace_repair_second",
+ "target": "TraceRemainder.lean",
+ "theorem": null,
+ "source_sha256": {
+  "TraceRemainder.lean": "483f83f463c05cfafabc313d7d84f204481306da0c33bb0d568dee43f55744aa"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.546085168025456,
+ "stdout": "'TraceRepairE.corrected_trace_with_omitted_multiplicities' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.selected_formula_iff_remainder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.genuine_zero_selected_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.strict_interior_formula_iff_total_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.width_subtraction_retains_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.coefficient_kernel_is_PA' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairE.output_kernel_is_AP' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

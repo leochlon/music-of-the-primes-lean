@@ -1,0 +1,14 @@
+{
+ "request_id": "i-r04-projected-polar-v3",
+ "target": "ProjectedPolarMellinR04.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ProjectedPolarMellinR04.lean": "82991cab3a313c1128b0904c3b0740c4e46c7e9ababa6e5b4cd215a44f1c34d1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.551731694024056,
+ "stdout": "'GeometricTraceR03.geometric_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.projected_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ProjectedPolarR04.two_polar_actions' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ProjectedPolarR04.projected_polar_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ProjectedPolarR04.projected_cutoff_coboundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

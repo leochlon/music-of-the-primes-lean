@@ -1,0 +1,15 @@
+{
+ "request_id": "spectral-a909-theta-seminorm-v2",
+ "target": "ActualThetaSeminorm.lean",
+ "theorem": "SpectralA909.actual_ideal_theta_seminorm_bound",
+ "source_sha256": {
+  "ActualThetaSeminorm.lean": "bb89b1b90dffe5ceb43a80344cea66f0ff8f4bcc8e4305c8df0f848a78f19ad1",
+  "preserved/cycle12/ActualThetaSeminorm.v2.lean": "bb89b1b90dffe5ceb43a80344cea66f0ff8f4bcc8e4305c8df0f848a78f19ad1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.428954762988724,
+ "stdout": "'SpectralA909.actual_ideal_theta_seminorm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA909.actual_ideal_theta_seminorm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralA909.actual_ideal_theta_seminorm_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (I : (FractionalIdeal (𝓞 K)⁰ K)ˣ) :\n  ∃ C,\n    0 ≤ C ∧\n      ∀ (f : 𝓢(mixedSpace K, ℂ)),\n        ‖∑' (x : ↥(idealLattice K I)), f ↑x‖ ≤\n          C * ((SchwartzMap.seminorm ℝ 0 0) f + (SchwartzMap.seminorm ℝ (finrank ℤ ↥(idealLattice K I) + 1) 0) f)\n",
+ "stderr": ""
+}

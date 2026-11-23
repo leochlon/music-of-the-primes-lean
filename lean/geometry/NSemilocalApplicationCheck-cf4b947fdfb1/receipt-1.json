@@ -1,0 +1,14 @@
+{
+ "request_id": "f082e6454f9a44588443aec0ab805d14",
+ "target": "NSemilocalApplicationCheck.lean",
+ "theorem": "NLocalArithmetic.both_tests_localExpression_eq_semilocal",
+ "source_sha256": {
+  "NSemilocalApplicationCheck.lean": "cf4b947fdfb1a78990178614c30a8a8c46b7ba335215fd2ebf03ceb3bddf8059"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 15.155954048968852,
+ "stdout": "NLocalArithmetic.both_tests_localExpression_eq_semilocal.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [(w : NumberField.InfinitePlace K) → MeasurableSpace w.Completionˣ]\n  [(v : NumberField.FinitePlace K) →\n      MeasurableSpace (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ]\n  (muInf : (w : NumberField.InfinitePlace K) → MeasureTheory.Measure w.Completionˣ)\n  (muFin :\n    (v : NumberField.FinitePlace K) →\n      MeasureTheory.Measure (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ)\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) :\n  ∃ S,\n    ∀ (q : Fin 2),\n      NLocalArithmetic.localExpression K muInf muFin (LIntegrated.requiredTest K phi q) =\n        NLocalArithmetic.semilocalExpression K muInf muFin S (LIntegrated.requiredTest K phi q)\n'NLocalArithmetic.both_tests_localExpression_eq_semilocal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NLocalArithmetic.both_tests_localExpression_eq_semilocal' depends on axioms: [propext, Classical.choice, Quot.sound]\nNLocalArithmetic.both_tests_localExpression_eq_semilocal.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [(w : NumberField.InfinitePlace K) → MeasurableSpace w.Completionˣ]\n  [(v : NumberField.FinitePlace K) →\n      MeasurableSpace (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ]\n  (muInf : (w : NumberField.InfinitePlace K) → MeasureTheory.Measure w.Completionˣ)\n  (muFin :\n    (v : NumberField.FinitePlace K) →\n      MeasureTheory.Measure (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ)\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) :\n  ∃ S,\n    ∀ (q : Fin 2),\n      NLocalArithmetic.localExpression K muInf muFin (LIntegrated.requiredTest K phi q) =\n        NLocalArithmetic.semilocalExpression K muInf muFin S (LIntegrated.requiredTest K phi q)\n",
+ "stderr": ""
+}

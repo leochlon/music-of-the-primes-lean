@@ -1,0 +1,14 @@
+{
+ "request_id": "B639-uniform-dilation-3",
+ "target": "ActualUniformThetaDilation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualUniformThetaDilation.lean": "00e42d4fe5412f87c2d2e78dc7873c0306bdfb959d20409e4f56a3154677e5cf"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 9.02010095800506,
+ "stdout": "'FollowupB639.actual_ideal_dilation_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupB639.actual_ideal_dilation_test_control' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

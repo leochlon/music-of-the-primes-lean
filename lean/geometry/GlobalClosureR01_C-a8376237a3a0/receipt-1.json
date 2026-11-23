@@ -1,0 +1,14 @@
+{
+ "request_id": "c-global-r01-v2",
+ "target": "GlobalClosureR01_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GlobalClosureR01_C.lean": "a8376237a3a05b81d09e49308489ff73f373d2f2b4086115b23236e12bc7b9f8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 61.4182218380156,
+ "stdout": "'GroundTheory.Automorphic.isTraceClass_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.trace_comp_comm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_isTraceClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.actual_projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.tendsto_trace_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.cutoff_geometric_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.geometric_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.nonzero_theta_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.momentFilter_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.momentFilter_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.momentFilter_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.projected_trace_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.GlobalReview.unscaled_local_incompatible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

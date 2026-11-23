@@ -1,0 +1,14 @@
+{
+ "request_id": "r03-round2-bridges",
+ "target": "Round2Bridges.lean",
+ "theorem": null,
+ "source_sha256": {
+  "Round2Bridges.lean": "88b0d762f01e2d1299fb3697de9eab935af04752f910a826e495d8e0e64e7972"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.819950373028405,
+ "stdout": "'GeometricTraceR02.quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR02.integral_tsum_of_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR02.finite_trace_of_integral_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

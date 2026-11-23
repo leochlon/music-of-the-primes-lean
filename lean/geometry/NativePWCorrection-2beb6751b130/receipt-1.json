@@ -1,0 +1,14 @@
+{
+ "request_id": "8e704fca943344b680c0def42bbd7565",
+ "target": "NativePWCorrection.lean",
+ "theorem": "NativePWCorrection.condensation_defect",
+ "source_sha256": {
+  "NativePWCorrection.lean": "2beb6751b13036ba68f8621050dde44793011cea1bc9168eb7936a0c87af4f6c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.8853526400052942,
+ "stdout": "'NativePWCorrection.condensation_defect' depends on axioms: [propext]\n'NativePWCorrection.tensor_order_by_coordinates' does not depend on any axioms\n'NativePWCorrection.condensation_defect' depends on axioms: [propext]\nNativePWCorrection.condensation_defect.{u_1} {R : Type u_1} [Ring R] (m s a : R) (hinvariant : s * a * s = a * s) :\n  m * s * a - m * a * s = m * s * a * (1 - s)\n",
+ "stderr": ""
+}

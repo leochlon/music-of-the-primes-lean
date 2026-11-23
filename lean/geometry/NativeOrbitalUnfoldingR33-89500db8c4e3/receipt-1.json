@@ -1,0 +1,14 @@
+{
+ "request_id": "fa7c41f8b0414646bc7a2f39fefd8b74",
+ "target": "NativeOrbitalUnfoldingR33.lean",
+ "theorem": "NativeOrbitalUnfoldingR33.ordered_gram_shell",
+ "source_sha256": {
+  "NativeOrbitalUnfoldingR33.lean": "89500db8c4e311e37ff21f0cf566bda9b7584c3ad8c29b9ecaa24cb06cc82802"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.037852796958759,
+ "stdout": "'NativeOrbitalUnfoldingR33.shell_telescoping' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.ordered_gram_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.target_shell_sign' depends on axioms: [propext, Quot.sound]\n'NativeOrbitalUnfoldingR33.mask_order' depends on axioms: [propext]\n'NativeOrbitalUnfoldingR33.ordered_gram_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeOrbitalUnfoldingR33.ordered_gram_shell.{u_1} {R : Type u_1} [Ring R] (g : R) (c : ℕ → R) (n : ℕ) :\n  g * c 0 = g * c n - ∑ k ∈ Finset.range n, g * (c (k + 1) - c k)\n",
+ "stderr": ""
+}

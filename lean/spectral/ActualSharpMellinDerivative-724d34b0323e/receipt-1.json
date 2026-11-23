@@ -1,0 +1,14 @@
+{
+ "request_id": "cycle08_sharp_derivative_v2",
+ "target": "ActualSharpMellinDerivative.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualSharpMellinDerivative.lean": "724d34b0323ea75a440198164db0eca688fe7f161289db8b4f734b867c931f27"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 45.05954752402613,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.genuineMellinJet_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.genuineMellinJet_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.genuineMellinJet_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.measuredMellin_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.measuredMellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle6E.actual_compact_measuredMellin_iteratedDeriv' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'SpectralC903.native_sharp_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC903.native_sharp_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.SpectralCycle8E.actual_compact_measured_action_derivatives' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'MasulloGRH.SpectralCycle8E.actual_sharp_log_mellin_coefficient' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

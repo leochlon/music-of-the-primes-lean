@@ -1,0 +1,14 @@
+{
+ "request_id": "f0675d23fcb64f999c7d3ee6ef82e1a2",
+ "target": "NativeOrderRepair.lean",
+ "theorem": "NativeOrderRepair.mixed_block",
+ "source_sha256": {
+  "NativeOrderRepair.lean": "d12f2fa4d3d08acc960cbfe449e48d47be9850f95447ac87378bd7c186763ab2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.0211108200019225,
+ "stdout": "'NativeOrderRepair.mixed_block' depends on axioms: [propext]\n'NativeOrderRepair.radial_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrderRepair.corner_jump' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrderRepair.mixed_block' depends on axioms: [propext]\nNativeOrderRepair.mixed_block.{u_1} {R : Type u_1} [Ring R] (A P S : R) (hs : S = 1 - P) (hinv : P * A * S = 0) :\n  A * P - P * A = S * A * P\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "followupD636bochner2",
+ "target": "NativeBoundedConvolution.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeBoundedConvolution.lean": "3178b376dd41d8d3b1c53cc53d7221c69668bfcd185ab2689b9d279f74964542",
+  "preserved/NativeBoundedConvolution.c10.v2.lean": "3178b376dd41d8d3b1c53cc53d7221c69668bfcd185ab2689b9d279f74964542"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 49.24961582099786,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_envelope_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_hasFiniteIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_bochner_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_operator_convolution_hasFiniteIntegral' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'ConditionalD881.actualTranslation_measurable_dist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD882.actualTranslation_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD882.actual_compact_convolution_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD636.nativeBochnerLinear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD636.nativeBochnerConvolution' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD636.nativeBochnerConvolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

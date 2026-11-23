@@ -1,0 +1,14 @@
+{
+ "request_id": "173c367693ac4437848188e63a0b2d17",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.riemannZeta_zero_positive_finite_multiplicity",
+ "source_sha256": {
+  "Proof.lean": "f2e5b0e063f7403e54d8cb6ccab5ed426075ca99e1d8cefb5b5fa22441c622f6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 18.691399364033714,
+ "stdout": "MasulloGRH.zetaRegularDomain_open : IsOpen zetaRegularDomain\n'MasulloGRH.zetaRegularDomain_open' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaRegularDomain_convex : Convex ℝ zetaRegularDomain\n'MasulloGRH.zetaRegularDomain_convex' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.riemannZeta_analytic_regularDomain : AnalyticOnNhd ℂ riemannZeta zetaRegularDomain\n'MasulloGRH.riemannZeta_analytic_regularDomain' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.riemannZeta_order_finite {s : ℂ} (hs : s.re < 1) : analyticOrderAt riemannZeta s ≠ ⊤\n'MasulloGRH.riemannZeta_order_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.riemannZeta_zero_positive_finite_multiplicity {s : ℂ} (hs : s.re < 1) (hz : riemannZeta s = 0) :\n  ∃ n, 0 < n ∧ ∃ g, AnalyticAt ℂ g s ∧ g s ≠ 0 ∧ ∀ᶠ (z : ℂ) in 𝓝 s, riemannZeta z = (z - s) ^ n * g z\n'MasulloGRH.riemannZeta_zero_positive_finite_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaDivisor_locally_finite {s : ℂ} (hs : s.re < 1) : ∃ t ∈ 𝓝 s, (t ∩ zetaDivisor.support).Finite\n'MasulloGRH.zetaDivisor_locally_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaDivisor_order {s : ℂ} (hs : s.re < 1) : zetaDivisor s = (meromorphicOrderAt riemannZeta s).untop₀\n'MasulloGRH.zetaDivisor_order' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.zetaDivisor_nonnegative : 0 ≤ zetaDivisor\n'MasulloGRH.zetaDivisor_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.riemannZeta_zero_positive_finite_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.riemannZeta_zero_positive_finite_multiplicity {s : ℂ} (hs : s.re < 1) (hz : riemannZeta s = 0) :\n  ∃ n, 0 < n ∧ ∃ g, AnalyticAt ℂ g s ∧ g s ≠ 0 ∧ ∀ᶠ (z : ℂ) in 𝓝 s, riemannZeta z = (z - s) ^ n * g z\n",
+ "stderr": ""
+}

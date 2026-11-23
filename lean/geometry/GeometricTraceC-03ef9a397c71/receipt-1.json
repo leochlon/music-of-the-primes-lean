@@ -1,0 +1,14 @@
+{
+ "request_id": "r03_diagonal_fixed",
+ "target": "GeometricTraceC.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GeometricTraceC.lean": "03ef9a397c716b6bb4b13d2779f1f8dba18ef92bc9ed445b17ededba348c5fdd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.857686351984739,
+ "stdout": "'GeometricTraceC.exists_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.projection_after_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "followupB630cutoff2",
+ "target": "GeometricCutoff.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GeometricCutoff.lean": "3c9498478a6b3a3da30d2e01b219b1deda8a8a67987a78f986e8c7a5891a6fec",
+  "preserved/GeometricCutoff.cycle5.v2.lean": "3c9498478a6b3a3da30d2e01b219b1deda8a8a67987a78f986e8c7a5891a6fec"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 24.418952098989394,
+ "stdout": "Spectral19.rankOne_diagonal_bound.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : ι → H) (hb : Orthonormal ℂ b) (u v : H) :\n  (Summable fun i => ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖) ∧ ∑' (i : ι), ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖ ≤ ‖u‖ * ‖v‖\n'Spectral19.rankOne_diagonal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_diagonal_interchange.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖) :\n  (Summable fun p => ‖⟪u p.1, b p.2⟫_ℂ * ⟪b p.2, v p.1⟫_ℂ‖) ∧\n    ∑' (i : ι) (n : ℕ), ⟪u n, b i⟫_ℂ * ⟪b i, v n⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_diagonal_interchange' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_operator_diagonal.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (T : H →L[ℂ] H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖)\n  (hT : ∀ (x : H), HasSum (fun n => ⟪u n, x⟫_ℂ • v n) (T x)) : ∑' (i : ι), ⟪b i, T (b i)⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_operator_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral26B.nuclear_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral26B.nuclear_diagonal_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral26B.ordered_PA_flag_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral28B.orthonormal_nuclear_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral28B.ambient_subspace_diagonal_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral28B.ambient_subspace_nuclear_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral28B.ambient_subspace_flag_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral29B.native_projection_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral29B.genuine_projection_convolution_flag_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral29B.genuine_projection_trace_of_ambient_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral29B.genuine_projection_trace_original_nuclear_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral30B.nuclear_cutoff_trace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral30B.ordered_geometric_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

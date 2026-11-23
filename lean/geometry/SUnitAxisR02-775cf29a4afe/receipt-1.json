@@ -1,0 +1,14 @@
+{
+ "request_id": "e-r02-sunit-axis",
+ "target": "SUnitAxisR02.lean",
+ "theorem": null,
+ "source_sha256": {
+  "SUnitAxisR02.lean": "775cf29a4afe810576ecabec8c5ff198e2319aed1a20910240d4211e8b8cb867"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.125837762025185,
+ "stdout": "'SUnitAxis.missing_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SUnitAxis.all_coordinates_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SUnitAxis.lifted_axis_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "028784bfeb17462b89366d75fe511c95",
+ "target": "NativeSobolevBoundary.lean",
+ "theorem": "NativeSobolevBoundary.exact_boundary_split",
+ "source_sha256": {
+  "NativeSobolevBoundary.lean": "929cda475bddab7207df43fdc096277cbf592bf63b988102ffe043c5b40cc83a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.635419917991385,
+ "stdout": "'NativeSobolevBoundary.jets_exhaust' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSobolevBoundary.exact_boundary_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSobolevBoundary.completed_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeSobolevBoundary.exact_boundary_split' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeSobolevBoundary.exact_boundary_split (m : ℕ) {s t : ℝ} (hst : s ≤ t) :\n  m - NativeSobolevBoundary.jets m s =\n    m - NativeSobolevBoundary.jets m t + (NativeSobolevBoundary.jets m t - NativeSobolevBoundary.jets m s)\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "87e8c9f7b26c405fbcf988bf0fe5117c",
+ "target": "Round2Projection.lean",
+ "theorem": null,
+ "source_sha256": {
+  "Round2Projection.lean": "2e6b8215e8fa189a207583c8085cb6b1a8ed7919990f2d4bb3948417572bf15a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.749377355037723,
+ "stdout": "'GeometricTraceRound2.spectral_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceRound2.discrepancy_mem' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

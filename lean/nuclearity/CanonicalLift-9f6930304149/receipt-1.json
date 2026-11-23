@@ -1,0 +1,14 @@
+{
+ "request_id": "73d7db1ed897481a84c3fd551227c73e",
+ "target": "CanonicalLift.lean",
+ "theorem": "Round93H.residualLift_smoothed_cost",
+ "source_sha256": {
+  "CanonicalLift.lean": "9f6930304149a05b067648633e9df97322b6bf07715ec57d02a1e3f8349849fd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.689769303018693,
+ "stdout": "Round93H.canonicalLift_pairing.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (v : H)\n  (hv : v ≠ 0) : inner ℂ v (canonicalLift v) = 1\n'Round93H.canonicalLift_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.canonicalLift_norm.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (v : H) :\n  ‖canonicalLift v‖ = ‖v‖⁻¹\n'Round93H.canonicalLift_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.canonicalLift_minimal.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (v u : H)\n  (hu : inner ℂ v u = 1) : ‖canonicalLift v‖ ≤ ‖u‖\n'Round93H.canonicalLift_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.canonicalLift_smoothed_cost.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (A : H →L[ℂ] H)\n  (v : H) : ‖A (canonicalLift v)‖ * ‖(innerSL ℂ) v‖ = ‖A v‖ / ‖v‖\n'Round93H.canonicalLift_smoothed_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.residualLift_pairing.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (v r : H) (hr : r ≠ 0)\n  (hortho : inner ℂ (v - r) r = 0) : inner ℂ v (canonicalLift r) = 1\n'Round93H.residualLift_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.residualLift_smoothed_cost.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (A : H →L[ℂ] H)\n  (v r : H) : ‖A (canonicalLift r)‖ * ‖(innerSL ℂ) v‖ = ‖A r‖ * ‖v‖ / ‖r‖ ^ 2\n'Round93H.residualLift_smoothed_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round93H.residualLift_smoothed_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound93H.residualLift_smoothed_cost.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (A : H →L[ℂ] H)\n  (v r : H) : ‖A (Round93H.canonicalLift r)‖ * ‖(innerSL ℂ) v‖ = ‖A r‖ * ‖v‖ / ‖r‖ ^ 2\n",
+ "stderr": ""
+}

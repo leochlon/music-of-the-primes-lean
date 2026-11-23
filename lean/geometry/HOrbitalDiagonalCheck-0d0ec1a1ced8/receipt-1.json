@@ -1,0 +1,14 @@
+{
+ "request_id": "d2c8b9948eca43eba6430020f897bb42",
+ "target": "HOrbitalDiagonalCheck.lean",
+ "theorem": "HOrbitalDiagonal.arithmetic_orbital_kernel_diagonal",
+ "source_sha256": {
+  "HOrbitalDiagonalCheck.lean": "0d0ec1a1ced8efe2e6b23bf7ef01e69ea9aec6741eda55b13064afc7b8783db6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 31.11631067097187,
+ "stdout": "HOrbitalDiagonal.arithmetic_orbital_kernel_diagonal.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (k : MasulloGRH.HeckeIdeleClasses K → MasulloGRH.HeckeIdeleClasses K → ℂ) (x : MasulloGRH.HeckeIdeles K) :\n  have w := fun q =>\n    ∑' (t : Kˣ),\n      NDivisorialShells.arithmeticIndentation K ((MasulloGRH.principalIdele K) t * x) *\n        NDivisorialShells.arithmeticIndentation K\n          ((MasulloGRH.principalIdele K) t * ((MasulloGRH.principalIdele K) q⁻¹ * x));\n  have z := ↑x;\n  HasSum (fun q => ↑(w q) * k (↑((MasulloGRH.principalIdele K) q⁻¹ * x)) z) (k z z) ∧\n    HasSum (fun q => ‖↑(w q) * k (↑((MasulloGRH.principalIdele K) q⁻¹ * x)) z‖) ‖k z z‖\n'HOrbitalDiagonal.arithmetic_orbital_kernel_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HOrbitalDiagonal.arithmetic_orbital_kernel_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\nHOrbitalDiagonal.arithmetic_orbital_kernel_diagonal.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (k : MasulloGRH.HeckeIdeleClasses K → MasulloGRH.HeckeIdeleClasses K → ℂ) (x : MasulloGRH.HeckeIdeles K) :\n  have w := fun q =>\n    ∑' (t : Kˣ),\n      NDivisorialShells.arithmeticIndentation K ((MasulloGRH.principalIdele K) t * x) *\n        NDivisorialShells.arithmeticIndentation K\n          ((MasulloGRH.principalIdele K) t * ((MasulloGRH.principalIdele K) q⁻¹ * x));\n  have z := ↑x;\n  HasSum (fun q => ↑(w q) * k (↑((MasulloGRH.principalIdele K) q⁻¹ * x)) z) (k z z) ∧\n    HasSum (fun q => ‖↑(w q) * k (↑((MasulloGRH.principalIdele K) q⁻¹ * x)) z‖) ‖k z z‖\n",
+ "stderr": ""
+}

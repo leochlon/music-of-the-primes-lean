@@ -1,0 +1,14 @@
+{
+ "request_id": "g-r03-actual-compression",
+ "target": "GeometricCompressionR3.lean",
+ "theorem": "GeometricTraceR3.actual_geometric_trace_transfer",
+ "source_sha256": {
+  "GeometricCompressionR3.lean": "2fd31dede56973c67533250394d789060a26614c9ff4134b7ca6d37e3a33cc99"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 20.234447333030403,
+ "stdout": "'GeometricTrace.projection_trace_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.spectral_compression_of_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTrace.spectral_kills_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR3.actual_geometric_trace_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR3.actual_geometric_trace_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTraceR3.actual_geometric_trace_transfer.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (M : Submodule ℂ H) [CompleteSpace ↥M] (A : H →L[ℂ] H) (hA : ∀ x ∈ M, A x ∈ M)\n  (hB : IsTraceClass ((GeometricTraceR3.spectralToPerp M).comp (A.comp Mᗮ.subtypeL))) :\n  IsTraceClass ((ContinuousLinearMap.id ℂ H - M.starProjection).comp A) ∧\n    trace ((ContinuousLinearMap.id ℂ H - M.starProjection).comp A) =\n      trace ((GeometricTraceR3.spectralToPerp M).comp (A.comp Mᗮ.subtypeL))\n",
+ "stderr": ""
+}

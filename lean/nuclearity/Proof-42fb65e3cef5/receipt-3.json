@@ -1,0 +1,15 @@
+{
+ "request_id": "f7539dde139f4e93b99ec2776bd06e81",
+ "target": "Proof.lean",
+ "theorem": "MasulloTrace.mellin_convolution_of_weighted_integrable",
+ "source_sha256": {
+  "Proof.lean": "42fb65e3cef51f89947e8592c2c9ee0d4c332d607912c433608c8c004789a664",
+  "evidence/Proof.baseline.lean": "42fb65e3cef51f89947e8592c2c9ee0d4c332d607912c433608c8c004789a664"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 9.946867496997584,
+ "stdout": "MasulloTrace.mellin_convolution_integrable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (IdeleClasses K)] [MeasurableMul (IdeleClasses K)] (μ : Measure (IdeleClasses K))\n  [μ.IsMulLeftInvariant] [SFinite μ] (φ f : IdeleClasses K → ℂ) (c : IdeleClasses K →* ℂˣ)\n  (h : Integrable (fun p => φ p.2 * f (p.2⁻¹ * p.1) * ↑(c p.1)) (μ.prod μ)) :\n  Integrable (fun x => convolution K μ φ f x * ↑(c x)) μ ∧\n    mellin K μ (convolution K μ φ f) c = mellin K μ φ c * mellin K μ f c\n'MasulloTrace.mellin_convolution_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloTrace.mellin_convolution.{u_1} (K : Type u_1) [Field K] [NumberField K] [MeasurableSpace (IdeleClasses K)]\n  [MeasurableMul (IdeleClasses K)] (μ : Measure (IdeleClasses K)) [μ.IsMulLeftInvariant] [SFinite μ]\n  (φ f : IdeleClasses K → ℂ) (c : IdeleClasses K →* ℂˣ)\n  (h : Integrable (fun p => φ p.2 * f (p.2⁻¹ * p.1) * ↑(c p.1)) (μ.prod μ)) :\n  mellin K μ (convolution K μ φ f) c = mellin K μ φ c * mellin K μ f c\n'MasulloTrace.mellin_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloTrace.mellin_left_translate.{u_1} (K : Type u_1) [Field K] [NumberField K] [MeasurableSpace (IdeleClasses K)]\n  [MeasurableMul (IdeleClasses K)] (μ : Measure (IdeleClasses K)) [μ.IsMulLeftInvariant] (f : IdeleClasses K → ℂ)\n  (c : IdeleClasses K →* ℂˣ) (g : IdeleClasses K) :\n  ∫ (x : IdeleClasses K), f (g⁻¹ * x) * ↑(c x) ∂μ = ↑(c g) * mellin K μ f c\n'MasulloTrace.mellin_left_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloTrace.convolution_inverse_character.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (IdeleClasses K)] (μ : Measure (IdeleClasses K)) (φ : IdeleClasses K → ℂ) (c : IdeleClasses K →* ℂˣ)\n  (x : IdeleClasses K) : convolution K μ φ (fun y => ↑(c y⁻¹)) x = mellin K μ φ c * ↑(c x⁻¹)\n'MasulloTrace.convolution_inverse_character' depends on axioms: [propext, Classical.choice, Quot.sound]\nProof.lean:130:14: error(lean.unknownIdentifier): Unknown constant `MasulloTrace.mellin_convolution_of_weighted_integrable`\nProof.lean:131:7: error(lean.unknownIdentifier): Unknown identifier `MasulloTrace.mellin_convolution_of_weighted_integrable`\n",
+ "stderr": ""
+}

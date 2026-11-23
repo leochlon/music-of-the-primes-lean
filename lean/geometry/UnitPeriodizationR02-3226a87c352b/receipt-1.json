@@ -1,0 +1,14 @@
+{
+ "request_id": "i-r02-unit-periodization-v2",
+ "target": "UnitPeriodizationR02.lean",
+ "theorem": null,
+ "source_sha256": {
+  "UnitPeriodizationR02.lean": "3226a87c352b224430d691b33a406708c027d7f54c16013aa08e9abfafc6e171"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.8813839119975455,
+ "stdout": "'ActualGeometricTrace.annulus_volume_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualGeometricTrace.lower_cutoff_integral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualGeometricTrace.clip_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualGeometricTrace.periodized_lower_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

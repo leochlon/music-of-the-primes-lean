@@ -1,0 +1,14 @@
+{
+ "request_id": "d1110c312218479d9bd88a30970b24dd",
+ "target": "Proof.lean",
+ "theorem": "Round183F.finite_resolvent_trace_bound",
+ "source_sha256": {
+  "Proof.lean": "b0d8c21fcaac6e45f278d371604ccde641e2c2621234f3520a2933dcfc0be295"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.103844475990627,
+ "stdout": "Round183F.resolvent_energy.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (D R : H →L[ℂ] H)\n  (c B : ℝ) (hD : ∀ (y : H), (⟪D y, y⟫_ℂ).re ≤ B * ‖y‖ ^ 2) (hR : ∀ (x : H), ↑c • R x - D (R x) = x) (x : H) :\n  (c - B) * ‖R x‖ ^ 2 ≤ (⟪x, R x⟫_ℂ).re\n'Round183F.resolvent_energy' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound183F.finite_resolvent_trace_bound.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} [Fintype ι] (D R : H →L[ℂ] H) (c B : ℝ) (hgap : B < c) (hD : ∀ (y : H), (⟪D y, y⟫_ℂ).re ≤ B * ‖y‖ ^ 2)\n  (hR : ∀ (x : H), ↑c • R x - D (R x) = x) (b : OrthonormalBasis ι ℂ H) :\n  ∑ j, ‖R (b j)‖ ^ 2 ≤ (∑ j, (⟪b j, R (b j)⟫_ℂ).re) / (c - B)\n'Round183F.finite_resolvent_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round183F.finite_resolvent_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound183F.finite_resolvent_trace_bound.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} [Fintype ι] (D R : H →L[ℂ] H) (c B : ℝ) (hgap : B < c) (hD : ∀ (y : H), (⟪D y, y⟫_ℂ).re ≤ B * ‖y‖ ^ 2)\n  (hR : ∀ (x : H), ↑c • R x - D (R x) = x) (b : OrthonormalBasis ι ℂ H) :\n  ∑ j, ‖R (b j)‖ ^ 2 ≤ (∑ j, (⟪b j, R (b j)⟫_ℂ).re) / (c - B)\n",
+ "stderr": ""
+}

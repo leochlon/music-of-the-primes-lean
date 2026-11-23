@@ -1,0 +1,14 @@
+{
+ "request_id": "adb46df925bf40bca937d289e31b87c2",
+ "target": "Proof.lean",
+ "theorem": "Round90E.biorthogonal_lift_relative_conditioning",
+ "source_sha256": {
+  "Proof.lean": "0cc2185979322873f59f9f6a764173aa8aadfeb0ddbfb3ba339d1f318258701f"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.7827725110109895,
+ "stdout": "Round90E.biorthogonal_lift_separation.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (eta theta : H →L[ℂ] ℂ) (u : H) (heta : eta u = 1) (htheta : theta u = 0) : 1 ≤ ‖eta - theta‖ * ‖u‖\n'Round90E.biorthogonal_lift_separation' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound90E.biorthogonal_lift_relative_conditioning.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (eta theta : H →L[ℂ] ℂ) (u : H) (eps : ℝ) (heta : eta u = 1) (htheta : theta u = 0)\n  (hclose : ‖eta - theta‖ ≤ eps * ‖eta‖) : 1 ≤ eps * (‖u‖ * ‖eta‖)\n'Round90E.biorthogonal_lift_relative_conditioning' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round90E.biorthogonal_lift_relative_conditioning' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound90E.biorthogonal_lift_relative_conditioning.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (eta theta : H →L[ℂ] ℂ) (u : H) (eps : ℝ) (heta : eta u = 1) (htheta : theta u = 0)\n  (hclose : ‖eta - theta‖ ≤ eps * ‖eta‖) : 1 ≤ eps * (‖u‖ * ‖eta‖)\n",
+ "stderr": ""
+}

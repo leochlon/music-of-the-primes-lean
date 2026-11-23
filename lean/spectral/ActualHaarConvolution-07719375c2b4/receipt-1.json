@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralD902-haar-v2",
+ "target": "ActualHaarConvolution.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualHaarConvolution.lean": "07719375c2b4200bb006278f03424ae3283efb7cc8748c7b55dfeb08997420d2",
+  "submitted/ActualHaarConvolution.v2.lean": "07719375c2b4200bb006278f03424ae3283efb7cc8748c7b55dfeb08997420d2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 23.840228931978345,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD902.actual_haar_jet_translation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD902.actual_compact_translation_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

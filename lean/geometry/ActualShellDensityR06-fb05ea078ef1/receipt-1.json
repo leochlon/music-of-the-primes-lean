@@ -1,0 +1,14 @@
+{
+ "request_id": "h-global-r06-density-v2",
+ "target": "ActualShellDensityR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualShellDensityR06.lean": "fb05ea078ef15e71463d1acddbcf35df86d67363f5b7fde44ebbb62de221b713"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.738988107012119,
+ "stdout": "'ActualShellDensityR06.column_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellDensityR06.multiplier_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellDensityR06.physical_density_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

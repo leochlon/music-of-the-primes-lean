@@ -1,0 +1,14 @@
+{
+ "request_id": "5550be5ea1384bb181fb4d265a48d624",
+ "target": "MeasuredShellReview.lean",
+ "theorem": "BReview.shell_reconstruction",
+ "source_sha256": {
+  "MeasuredShellReview.lean": "35e7de4ed4979787bbf27894db344cd51d860587984be4febe30401fbb61cc40"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.757106470002327,
+ "stdout": "'BReview.mask_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'BReview.finite_shell_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'BReview.shell_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]\nBReview.shell_reconstruction.{u_1, u_2} {X : Type u_1} {E : Type u_2} [MeasurableSpace X] (mu : Measure X) [Countable E]\n  (p : E → X → ℝ) (hp : ∀ (e : E), Measurable (p e)) (hp0 : ∀ (e : E) (x : X), 0 ≤ p e x)\n  (hpart : ∀ (x : X), HasSum (fun e => p e x) 1) (f : X → ℂ) (hf : Integrable f mu) :\n  HasSum (fun e => ∫ (x : X), ↑(p e x) * f x ∂mu) (∫ (x : X), f x ∂mu)\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "conditionalB19-measured-jets-v1",
+ "target": "MeasuredJetAction.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MeasuredJetAction.lean": "25ee8fa27c6b6a95ed6d700ec44c1dd0415bffe4095d0608b7e6782b38c138c6",
+  "submitted/MeasuredJetAction.v1.lean": "25ee8fa27c6b6a95ed6d700ec44c1dd0415bffe4095d0608b7e6782b38c138c6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.127355442964472,
+ "stdout": "'TraceRepairB.measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TraceRepairB.measured_character_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

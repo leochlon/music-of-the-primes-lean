@@ -1,0 +1,14 @@
+{
+ "request_id": "6f17e2f1373e4417a1418967ead8c687",
+ "target": "Proof.lean",
+ "theorem": "Round182E.native_two_root_gapfree_cost",
+ "source_sha256": {
+  "Proof.lean": "6e0e4bc31c9688a02f86d172f2246d38700d3d1b710e369a41b315580c641eb8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.1207140030455776,
+ "stdout": "Round182E.native_overlap_defect (alpha gap : ℝ) (ha : 0 < alpha) :\n  1 - nativeOverlap alpha gap ^ 2 = gap ^ 2 * (8 * alpha ^ 2 + gap ^ 2) / (4 * alpha ^ 2 + gap ^ 2) ^ 2\n'Round182E.native_overlap_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182E.native_two_root_gapfree_cost (alpha gap B : ℝ) (ha : 0 < alpha) (hg : gap ≠ 0) (hB : 0 ≤ B)\n  (lambda₁ lambda₂ : ℂ) (hdiff : ‖lambda₂ - lambda₁‖ ≤ |gap| * B) :\n  ‖lambda₁‖ + ‖lambda₂‖ + 4 * alpha ^ 2 * ‖lambda₂ - lambda₁‖ / (|gap| * √(8 * alpha ^ 2 + gap ^ 2)) ≤\n    ‖lambda₁‖ + ‖lambda₂‖ + 2 * alpha * B\n'Round182E.native_two_root_gapfree_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round182E.native_two_root_gapfree_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182E.native_two_root_gapfree_cost (alpha gap B : ℝ) (ha : 0 < alpha) (hg : gap ≠ 0) (hB : 0 ≤ B)\n  (lambda₁ lambda₂ : ℂ) (hdiff : ‖lambda₂ - lambda₁‖ ≤ |gap| * B) :\n  ‖lambda₁‖ + ‖lambda₂‖ + 4 * alpha ^ 2 * ‖lambda₂ - lambda₁‖ / (|gap| * √(8 * alpha ^ 2 + gap ^ 2)) ≤\n    ‖lambda₁‖ + ‖lambda₂‖ + 2 * alpha * B\n",
+ "stderr": ""
+}

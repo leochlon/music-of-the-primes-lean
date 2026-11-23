@@ -1,0 +1,14 @@
+{
+ "request_id": "spectralC905leading1",
+ "target": "NativeLeadingKernels.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeLeadingKernels.lean": "82ad7da2317a77d3a043758439bf414fb17192bd0d9c6e4e843460d7d7654339"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 26.021592932986096,
+ "stdout": "'SpectralC903.admitted_native_convolution_mellin_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC903.native_sharp_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC903.native_sharp_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.nativeRepresentative_weighted_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.nativeRepresentative_jet_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.native_Lp_convolution_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC904.native_both_sharp_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC904.native_logged_sharp_Lp_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

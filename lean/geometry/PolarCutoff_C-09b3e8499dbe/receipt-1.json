@@ -1,0 +1,14 @@
+{
+ "request_id": "c-r06-polar-cutoff-v2",
+ "target": "PolarCutoff_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "PolarCutoff_C.lean": "09b3e8499dbe3a654fd315813aa7af0d5d02d7c1cfd580a14aa185981b08e9cd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 35.48132688202895,
+ "stdout": "'GroundTheory.Automorphic.isTraceClass_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.trace_comp_comm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PolarGraphR04.finite_domain_hs' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PolarGraphR04.graph_polar_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarCutoff.graph_cutoff_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarCutoff.graph_cutoff_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarCutoff.graph_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

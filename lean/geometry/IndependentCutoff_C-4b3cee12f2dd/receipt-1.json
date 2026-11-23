@@ -1,0 +1,14 @@
+{
+ "request_id": "c-r01-cutoff-final",
+ "target": "IndependentCutoff_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "IndependentCutoff_C.lean": "4b3cee12f2dd165b99b11a39e1c4277740c7b7031d0280112e2cbfd8e354b4ba"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.737590040022042,
+ "stdout": "'GeometricTraceC.orbitalWindow_centered_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.orbital_integral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.orbitalWindow_general' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

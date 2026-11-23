@@ -1,0 +1,14 @@
+{
+ "request_id": "28631d1aa88b4112ab79e4191b3ca537",
+ "target": "LAsymmetricRegimeCheck.lean",
+ "theorem": "LCutoffRegime.localRegime_asymmetric_cutoff_application",
+ "source_sha256": {
+  "LAsymmetricRegimeCheck.lean": "cb2a5b336c1c2f3df1d6a6f2650620e1a69e233d3ab35731085659442dbed6f9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.037101460038684,
+ "stdout": "LCutoffRegime.localRegime_asymmetric_cutoff_application (w : ℝ) (hw : 0 < w) :\n  (∀ᶠ (p : (ℝ × ℝ) × ℝ) in LCutoffRegime.localRegime,\n      FAsymmetricCutoff.logCutoff p.1.1 (p.1.2 ^ 2) (LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2) (Real.log w) = 1) ∧\n    Filter.Tendsto (fun p => LCutoffRegime.lowerCutoffBoundary w p.1.2 (p.1.2 ^ 2)) LCutoffRegime.localRegime (nhds 0) ∧\n      Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.1) LCutoffRegime.localRegime\n          (nhds 0) ∧\n        Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.2) LCutoffRegime.localRegime\n          (nhds 0)\n'LCutoffRegime.localRegime_asymmetric_cutoff_application' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LCutoffRegime.localRegime_asymmetric_cutoff_application' depends on axioms: [propext, Classical.choice, Quot.sound]\nLCutoffRegime.localRegime_asymmetric_cutoff_application (w : ℝ) (hw : 0 < w) :\n  (∀ᶠ (p : (ℝ × ℝ) × ℝ) in LCutoffRegime.localRegime,\n      FAsymmetricCutoff.logCutoff p.1.1 (p.1.2 ^ 2) (LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2) (Real.log w) = 1) ∧\n    Filter.Tendsto (fun p => LCutoffRegime.lowerCutoffBoundary w p.1.2 (p.1.2 ^ 2)) LCutoffRegime.localRegime (nhds 0) ∧\n      Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.1) LCutoffRegime.localRegime\n          (nhds 0) ∧\n        Filter.Tendsto (fun p => LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2 * p.1.2) LCutoffRegime.localRegime\n          (nhds 0)\n",
+ "stderr": ""
+}

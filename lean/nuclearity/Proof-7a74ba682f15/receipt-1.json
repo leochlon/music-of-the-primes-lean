@@ -1,0 +1,14 @@
+{
+ "request_id": "18c70a2cc9c5484dbb3a5114930711cb",
+ "target": "Proof.lean",
+ "theorem": "Round173D.genuine_interval_mellin_moment_bound",
+ "source_sha256": {
+  "Proof.lean": "7a74ba682f150c16dea7fd30f2955b6f14484c6ad4822fdb25026175f642669f"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 11.952655342000071,
+ "stdout": "Proof.lean:222:19: error: unused variable `hR`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nProof.lean:255:35: error: This simp argument is unused:\n  norm_mul\n\nHint: Omit it from the simp argument list.\n  simp [mellinMomentIntegrand, norm_m̵u̵l̵,̵ ̵n̵o̵r̵m̵_̵pow, Complex.norm_exp,\n  ̵  ̵ ̵ ̵ ̵ ̵ ̵ ̵Complex.mul_re, Complex.norm_real,\n  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲Real.norm_eq_abs, mul_assoc, hu]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nRound173D.genuine_compact_log_radius.{u_1} (K : Type u_1) [Field K] [NumberField K] (S : Set (HeckeIdeleClasses K))\n  (hS : IsCompact S) : ∃ R, 1 ≤ R ∧ ∀ x ∈ S, |classLog K x| ≤ R\n'Round173D.genuine_compact_log_radius' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173D.genuine_interval_mellin_moment_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : Measure (HeckeIdeleClasses K)) [IsFiniteMeasureOnCompacts mu] (h chi : HeckeIdeleClasses K → ℂ)\n  (hh : Continuous h) (hc : Continuous chi) (hs : HasCompactSupport h) (hu : ∀ (x : HeckeIdeleClasses K), ‖chi x‖ = 1)\n  (R alpha : ℝ) (hR : 0 ≤ R) (ha : 0 ≤ alpha) (hr : ∀ (x : HeckeIdeleClasses K), h x ≠ 0 → |classLog K x| ≤ R) (z : ℂ)\n  (hz : |z.re| ≤ alpha) (m : ℕ) :\n  Integrable (mellinMomentIntegrand K h chi z m) mu ∧\n    ‖∫ (x : HeckeIdeleClasses K), mellinMomentIntegrand K h chi z m x ∂mu‖ ≤\n      Real.exp (alpha * R) * R ^ m * ∫ (x : HeckeIdeleClasses K), ‖h x‖ ∂mu\n'Round173D.genuine_interval_mellin_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173D.genuine_interval_mellin_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173D.genuine_interval_mellin_moment_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [IsFiniteMeasureOnCompacts mu]\n  (h chi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous h) (hc : Continuous chi) (hs : HasCompactSupport h)\n  (hu : ∀ (x : MasulloGRH.HeckeIdeleClasses K), ‖chi x‖ = 1) (R alpha : ℝ) (hR : 0 ≤ R) (ha : 0 ≤ alpha)\n  (hr : ∀ (x : MasulloGRH.HeckeIdeleClasses K), h x ≠ 0 → |Round166F.classLog K x| ≤ R) (z : ℂ) (hz : |z.re| ≤ alpha)\n  (m : ℕ) :\n  Integrable (Round173D.mellinMomentIntegrand K h chi z m) mu ∧\n    ‖∫ (x : MasulloGRH.HeckeIdeleClasses K), Round173D.mellinMomentIntegrand K h chi z m x ∂mu‖ ≤\n      Real.exp (alpha * R) * R ^ m * ∫ (x : MasulloGRH.HeckeIdeleClasses K), ‖h x‖ ∂mu\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "666d15f9d34b4300876cb985eaaca851",
+ "target": "Proof.lean",
+ "theorem": "Round193A.native_resolvent_cayley_contraction",
+ "source_sha256": {
+  "Proof.lean": "ff0f937e7337f011d8bfd1c8438d7b469037fde02de026300ad7dbb547055b12"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 5.782929837005213,
+ "stdout": "Round190A.native_residue_ode_primitive (f p p' : ℝ → ℂ) (zeta : ℂ) (hp : ∀ (x : ℝ), HasDerivAt p (p' x) x)\n  (hf : ∀ (x : ℝ), HasDerivAt f (zeta * f x + Complex.exp (zeta * ↑x) * p' x) x) (x : ℝ) :\n  f x = Complex.exp (zeta * ↑x) * (f 0 + p x - p 0)\n'Round190A.native_residue_ode_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]\nProof.lean:67:4: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nRound193A.native_resolvent_cayley_contraction.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (R : H →L[ℂ] H) (g : ℝ) (hg : 0 < g) (henergy : ∀ (x : H), g * ‖R x‖ ^ 2 ≤ (⟪R x, x⟫_ℂ).re) (x : H) :\n  ‖x - ↑(2 * g) • R x‖ ≤ ‖x‖\n'Round193A.native_resolvent_cayley_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round193A.native_resolvent_cayley_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound193A.native_resolvent_cayley_contraction.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (R : H →L[ℂ] H) (g : ℝ) (hg : 0 < g) (henergy : ∀ (x : H), g * ‖R x‖ ^ 2 ≤ (inner ℂ (R x) x).re) (x : H) :\n  ‖x - ↑(2 * g) • R x‖ ≤ ‖x‖\n",
+ "stderr": ""
+}

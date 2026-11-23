@@ -1,0 +1,14 @@
+{
+ "request_id": "e35b2ea1378840c0ba6c2e8b9fb490dd",
+ "target": "NativeWidthBoundary.lean",
+ "theorem": "NativeWidthBoundary.finite_correction",
+ "source_sha256": {
+  "NativeWidthBoundary.lean": "ffd987083957b2a9f3df987b4764b64bec62d4eac738fa8dbac6cf00ee09cabc"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.657991514948662,
+ "stdout": "'NativeWidthBoundary.exact_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeWidthBoundary.boundaryJets_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeWidthBoundary.finite_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeWidthBoundary.finite_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeWidthBoundary.finite_correction.{u_1} {ι : Type u_1} (S : Finset ι) (multiplicity : ι → ℕ) (radius : ι → ℝ)\n  (coefficient : ι → ℂ) (s width : ℝ) :\n  ∑ i ∈ S, ↑(multiplicity i - NativeWidthBoundary.admitted (multiplicity i) s (radius i) width) * coefficient i =\n    ∑ i ∈ S, ↑(if width < radius i then multiplicity i else 0) * coefficient i +\n      ∑ i ∈ S,\n        ↑(if radius i = width then multiplicity i - NativeWidthBoundary.boundaryJets (multiplicity i) s else 0) *\n          coefficient i\n",
+ "stderr": ""
+}

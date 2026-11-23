@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralE904-native-lp-v1",
+ "target": "NativeLpConvolutionV2.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeLpConvolutionV2.lean": "2b80e63c476198a79bf239de61fdeeac9d7442371cd1f881547718d8bb456ffc",
+  "preserved/NativeLpConvolution.cycle08.v1.lean": "2b80e63c476198a79bf239de61fdeeac9d7442371cd1f881547718d8bb456ffc"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 18.265402785968035,
+ "stdout": "'SpectralC903.admitted_native_convolution_mellin_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.nativeRepresentative_weighted_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.nativeRepresentative_jet_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralE903.native_Lp_convolution_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

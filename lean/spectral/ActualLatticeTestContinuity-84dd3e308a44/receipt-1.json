@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-a885-lattice-test-v4",
+ "target": "ActualLatticeTestContinuity.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualLatticeTestContinuity.lean": "84dd3e308a44f171d90e5d43f2076180a6f3b7764d2906620b59c51648af597c",
+  "preserved/cycle12/ActualLatticeTestContinuity.v4.lean": "84dd3e308a44f171d90e5d43f2076180a6f3b7764d2906620b59c51648af597c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.554520178004168,
+ "stdout": "'ConditionalA885.actual_ideal_tsum_seminorm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA885.actual_ideal_tsum_test_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

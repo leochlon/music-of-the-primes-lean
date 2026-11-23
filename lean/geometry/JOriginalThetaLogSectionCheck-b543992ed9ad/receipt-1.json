@@ -1,0 +1,14 @@
+{
+ "request_id": "709aa61629a3498da17fb3db517df235",
+ "target": "JOriginalThetaLogSectionCheck.lean",
+ "theorem": "JThetaAttachment.originalBruhat_theta_log_bound",
+ "source_sha256": {
+  "JOriginalThetaLogSectionCheck.lean": "b543992ed9ad8adb0497efe3e6e2e2eaac591f56c8cae956eaead5dfeb5eb651"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 33.09411828505108,
+ "stdout": "JThetaAttachment.thetaLogSection_classLog.{u_1} (K : Type u_1) [Field K] [NumberField K] (u : ℝ) :\n  Masullo.IdeleClassGeometry.classLog K ↑(JThetaAttachment.thetaLogSection K u) = u\n'JThetaAttachment.thetaLogSection_classLog' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JThetaAttachment.classLog_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]\nJThetaAttachment.originalBruhat_theta_log_stronglyMeasurable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] [MeasurableSpace (MasulloGRH.HeckeIdeles K)]\n  [BorelSpace (MasulloGRH.HeckeIdeles K)] (f : MasulloGRH.HeckeAdeles K → ℂ)\n  (hf : JThetaAttachment.IsOriginalBruhat K f) (U : Set (MasulloGRH.HeckeIdeles K)) :\n  MeasureTheory.StronglyMeasurable fun p =>\n    Masullo.IdeleTheta.classTheta K f ↑(JThetaAttachment.thetaLogSection K p.1 * ↑p.2)\n'JThetaAttachment.originalBruhat_theta_log_stronglyMeasurable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nJThetaAttachment.originalBruhat_theta_log_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] (f : MasulloGRH.HeckeAdeles K → ℂ)\n  (hf : JThetaAttachment.IsOriginalBruhat K f) (U : Set (MasulloGRH.HeckeIdeles K)) (hU : IsCompact U) (R : ℝ) :\n  ∃ B,\n    0 ≤ B ∧\n      ∀ a ∈ U,\n        ∀ (u : ℝ),\n          0 ≤ u →\n            ‖Masullo.IdeleTheta.classTheta K f ↑(JThetaAttachment.thetaLogSection K u * a)‖ ≤ B * Real.exp (-R * u)\n'JThetaAttachment.originalBruhat_theta_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JThetaAttachment.originalBruhat_theta_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nJThetaAttachment.originalBruhat_theta_log_bound.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] (f : MasulloGRH.HeckeAdeles K → ℂ)\n  (hf : JThetaAttachment.IsOriginalBruhat K f) (U : Set (MasulloGRH.HeckeIdeles K)) (hU : IsCompact U) (R : ℝ) :\n  ∃ B,\n    0 ≤ B ∧\n      ∀ a ∈ U,\n        ∀ (u : ℝ),\n          0 ≤ u →\n            ‖Masullo.IdeleTheta.classTheta K f ↑(JThetaAttachment.thetaLogSection K u * a)‖ ≤ B * Real.exp (-R * u)\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "aa6f10cbb4f24ab983efd09a0498b638",
+ "target": "FAsymmetricCutoffCheck.lean",
+ "theorem": "FAsymmetricCutoff.integral_limit",
+ "source_sha256": {
+  "FAsymmetricCutoffCheck.lean": "d6cacfc766524c184fbde1c6b9b607dfaf51efca6523b64535a0a1e199f3a918"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.78062862897059,
+ "stdout": "FAsymmetricCutoff.integral_limit.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K)) (d : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hd : MeasureTheory.Integrable d mu) :\n  Filter.Tendsto\n    (fun p =>\n      ∫ (x : MasulloGRH.HeckeIdeleClasses K),\n        FAsymmetricCutoff.mask K p.1.1 p.1.2 (LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2) x * d x ∂mu)\n    LCutoffRegime.localRegime (nhds (∫ (x : MasulloGRH.HeckeIdeleClasses K), d x ∂mu))\n'FAsymmetricCutoff.integral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FAsymmetricCutoff.integral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nFAsymmetricCutoff.integral_limit.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K)) (d : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hd : MeasureTheory.Integrable d mu) :\n  Filter.Tendsto\n    (fun p =>\n      ∫ (x : MasulloGRH.HeckeIdeleClasses K),\n        FAsymmetricCutoff.mask K p.1.1 p.1.2 (LCutoffRegime.sharedSmoothing p.1.1 p.1.2 p.2) x * d x ∂mu)\n    LCutoffRegime.localRegime (nhds (∫ (x : MasulloGRH.HeckeIdeleClasses K), d x ∂mu))\n",
+ "stderr": ""
+}

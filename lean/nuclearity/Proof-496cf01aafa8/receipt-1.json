@@ -1,0 +1,14 @@
+{
+ "request_id": "5cb9328351ca4987892c75e06e0d1462",
+ "target": "Proof.lean",
+ "theorem": "Round173C.spectralBlock_cutoff_nuclear_cost_tendsto",
+ "source_sha256": {
+  "Proof.lean": "496cf01aafa85a0431c0123bee3e8ab828f8c48512d997d4b29f8dbd1bc51970"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.126859317999333,
+ "stdout": "Round173C.spectralBlock_norm_le_cost.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  {ι : Type u_2} (s : Finset ι) (η v : ι → E) : ‖spectralBlock s η v‖ ≤ ∑ i ∈ s, ‖(innerSL ℂ) (η i)‖ * ‖v i‖\n'Round173C.spectralBlock_norm_le_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173C.spectralBlock_cutoff_norm_le.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  {ι : Type u_2} (s : Finset ι) (η v : ι → E) (U : Submodule ℂ E) [U.HasOrthogonalProjection] :\n  ‖spectralBlock s η v - (spectralBlock s η v).comp U.starProjection‖ ≤ cutoffCost s η v U\n'Round173C.spectralBlock_cutoff_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173C.spectralBlock_cutoff_decomposition.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E] [InnerProductSpace ℂ E]\n  {ι : Type u_2} (s : Finset ι) (η v : ι → E) (U : Submodule ℂ E) [U.HasOrthogonalProjection] :\n  spectralBlock s η v - (spectralBlock s η v).comp U.starProjection =\n    spectralBlock s (fun i => η i - U.starProjection (η i)) v\n'Round173C.spectralBlock_cutoff_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173C.spectralBlock_cutoff_nuclear_cost_tendsto.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E]\n  [InnerProductSpace ℂ E] {ι : Type u_2} (s : Finset ι) (η v : ι → E) (U : ℕ → Submodule ℂ E)\n  [∀ (n : ℕ), (U n).HasOrthogonalProjection]\n  (hstrong : ∀ i ∈ s, Tendsto (fun n => (U n).starProjection (η i)) atTop (𝓝 (η i))) :\n  Tendsto (fun n => cutoffCost s η v (U n)) atTop (𝓝 0)\n'Round173C.spectralBlock_cutoff_nuclear_cost_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173C.spectralBlock_cutoff_nuclear_cost_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173C.spectralBlock_cutoff_nuclear_cost_tendsto.{u_1, u_2} {E : Type u_1} [NormedAddCommGroup E]\n  [InnerProductSpace ℂ E] {ι : Type u_2} (s : Finset ι) (η v : ι → E) (U : ℕ → Submodule ℂ E)\n  [∀ (n : ℕ), (U n).HasOrthogonalProjection]\n  (hstrong : ∀ i ∈ s, Tendsto (fun n => (U n).starProjection (η i)) atTop (𝓝 (η i))) :\n  Tendsto (fun n => Round173C.cutoffCost s η v (U n)) atTop (𝓝 0)\n",
+ "stderr": ""
+}

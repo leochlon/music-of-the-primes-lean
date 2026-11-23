@@ -1,0 +1,14 @@
+{
+ "request_id": "b-r04-cutoff-2",
+ "target": "CutoffSpectralLimit.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CutoffSpectralLimit.lean": "f63297b669aecde06777fc596b6d95390a76c931c30cb978a667abfc5d75b8a6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.481803000962827,
+ "stdout": "'GeometricTraceRoundFour.spectral_absolute_error_tends_to_zero' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricTraceRoundFour.spectral_sum_tends_to_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "75784986dc02415fbf881dc23271e80e",
+ "target": "Proof.lean",
+ "theorem": "Round182D.resolvent_column_square_sum_le",
+ "source_sha256": {
+  "Proof.lean": "42e6efac3db6fc517c5ed31fc7b77bc3d432fed2dba4f0b6c7e92fa8465abb8c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.840748680988327,
+ "stdout": "Round182D.resolvent_column_coercivity.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (D R : H →L[ℂ] H) (c : ℝ) (z : ℂ) (hnum : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2)\n  (hres : ∀ (x : H), z • R x - D (R x) = x) (x : H) : (z.re - c) * ‖R x‖ ^ 2 ≤ (⟪R x, x⟫_ℂ).re\n'Round182D.resolvent_column_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182D.resolvent_column_square_sum_le.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (J : Finset ι) (e : ι → H) (D R : H →L[ℂ] H) (c : ℝ) (z : ℂ) (hz : c < z.re)\n  (hnum : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hres : ∀ (x : H), z • R x - D (R x) = x) :\n  ∑ j ∈ J, ‖R (e j)‖ ^ 2 ≤ (∑ j ∈ J, (⟪R (e j), e j⟫_ℂ).re) / (z.re - c)\n'Round182D.resolvent_column_square_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round182D.resolvent_column_square_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182D.resolvent_column_square_sum_le.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (J : Finset ι) (e : ι → H) (D R : H →L[ℂ] H) (c : ℝ) (z : ℂ) (hz : c < z.re)\n  (hnum : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hres : ∀ (x : H), z • R x - D (R x) = x) :\n  ∑ j ∈ J, ‖R (e j)‖ ^ 2 ≤ (∑ j ∈ J, (⟪R (e j), e j⟫_ℂ).re) / (z.re - c)\n",
+ "stderr": ""
+}

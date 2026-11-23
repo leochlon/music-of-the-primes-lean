@@ -1,0 +1,15 @@
+{
+ "request_id": "followupF633moments1",
+ "target": "NativeWeightedMoment.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeWeightedMoment.lean": "1aa4325d6b157b046250e2eeae160de417a22b8278b24efeefad6fa640782db2",
+  "preserved/cycle07/NativeWeightedMoment.v1.lean": "1aa4325d6b157b046250e2eeae160de417a22b8278b24efeefad6fa640782db2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 34.660615631961264,
+ "stdout": "'ActualMeasuredJetD.actual_jet_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_logged_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_convolution_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupF633.native_weighted_convolution_moments' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

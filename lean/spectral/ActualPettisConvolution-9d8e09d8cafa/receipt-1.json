@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralA905-weak-orbit-v1",
+ "target": "NativeWeakOrbit.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeWeakOrbit.lean": "9d8e09d8cafa62d9ea27c4334a105b1e5f5b24952baf8b2dd06076ba90607179",
+  "submitted/cycle09/NativeWeakOrbit.v1.lean": "9d8e09d8cafa62d9ea27c4334a105b1e5f5b24952baf8b2dd06076ba90607179"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 24.286095643998124,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA904.nativeTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA904.nativeTranslationCLM_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA905.nativeTranslation_weaklyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

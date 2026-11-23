@@ -1,0 +1,14 @@
+{
+ "request_id": "5b7006864ec64cee8acbc1d4c65d6f60",
+ "target": "OOriginalHaarRadialCheck.lean",
+ "theorem": "OSourceHaar.memLp_exp_neg_abs_classLog",
+ "source_sha256": {
+  "OOriginalHaarRadialCheck.lean": "46e6436ba47dc3bc527509ee6d1837b28d25676ad702214eae2612fca965c5da"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 46.810647598002106,
+ "stdout": "OSourceHaar.integrable_exp_neg_abs_classLog.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsMulLeftInvariant] [MeasureTheory.IsLocallyFiniteMeasure mu] (δ : ℝ) (hδ : 0 < δ) :\n  MeasureTheory.Integrable (fun x => Real.exp (-δ * |Masullo.IdeleClassGeometry.classLog K x|)) mu\n'OSourceHaar.unitLogShell_measure_lt_top' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.integrable_exp_neg_abs_classLog' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.memLp_exp_neg_abs_classLog' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.isCompact_classLog_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.exists_compact_normOne_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.memLp_exp_neg_abs_classLog' depends on axioms: [propext, Classical.choice, Quot.sound]\nOSourceHaar.memLp_exp_neg_abs_classLog.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsMulLeftInvariant] [MeasureTheory.IsLocallyFiniteMeasure mu] (δ : ℝ) (hδ : 0 < δ) :\n  MeasureTheory.MemLp (fun x => Real.exp (-δ * |Masullo.IdeleClassGeometry.classLog K x|)) 2 mu\n",
+ "stderr": ""
+}

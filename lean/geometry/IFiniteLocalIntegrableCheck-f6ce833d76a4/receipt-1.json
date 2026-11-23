@@ -1,0 +1,14 @@
+{
+ "request_id": "0e50b1be58e74da1b3247a5d12c36a68",
+ "target": "IFiniteLocalIntegrableCheck.lean",
+ "theorem": "ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_integrable",
+ "source_sha256": {
+  "IFiniteLocalIntegrableCheck.lean": "f6ce833d76a4a7b62910b4a6613e248c9d840813bc8efabfc21f8cdcaa10d6ca"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 22.142323334992398,
+ "stdout": "ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_integrable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) (q : Fin 2)\n  (v : FinitePlace K) [MeasurableSpace (adicCompletion K v.maximalIdeal)ˣ]\n  [BorelSpace (adicCompletion K v.maximalIdeal)ˣ] (nu : MeasureTheory.Measure (adicCompletion K v.maximalIdeal)ˣ)\n  [MeasureTheory.IsFiniteMeasureOnCompacts nu] :\n  MeasureTheory.Integrable (NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q)) nu\n'ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nReviewI.LocalArithmetic.both_tests_finiteLocalDensity_integrable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) (q : Fin 2)\n  (v : FinitePlace K) [MeasurableSpace (adicCompletion K v.maximalIdeal)ˣ]\n  [BorelSpace (adicCompletion K v.maximalIdeal)ˣ] (nu : MeasureTheory.Measure (adicCompletion K v.maximalIdeal)ˣ)\n  [MeasureTheory.IsFiniteMeasureOnCompacts nu] :\n  MeasureTheory.Integrable (NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q)) nu\n",
+ "stderr": ""
+}

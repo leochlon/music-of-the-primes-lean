@@ -1,0 +1,14 @@
+{
+ "request_id": "9f34a0c91ef8429090b7369cd057b2d4",
+ "target": "SLocalThetaR03.lean",
+ "theorem": "SLocalThetaR03.orthogonal_transport",
+ "source_sha256": {
+  "SLocalThetaR03.lean": "3210a472f892b4eb0e57171f3e80f17b7dd685dba5c1c27e66dd8de2a61a30ba"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.016126161965076,
+ "stdout": "'SLocalThetaR03.ideal_unit_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SLocalThetaR03.orthogonal_transport' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SLocalThetaR03.logged_ideal_column' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SLocalThetaR03.orthogonal_transport' depends on axioms: [propext, Classical.choice, Quot.sound]\nSLocalThetaR03.orthogonal_transport.{u_1, u_2} {E : Type u_1} {F : Type u_2} [NormedAddCommGroup E]\n  [InnerProductSpace ℂ E] [NormedAddCommGroup F] [InnerProductSpace ℂ F] (U : E ≃ₗᵢ[ℂ] F) (N : Submodule ℂ E) (x : E) :\n  (∀ n ∈ N, inner ℂ n x = 0) ↔ ∀ m ∈ Submodule.map (↑U.toLinearEquiv) N, inner ℂ m (U x) = 0\n",
+ "stderr": ""
+}

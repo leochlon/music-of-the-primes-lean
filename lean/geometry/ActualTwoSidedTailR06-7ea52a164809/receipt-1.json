@@ -1,0 +1,14 @@
+{
+ "request_id": "b-r06-two-sided-tail-2",
+ "target": "ActualTwoSidedTailR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualTwoSidedTailR06.lean": "7ea52a1648092b79ce784ca90229e413ba0b91b6fd58152a7549271533fcb9b8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.499912224011496,
+ "stdout": "'ActualLocalShell.integral_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalShell.local_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalShell.weighted_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalShell.logged_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualLocalShell.local_density_of_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualTwoSidedTailR06.integer_shell_outside' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualTwoSidedTailR06.both_tests_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualTwoSidedTailR06.both_unit_averages_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualTwoSidedTailR06.weighted_tail_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

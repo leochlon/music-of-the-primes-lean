@@ -1,0 +1,14 @@
+{
+ "request_id": "a3d13ac4da644942b9bb92e4a5542aa3",
+ "target": "Proof.lean",
+ "theorem": "Round184E.poisson_weight_domination",
+ "source_sha256": {
+  "Proof.lean": "43f521424a8224b84913e37d583e5c00f3a32e58665758b26b1900b0efbf8de7"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.733212195977103,
+ "stdout": "Round184E.poisson_weight_domination (b t : ℝ) (hb0 : 0 ≤ b) (hb1 : b ≤ 1) :\n  1 / (1 + t ^ 2) ≤ 2 * ((2 - b) / ((2 - b) ^ 2 + t ^ 2))\n'Round184E.poisson_weight_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184E.local_zero_kernel_lower (b u : ℝ) (hb0 : 0 ≤ b) (hb1 : b ≤ 1) (hu : u ^ 2 ≤ 1) :\n  1 / 5 ≤ (2 - b) / ((2 - b) ^ 2 + u ^ 2)\n'Round184E.local_zero_kernel_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round184E.poisson_weight_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184E.poisson_weight_domination (b t : ℝ) (hb0 : 0 ≤ b) (hb1 : b ≤ 1) :\n  1 / (1 + t ^ 2) ≤ 2 * ((2 - b) / ((2 - b) ^ 2 + t ^ 2))\n",
+ "stderr": ""
+}

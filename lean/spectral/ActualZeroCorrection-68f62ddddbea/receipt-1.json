@@ -1,0 +1,14 @@
+{
+ "request_id": "cycle01C_actual_correction_v2",
+ "target": "ActualZeroCorrection.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualZeroCorrection.lean": "68f62ddddbeafb8ba3fb5f3a92b624dac9db65d11b976dc479a72c1e80688469"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.820025315973908,
+ "stdout": "'ActualZeroCorrection.finite_actual_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.zero_width_native' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.exterior_omitted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.actual_tsum_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

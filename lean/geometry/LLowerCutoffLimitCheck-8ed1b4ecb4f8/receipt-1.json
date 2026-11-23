@@ -1,0 +1,14 @@
+{
+ "request_id": "6063fbc1925e492a97ef5d3d09aebf3d",
+ "target": "LLowerCutoffLimitCheck.lean",
+ "theorem": "LCutoffRegime.localRegime_lowerBoundary_tendsto",
+ "source_sha256": {
+  "LLowerCutoffLimitCheck.lean": "8ed1b4ecb4f8e703215d2aa809618738614ac35b86f54dd2d449ea51afdcacf0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.64637881598901,
+ "stdout": "LCutoffRegime.localRegime_lowerBoundary_tendsto (w : ℝ) (hw : 0 < w) :\n  Filter.Tendsto (fun p => LCutoffRegime.lowerCutoffBoundary w p.1.2 (p.1.2 ^ 2)) LCutoffRegime.localRegime (nhds 0)\n'LCutoffRegime.localRegime_lowerBoundary_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'LCutoffRegime.localRegime_lowerBoundary_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\nLCutoffRegime.localRegime_lowerBoundary_tendsto (w : ℝ) (hw : 0 < w) :\n  Filter.Tendsto (fun p => LCutoffRegime.lowerCutoffBoundary w p.1.2 (p.1.2 ^ 2)) LCutoffRegime.localRegime (nhds 0)\n",
+ "stderr": ""
+}

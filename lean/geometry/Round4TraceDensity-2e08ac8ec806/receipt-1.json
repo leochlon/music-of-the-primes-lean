@@ -1,0 +1,14 @@
+{
+ "request_id": "r04-density-final",
+ "target": "Round4TraceDensity.lean",
+ "theorem": null,
+ "source_sha256": {
+  "Round4TraceDensity.lean": "2e08ac8ec8060c218c2cdb9b58061dcda103c130ee7b5a1a0fb2814fb472ed04"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.349623080983292,
+ "stdout": "'GeometricTraceR04.exists_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.rankOne_diagonal_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "4145527f063f4ec7bd058e7f2c2c8455",
+ "target": "ShellDiagonalM.lean",
+ "theorem": "ReviewM.shell_l1_limit",
+ "source_sha256": {
+  "ShellDiagonalM.lean": "2992c39cffa091845b5baae53637b8d1151c390c0a7ca791e7c84605daac9342"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.878147409006488,
+ "stdout": "'ReviewM.positive_shell_l1' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewM.shell_l1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewM.shell_l1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nReviewM.shell_l1_limit.{u_1, u_2} {X : Type u_1} {ι : Type u_2} [MeasurableSpace X] (μ : Measure X) (p : ι → X → ℝ)\n  (hp : ReviewM.PositivePartition p) (d : ℕ → X → ℂ) (e : X → ℂ) (hd : ∀ (n : ℕ), Integrable (d n) μ)\n  (he : Integrable e μ) (hlim : Tendsto (fun n => ∫ (x : X), ‖d n x - e x‖ ∂μ) atTop (𝓝 0)) :\n  Tendsto (fun n => ∑' (i : ι), ‖∫ (x : X), ↑(p i x) * d n x ∂μ - ∫ (x : X), ↑(p i x) * e x ∂μ‖) atTop (𝓝 0)\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "a-r06-shell-coupling-v2",
+ "target": "ActualShellCouplingR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualShellCouplingR06.lean": "d1f4a37c9b9e1cdb7c817ed33ca081485b81725be2dca4ca6bddadd2d012efce"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 40.86612773896195,
+ "stdout": "'MeasureTheory.L2.norm_sigmaKernelIntegralCLM_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MeasureTheory.L2.sigmaKernelIntegralCLM_coeFn' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualKernelApplication.fermat_eq_alpo' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualKernelApplication.fermat_kernel_isHilbertSchmidt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaShellR02.shell_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaShellR02.shell_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaShellR02.shell_trace_from_fermat' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellCouplingR06.internal_block_traceClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellCouplingR06.internal_block_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellCouplingR06.adjacent_coupling_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellCouplingR06.internal_cutoff_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

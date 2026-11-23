@@ -1,0 +1,14 @@
+{
+ "request_id": "390757fc57fd4695b589ccb7376dc992",
+ "target": "JThetaDescent.lean",
+ "theorem": "JThetaAttachment.actual_theta_dilate",
+ "source_sha256": {
+  "JThetaDescent.lean": "f9728520f20c1d7a51b2c33f6d2e207536541c9154979eabbedefbb6053e3ccd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.489779644994996,
+ "stdout": "'Masullo.CoreInvarianceExtends.core_invariance_extends' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.projection_order_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.convolution_first_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.paired_cutoff_order_defects' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JThetaAttachment.original_haar_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JThetaAttachment.actual_theta_dilate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JThetaAttachment.actual_theta_dilate' depends on axioms: [propext, Classical.choice, Quot.sound]\nJThetaAttachment.actual_theta_dilate.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] (g : MasulloGRH.HeckeIdeles K) (f : MasulloGRH.HeckeAdeles K → ℂ)\n  (x : MasulloGRH.HeckeIdeleClasses K) :\n  Masullo.IdeleTheta.classTheta K (JThetaAttachment.dilateTest K g f) x = Masullo.IdeleTheta.classTheta K f (↑g * x)\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "3bb8e79de6b9400a86edf229e91f8692",
+ "target": "Proof.lean",
+ "theorem": "Round140C.genuine_two_sided_strip_nuclear",
+ "source_sha256": {
+  "Proof.lean": "785cf28ba96bd8788c1f28b89630d03e2348836ed4a22c9893d9b7af0c814e45"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 24.13629429403227,
+ "stdout": "",
+ "stderr": ""
+}

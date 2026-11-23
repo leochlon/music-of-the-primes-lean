@@ -1,0 +1,14 @@
+{
+ "request_id": "badfa11ffd634cc1a48cd8972ddcc6ea",
+ "target": "Proof.lean",
+ "theorem": "Round173B.projected_convolution_factors",
+ "source_sha256": {
+  "Proof.lean": "69fef71aeb1b0b0ff00015be76730322a6427caccda8c625aab3ea30193a3613"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.712012316042092,
+ "stdout": "Round173B.convolution_mem.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X] [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (G : Submodule ℂ H) [CompleteSpace ↥G] (μ : Measure X) (T : X → H →L[ℂ] H)\n  (h : X → ℂ) (hinv : ∀ (t : X), ∀ x ∈ G, (T t) x ∈ G) (x : H) (hx : x ∈ G)\n  (hint : Integrable (fun t => h t • (T t) x) μ) : ∫ (t : X), h t • (T t) x ∂μ ∈ G\n'Round173B.convolution_mem' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173B.convolution_quotient_intertwining.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X]\n  [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] (G : Submodule ℂ H) [CompleteSpace ↥G]\n  (μ : Measure X) (T : X → H →L[ℂ] H) (h : X → ℂ) (hinv : ∀ (t : X), ∀ x ∈ G, (T t) x ∈ G) (A : H →L[ℂ] H)\n  (hA : ∀ (x : H), A x = ∫ (t : X), h t • (T t) x ∂μ) (hint : ∀ (x : H), Integrable (fun t => h t • (T t) x) μ) :\n  ∃ B, ∀ (x : H), B (G.mkQ x) = G.mkQ (A x)\n'Round173B.convolution_quotient_intertwining' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173B.projected_convolution_factors.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X]\n  [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] (G : Submodule ℂ H) [CompleteSpace ↥G]\n  (μ : Measure X) (T : X → H →L[ℂ] H) (h : X → ℂ) (hinv : ∀ (t : X), ∀ x ∈ G, (T t) x ∈ G) (A : H →L[ℂ] H)\n  (hA : ∀ (x : H), A x = ∫ (t : X), h t • (T t) x ∂μ) (hint : ∀ (x : H), Integrable (fun t => h t • (T t) x) μ) :\n  ∃ B S,\n    (∀ (x : H), B (G.mkQ x) = G.mkQ (A x)) ∧\n      (∀ (x : H), S (G.mkQ x) = (Round173B.spectralProjection G) x) ∧\n        ∀ (x : H), (Round173B.spectralProjection G) (A x) = S (B (G.mkQ x))\n'Round173B.projected_convolution_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173B.projected_convolution_factors' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173B.projected_convolution_factors.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X]\n  [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] (G : Submodule ℂ H) [CompleteSpace ↥G]\n  (μ : Measure X) (T : X → H →L[ℂ] H) (h : X → ℂ) (hinv : ∀ (t : X), ∀ x ∈ G, (T t) x ∈ G) (A : H →L[ℂ] H)\n  (hA : ∀ (x : H), A x = ∫ (t : X), h t • (T t) x ∂μ) (hint : ∀ (x : H), Integrable (fun t => h t • (T t) x) μ) :\n  ∃ B S,\n    (∀ (x : H), B (G.mkQ x) = G.mkQ (A x)) ∧\n      (∀ (x : H), S (G.mkQ x) = (Round173B.spectralProjection G) x) ∧\n        ∀ (x : H), (Round173B.spectralProjection G) (A x) = S (B (G.mkQ x))\n",
+ "stderr": ""
+}

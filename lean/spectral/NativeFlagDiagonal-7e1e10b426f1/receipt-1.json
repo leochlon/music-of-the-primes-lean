@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-a27-native-flag-v1",
+ "target": "NativeFlagDiagonal.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeFlagDiagonal.lean": "7e1e10b426f1f5206862ef577be9f897b7b9905ed08d835a42d8ea1d4f2cb734",
+  "preserved/NativeFlagDiagonal.cycle06.v1.lean": "7e1e10b426f1f5206862ef577be9f897b7b9905ed08d835a42d8ea1d4f2cb734"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.007046676008031,
+ "stdout": "'ConditionalA27.native_flag_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

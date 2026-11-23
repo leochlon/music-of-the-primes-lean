@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle9_actual_theta_decay_v1",
+ "target": "ActualThetaDecay.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualThetaDecay.lean": "0398ab84c9b97fde2b17e0d4b14ad95c7a16b22a178e1ef3a7a157df8c3276c2",
+  "submitted/cycle9_actual_theta_decay_v1.lean": "0398ab84c9b97fde2b17e0d4b14ad95c7a16b22a178e1ef3a7a157df8c3276c2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.08327066298807,
+ "stdout": "'ConditionalB880.ideleTheta_principal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB880.classTheta_mk' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB880.theta_summable_principal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupA635.actual_classLog_inv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupA635.actual_theta_two_sided_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

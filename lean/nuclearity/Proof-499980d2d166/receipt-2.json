@@ -1,0 +1,14 @@
+{
+ "request_id": "c563dd065eee4aff9d053b1af341da97",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.dirichletPoleCleared_circleAverage_le_log",
+ "source_sha256": {
+  "Proof.lean": "499980d2d16670caeaf79698bcdc08b2c9417a476fa6a10876e2969ef9a699f7"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 1.6587716140202247,
+ "stdout": "",
+ "stderr": ""
+}

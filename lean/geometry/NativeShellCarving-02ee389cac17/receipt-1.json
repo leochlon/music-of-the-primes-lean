@@ -1,0 +1,14 @@
+{
+ "request_id": "5e7481f532494a0d88b8f45b72c00aaa",
+ "target": "NativeShellCarving.lean",
+ "theorem": "NativeShellCarving.descending_return",
+ "source_sha256": {
+  "NativeShellCarving.lean": "02ee389cac17eff3a4bcce1e714541a2f10d767b6f82cfb169c040a3522925c9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.978408513998147,
+ "stdout": "'NativeShellCarving.descending_return' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeShellCarving.gram_transport_defect' depends on axioms: [propext, Quot.sound]\n'NativeShellCarving.logged_carved_input_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeShellCarving.descending_return' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeShellCarving.descending_return.{u_1} {C : Type u_1} [AddCommGroup C] (c : ℕ → C) (N : ℕ) :\n  c 0 = c N + ∑ k ∈ Finset.range N, (c k - c (k + 1))\n",
+ "stderr": ""
+}

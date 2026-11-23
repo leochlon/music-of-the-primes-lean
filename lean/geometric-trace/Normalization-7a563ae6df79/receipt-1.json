@@ -1,0 +1,14 @@
+{
+ "request_id": "1ed53a0af4ae40b3abff7390f8c82366",
+ "target": "Normalization.lean",
+ "theorem": "MasulloGRH.Round4A.logDeriv_reflection_of_completed_FE",
+ "source_sha256": {
+  "Normalization.lean": "7a563ae6df79add1dba6b2b586d479de8f79cf35122e8378110417ff3070a5c9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.436520354007371,
+ "stdout": "MasulloGRH.Round4A.logDeriv_reflection_of_completed_FE (L Ldual : ℂ → ℂ) (a b s : ℂ)\n  (hdual : DifferentiableAt ℂ Ldual (1 - s)) (hne : Ldual (1 - s) ≠ 0)\n  (hFE : ∀ (z : ℂ), L z = Complex.exp (a - b * z) * Ldual (1 - z)) :\n  deriv L s / L s = -b - deriv Ldual (1 - s) / Ldual (1 - s)\n'MasulloGRH.Round4A.logDeriv_reflection_of_completed_FE' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.Round4A.logDeriv_reflection_of_completed_FE' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.Round4A.logDeriv_reflection_of_completed_FE (L Ldual : ℂ → ℂ) (a b s : ℂ)\n  (hdual : DifferentiableAt ℂ Ldual (1 - s)) (hne : Ldual (1 - s) ≠ 0)\n  (hFE : ∀ (z : ℂ), L z = Complex.exp (a - b * z) * Ldual (1 - z)) :\n  deriv L s / L s = -b - deriv Ldual (1 - s) / Ldual (1 - s)\n",
+ "stderr": ""
+}

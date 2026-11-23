@@ -1,0 +1,14 @@
+{
+ "request_id": "55fda2e87c474877995b86ea8a02e1a5",
+ "target": "GKernelAssembly.lean",
+ "theorem": "GReview.Kernel.convolution_first_diagonal",
+ "source_sha256": {
+  "GKernelAssembly.lean": "1b93859c8b966e9bb7143143cea72b1e2d1f59fd26d4a645d32b1b552b9c7ead"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.534222927992232,
+ "stdout": "'HNormalizedKernel.kernel_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HNormalizedKernel.diagonal_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HNormalizedKernel.diagonal_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'POriginalHaar.original_haar_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'POriginalHaar.rank_one_original_haar' depends on axioms: [propext, Classical.choice, Quot.sound]\n'POriginalHaar.weighted_rank_one_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GReview.Kernel.convolution_first_rank_one_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GReview.Kernel.convolution_first_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GReview.Kernel.convolution_first_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\nGReview.Kernel.convolution_first_diagonal.{u_1} {X : Type u_1} [MeasurableSpace X] (nu : Measure X) (b : X → ℝ)\n  (hb : ∀ (x : X), 0 < b x) (V : ℝ) (hV : 0 < V) (A : ↥(Lp ℂ 2 nu) →L[ℂ] ↥(Lp ℂ 2 nu)) (U : ↥(Lp ℂ 2 nu)) :\n  ∫ (x : X), HNormalizedKernel.haarKernel b V (↑↑U) (↑↑((ContinuousLinearMap.adjoint A) U)) x x ∂ENNReal.ofReal V • nu =\n    ⟪U, A U⟫_ℂ\n",
+ "stderr": ""
+}

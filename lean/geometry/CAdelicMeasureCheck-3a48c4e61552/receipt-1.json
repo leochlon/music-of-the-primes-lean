@@ -1,0 +1,14 @@
+{
+ "request_id": "e0a67033d3f043b483ac6ec36c7b6740",
+ "target": "CAdelicMeasureCheck.lean",
+ "theorem": "CNormalization.originalHaar_kernel_requirements",
+ "source_sha256": {
+  "CAdelicMeasureCheck.lean": "3a48c4e615529b7682aa6bd6dcc4123de927868e58f73476f378efcb12bcd9f2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 28.90959211299196,
+ "stdout": "'NIdelicTopology.principalIdeles_closed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NIdelicTopology.ideleLocallyCompact' depends on axioms: [propext, Classical.choice, Quot.sound]\nCNormalization.ideleClass_locallyFinite_sigmaFinite.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [SecondCountableTopology (MasulloGRH.HeckeIdeles K)] (mu : Measure (MasulloGRH.HeckeIdeleClasses K))\n  [IsLocallyFiniteMeasure mu] : SigmaFinite mu\n'CNormalization.ideleClass_locallyFinite_sigmaFinite' depends on axioms: [propext, Classical.choice, Quot.sound]\nCNormalization.ideleClass_haar_invInvariant.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [SecondCountableTopology (MasulloGRH.HeckeIdeles K)] [LocallyCompactSpace (MasulloGRH.HeckeIdeles K)]\n  (mu : Measure (MasulloGRH.HeckeIdeleClasses K)) [mu.IsHaarMeasure] : mu.IsInvInvariant\n'CNormalization.ideleClass_haar_invInvariant' depends on axioms: [propext, Classical.choice, Quot.sound]\nCNormalization.idele_secondCountable.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] : SecondCountableTopology (MasulloGRH.HeckeIdeles K)\n'CNormalization.idele_secondCountable' depends on axioms: [propext, Classical.choice, Quot.sound]\nCNormalization.originalHaar_kernel_requirements.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] (mu : Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] : SigmaFinite mu ∧ mu.IsInvInvariant\n'CNormalization.originalHaar_kernel_requirements' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CNormalization.originalHaar_kernel_requirements' depends on axioms: [propext, Classical.choice, Quot.sound]\nCNormalization.originalHaar_kernel_requirements.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [SecondCountableTopology (MasulloGRH.HeckeAdeles K)] (mu : Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] : SigmaFinite mu ∧ mu.IsInvInvariant\n",
+ "stderr": ""
+}

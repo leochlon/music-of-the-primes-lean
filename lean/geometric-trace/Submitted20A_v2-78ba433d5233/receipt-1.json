@@ -1,0 +1,15 @@
+{
+ "request_id": "c5f745f4d5934cd2a3722ad22843c712",
+ "target": "Proof.lean",
+ "theorem": "Round20A.shifted_pole_clearing_divisor_bridge",
+ "source_sha256": {
+  "Proof.lean": "78ba433d52331055f4b9c2a255b9d5a620819215f75b70123b2eb1512a3d69e6",
+  "preserved/Submitted20A_v2.lean": "78ba433d52331055f4b9c2a255b9d5a620819215f75b70123b2eb1512a3d69e6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.988388574973214,
+ "stdout": "Round19A.shifted_pole_clearing_identification (P : WeakFEPair ℂ) (τ : ℝ) (G : ℂ → ℂ) (hG : Differentiable ℂ G)\n  (hgerm :\n    ∀ (z : ℂ), P.k < z.re → G z = (z + ↑τ * I) * (z + ↑τ * I - ↑P.k) * mellin (fun x => P.f x - P.f₀) (z + ↑τ * I)) :\n  (∀ (z : ℂ),\n      G z =\n        (z + ↑τ * I) * (z + ↑τ * I - ↑P.k) * P.Λ₀ (z + ↑τ * I) - (z + ↑τ * I - ↑P.k) * P.f₀ +\n          (z + ↑τ * I) * P.ε * P.g₀) ∧\n    G (-↑τ * I) = ↑P.k * P.f₀ ∧ G (↑P.k - ↑τ * I) = ↑P.k * P.ε * P.g₀\n'Round19A.shifted_pole_clearing_identification' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound19A.shifted_pole_clearing_no_spurious_endpoint_zeros (P : WeakFEPair ℂ) (τ : ℝ) (G : ℂ → ℂ)\n  (hG : Differentiable ℂ G)\n  (hgerm :\n    ∀ (z : ℂ), P.k < z.re → G z = (z + ↑τ * I) * (z + ↑τ * I - ↑P.k) * mellin (fun x => P.f x - P.f₀) (z + ↑τ * I))\n  (hf₀ : P.f₀ ≠ 0) (hg₀ : P.g₀ ≠ 0) : G (-↑τ * I) ≠ 0 ∧ G (↑P.k - ↑τ * I) ≠ 0\n'Round19A.shifted_pole_clearing_no_spurious_endpoint_zeros' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound20A.shifted_pole_clearing_divisor_bridge (P : WeakFEPair ℂ) (τ : ℝ) (G : ℂ → ℂ) (hG : Differentiable ℂ G)\n  (hgerm :\n    ∀ (z : ℂ), P.k < z.re → G z = (z + ↑τ * I) * (z + ↑τ * I - ↑P.k) * mellin (fun x => P.f x - P.f₀) (z + ↑τ * I))\n  (hf₀ : P.f₀ ≠ 0) (hg₀ : P.g₀ ≠ 0) :\n  (∀ (x : ℂ),\n      x + ↑τ * I ≠ 0 →\n        x + ↑τ * I - ↑P.k ≠ 0 → meromorphicOrderAt G x = meromorphicOrderAt (fun z => P.Λ (z + ↑τ * I)) x) ∧\n    G (-↑τ * I) ≠ 0 ∧ G (↑P.k - ↑τ * I) ≠ 0\n'Round20A.shifted_pole_clearing_divisor_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round20A.shifted_pole_clearing_divisor_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound20A.shifted_pole_clearing_divisor_bridge (P : WeakFEPair ℂ) (τ : ℝ) (G : ℂ → ℂ) (hG : Differentiable ℂ G)\n  (hgerm :\n    ∀ (z : ℂ), P.k < z.re → G z = (z + ↑τ * I) * (z + ↑τ * I - ↑P.k) * mellin (fun x => P.f x - P.f₀) (z + ↑τ * I))\n  (hf₀ : P.f₀ ≠ 0) (hg₀ : P.g₀ ≠ 0) :\n  (∀ (x : ℂ),\n      x + ↑τ * I ≠ 0 →\n        x + ↑τ * I - ↑P.k ≠ 0 → meromorphicOrderAt G x = meromorphicOrderAt (fun z => P.Λ (z + ↑τ * I)) x) ∧\n    G (-↑τ * I) ≠ 0 ∧ G (↑P.k - ↑τ * I) ≠ 0\n",
+ "stderr": ""
+}

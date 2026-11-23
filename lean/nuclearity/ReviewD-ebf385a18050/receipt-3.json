@@ -1,0 +1,14 @@
+{
+ "request_id": "40306d80db5f4809901bd16f43823c4d",
+ "target": "Proof.lean",
+ "theorem": "Round97D.genuine_correction_rankOneCost_finite_of_logHaar",
+ "source_sha256": {
+  "Proof.lean": "ebf385a180505ee30f4ecfb9534bc7bd6be08a925b26dc9b9924796d54068f31"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 8.870293938030954,
+ "stdout": "",
+ "stderr": ""
+}

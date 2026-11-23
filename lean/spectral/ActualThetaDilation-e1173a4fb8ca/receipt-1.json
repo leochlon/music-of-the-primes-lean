@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle10_actual_theta_dilation_v3",
+ "target": "ActualThetaDilation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualThetaDilation.lean": "e1173a4fb8ca08a923556dbcb9e9a5a2fb0b8017d38872b90f0ce02caaa45fd3",
+  "preserved/cycle10/ActualThetaDilation.v3.lean": "e1173a4fb8ca08a923556dbcb9e9a5a2fb0b8017d38872b90f0ce02caaa45fd3"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.890912232978735,
+ "stdout": "'FollowupA636.actual_ideal_dilation_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

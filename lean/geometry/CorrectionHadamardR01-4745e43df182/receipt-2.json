@@ -1,0 +1,14 @@
+{
+ "request_id": "g-correction-r01-2",
+ "target": "CorrectionHadamardR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionHadamardR01.lean": "4745e43df182f338b49155e91a6c445655d877c7b384b4fbfef39fafd9413ccd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.826739342999645,
+ "stdout": "'CorrectionHadamardR01.eventually_large_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionHadamardR01.omitted_series_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionHadamardR01.omittedCopy_at_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

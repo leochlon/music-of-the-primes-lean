@@ -1,0 +1,14 @@
+{
+ "request_id": "24d98be3a300446aa914dc3d6922fa5f",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.subtracted_resolvent_central_ne_zero",
+ "source_sha256": {
+  "Proof.lean": "ef4fd6020cb40df11fd20beffa23ab120cf1de5fa7474a90e92fc5ab396fcfa9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.747984232963063,
+ "stdout": "MasulloGRH.realPlaceKernel_lower (t : ℝ) (ht : 1 < t) (ht2 : t ≤ 2) : 1 / (4 * (t - 1)) ≤ MasulloGRH.realPlaceKernel t\n'MasulloGRH.realPlaceKernel_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.realPlaceKernel_sub_reference (t : ℝ) (ht : 1 < t) :\n  MasulloGRH.realPlaceKernel t - 1 / (t * (t - 1)) = -1 / t ^ 2\n'MasulloGRH.realPlaceKernel_sub_reference' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.inverse_shift_integral (ε : ℝ) (hε : 0 < ε) (hε1 : ε ≤ 1) : ∫ (t : ℝ) in 1 + ε..2, 1 / (t - 1) = -Real.log ε\n'MasulloGRH.inverse_shift_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.realPlaceKernel_integral_lower (ε : ℝ) (hε : 0 < ε) (hε1 : ε ≤ 1) :\n  -Real.log ε / 4 ≤ ∫ (t : ℝ) in 1 + ε..2, MasulloGRH.realPlaceKernel t\n'MasulloGRH.realPlaceKernel_integral_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.realPlaceKernel_integrals_unbounded (M : ℝ) :\n  ∃ ε, 0 < ε ∧ ε ≤ 1 ∧ M < ∫ (t : ℝ) in 1 + ε..2, MasulloGRH.realPlaceKernel t\n'MasulloGRH.realPlaceKernel_integrals_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.resolvent_subtraction (z z₀ w : ℂ) (hz : z ≠ w) (hz₀ : z₀ ≠ w) :\n  1 / (z - w) - 1 / (z₀ - w) = (z₀ - z) / ((z - w) * (z₀ - w))\n'MasulloGRH.resolvent_subtraction' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.resolvent_subtraction_bound (z z₀ w : ℂ) (R : ℝ) (hR : 0 < R) (h₁ : R ≤ ‖z - w‖) (h₂ : R ≤ ‖z₀ - w‖) :\n  ‖1 / (z - w) - 1 / (z₀ - w)‖ ≤ ‖z₀ - z‖ / (R * R)\n'MasulloGRH.resolvent_subtraction_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.subtracted_resolvent_central_ne_zero (z z₀ : ℂ) (hne : z ≠ z₀) : 1 / z - 1 / z₀ ≠ 0\n'MasulloGRH.subtracted_resolvent_central_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.subtracted_resolvent_central_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.subtracted_resolvent_central_ne_zero (z z₀ : ℂ) (hne : z ≠ z₀) : 1 / z - 1 / z₀ ≠ 0\n",
+ "stderr": ""
+}

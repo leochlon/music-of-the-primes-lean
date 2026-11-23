@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle10_real_s0_v1",
+ "target": "ActualRealS0Calibration.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualRealS0Calibration.lean": "66c6412b1635815f8fc9b74368cbad1e566308f259791b99a1fbbc9354d28297",
+  "preserved/ActualRealS0Calibration.c10.v1.lean": "66c6412b1635815f8fc9b74368cbad1e566308f259791b99a1fbbc9354d28297"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.110146035964135,
+ "stdout": "'ActualRealS0.actual_gaussian_calibration' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

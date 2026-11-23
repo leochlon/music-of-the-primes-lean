@@ -1,0 +1,14 @@
+{
+ "request_id": "projection-r02-2",
+ "target": "ProjectionR02.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ProjectionR02.lean": "5634f9c15b62d8274daf46bebf9292555464868f374b616309b05568abe6cebd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.283027787983883,
+ "stdout": "'GeometryR02.compression_of_invariant_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometryR02.quotient_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]\nSubmodule.starProjection.{u_1, u_2} {𝕜 : Type u_1} {E : Type u_2} [RCLike 𝕜] [NormedAddCommGroup E]\n  [InnerProductSpace 𝕜 E] (U : Submodule 𝕜 E) [U.HasOrthogonalProjection] : E →L[𝕜] E\nSubmodule.starProjection_apply_mem.{u_1, u_2} {𝕜 : Type u_1} {E : Type u_2} [RCLike 𝕜] [NormedAddCommGroup E]\n  [InnerProductSpace 𝕜 E] (U : Submodule 𝕜 E) [U.HasOrthogonalProjection] (x : E) : U.starProjection x ∈ U\nSubmodule.sub_starProjection_mem_orthogonal.{u_1, u_2} {𝕜 : Type u_1} {E : Type u_2} [RCLike 𝕜] [NormedAddCommGroup E]\n  [InnerProductSpace 𝕜 E] {K : Submodule 𝕜 E} [K.HasOrthogonalProjection] (v : E) : v - K.starProjection v ∈ Kᗮ\n",
+ "stderr": ""
+}

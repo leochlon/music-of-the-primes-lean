@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-c882-opnorm-v1",
+ "target": "NativeOperatorNormMeasurability.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeOperatorNormMeasurability.lean": "5403a071483dee4183096300f4b611e6c60610d1d79e9b88a96ba21ddd7ff8bd",
+  "submitted/NativeOperatorNormMeasurability.c10.v1.lean": "5403a071483dee4183096300f4b611e6c60610d1d79e9b88a96ba21ddd7ff8bd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 43.474705617991276,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_envelope_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_hasFiniteIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_bochner_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_operator_convolution_hasFiniteIntegral' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'ConditionalD881.actualTranslation_measurable_dist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC882.native_operatorNorm_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

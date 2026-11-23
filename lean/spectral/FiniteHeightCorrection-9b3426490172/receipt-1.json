@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle02_finiteheight_v2",
+ "target": "FiniteHeightCorrection.lean",
+ "theorem": null,
+ "source_sha256": {
+  "FiniteHeightCorrection.lean": "9b34264901720037c40dfc0399213b47d8a9364675697ab3953d0beae96db8e4",
+  "preserved/FiniteHeightCorrection.cycle02.v2.lean": "9b34264901720037c40dfc0399213b47d8a9364675697ab3953d0beae96db8e4"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 15.494977360009216,
+ "stdout": "'ActualZeroCorrection.corrected_arithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.native_width_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.finite_actual_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.zero_width_native' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.exterior_omitted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualZeroCorrection.actual_tsum_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.height_zero_set_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.height_weight_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.actual_height_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.actual_height_width_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.boundary_free_native_height' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

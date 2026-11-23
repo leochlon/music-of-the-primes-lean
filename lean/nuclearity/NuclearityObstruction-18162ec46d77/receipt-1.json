@@ -1,0 +1,14 @@
+{
+ "request_id": "1583555c35ce490184f9bc63c7ada8ae",
+ "target": "NuclearityObstruction.lean",
+ "theorem": "MasulloGRH.no_uniform_rank_norm_bound",
+ "source_sha256": {
+  "NuclearityObstruction.lean": "18162ec46d7752222a9570fa1e3aa62037626c20c105e6eef852371eff17c8c9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.37830738601042,
+ "stdout": "MasulloGRH.no_uniform_rank_norm_bound (C : ℝ) : ∃ n, C ^ 2 * ↑n < ↑n ^ 2\n'MasulloGRH.no_uniform_rank_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.no_uniform_rank_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.no_uniform_rank_norm_bound (C : ℝ) : ∃ n, C ^ 2 * ↑n < ↑n ^ 2\n",
+ "stderr": ""
+}

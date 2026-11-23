@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-c881-representation-v1",
+ "target": "NativeTranslationRepresentation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeTranslationRepresentation.lean": "c70cc69075bea27cdc97b7ec5f62f0a63eb5d4284e1dc295ee3f3e1674981220",
+  "submitted/NativeTranslationRepresentation.c09.v1.lean": "c70cc69075bea27cdc97b7ec5f62f0a63eb5d4284e1dc295ee3f3e1674981220"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 32.53111634001834,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC880.native_translation_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC880.native_translation_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

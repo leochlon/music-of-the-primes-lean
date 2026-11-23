@@ -1,0 +1,14 @@
+{
+ "request_id": "f506c80c1ccd4bb482ab4dce16d97a11",
+ "target": "NativeOrbitalUnfoldingR33.lean",
+ "theorem": "NativeOrbitalUnfoldingR33.shell_telescope",
+ "source_sha256": {
+  "NativeOrbitalUnfoldingR33.lean": "867aa291ce14de71e2574bdc65e2547769b5ba2719bc3c9e00738910afa381a0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.4160217650351115,
+ "stdout": "'NativeOrbitalUnfoldingR33.cutoff_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.shell_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.logged_entry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.width_source_sign' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrbitalUnfoldingR33.shell_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeOrbitalUnfoldingR33.shell_telescope (a : ℕ → ℂ) (n : ℕ) : ∑ k ∈ Finset.range n, (a k - a (k + 1)) = a 0 - a n\n",
+ "stderr": ""
+}

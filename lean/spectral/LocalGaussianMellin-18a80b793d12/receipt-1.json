@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-a882-real-gaussian-v2",
+ "target": "preserved/LocalGaussianMellin.cycle10.v2.lean",
+ "theorem": null,
+ "source_sha256": {
+  "LocalGaussianMellin.lean": "18a80b793d123d737f258791ec02f585dfd034b68f6886d4fb93cf06034a6d51",
+  "preserved/LocalGaussianMellin.cycle10.v2.lean": "18a80b793d123d737f258791ec02f585dfd034b68f6886d4fb93cf06034a6d51"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.454677881032694,
+ "stdout": "'ConditionalA881.manuscript_real_gaussian_zeta' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

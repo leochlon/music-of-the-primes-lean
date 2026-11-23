@@ -1,0 +1,14 @@
+{
+ "request_id": "420f35c2679c49618a4d545d83d8b6bd",
+ "target": "NLocalArithmeticCheck.lean",
+ "theorem": "NLocalArithmetic.finiteLocalDensity_unit_zero",
+ "source_sha256": {
+  "NLocalArithmeticCheck.lean": "66d49b9fe6cec24a78433f227d59347efa48d0ab6f9e02a975c895e4d342555e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.308697280997876,
+ "stdout": "'NLocalArithmetic.finiteClass_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NLocalArithmetic.finiteLocalDensity_unit_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NLocalArithmetic.finiteLocalDensity_unit_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\nNLocalArithmetic.finiteLocalDensity_unit_zero.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (v : NumberField.FinitePlace K) (h : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hh : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → h x = 0)\n  (u : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ)\n  (hu : u ∈ NLocalArithmetic.finiteUnitGroup K v) : NLocalArithmetic.finiteLocalDensity K v h u = 0\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-d882-orbit-integrable-v2",
+ "target": "NativeOrbitIntegrable.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeOrbitIntegrable.lean": "49bbd45da38112de2969e7ba33dc3b7588769b04a58f332671bd835a88b9a800",
+  "preserved/cycle10/NativeOrbitIntegrable.v2.lean": "49bbd45da38112de2969e7ba33dc3b7588769b04a58f332671bd835a88b9a800"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 50.209031763952225,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_envelope_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_hasFiniteIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_convolution_bochner_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslationCLM_representation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8G.actualTranslation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD880.native_operator_convolution_hasFiniteIntegral' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'ConditionalD881.actualTranslation_measurable_dist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD882.actualTranslation_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD882.actual_compact_convolution_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle10G.actual_native_Lp_secondCountable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD882.original_haar_compact_convolution_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

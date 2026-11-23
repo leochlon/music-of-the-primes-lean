@@ -1,0 +1,15 @@
+{
+ "request_id": "c8fd2dae879a48bd99f076bb282c7862",
+ "target": "Proof.lean",
+ "theorem": "CriticalLineF.zero_logDeriv_no_continuous_extension",
+ "source_sha256": {
+  "Proof.lean": "34d1120ee45f71bedae39b930422b94da55470a5e07e3272e3e8f30e529444b8",
+  "preserved/r53/Proof.lean": "5d0049cf89a6604fb43d4267f7da6fb78a5f553acfef8f3c1279944a3f03ca6d"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 5.724128341011237,
+ "stdout": "Proof.lean:21:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n  deriv ((fun x => id x - r) ^ (n + 1) * u) z\nin the target expression\n  (z - r) * (deriv (fun w => (w - r) ^ (n + 1) * u w) z / ((z - r) ^ (n + 1) * u z)) =\n    ↑(n + 1) + (z - r) * deriv u z / u z\n\nu : ℂ → ℂ\nr z : ℂ\nn : ℕ\nhz : z ≠ r\nhu : u z ≠ 0\nhd : DifferentiableAt ℂ u z\nh :\n  HasDerivAt ((fun x => id x - r) ^ (n + 1) * u)\n    (↑(n + 1) * (id z - r) ^ (n + 1 - 1) * 1 * u z + ((fun x => id x - r) ^ (n + 1)) z * deriv u z) z\n⊢ (z - r) * (deriv (fun w => (w - r) ^ (n + 1) * u w) z / ((z - r) ^ (n + 1) * u z)) =\n    ↑(n + 1) + (z - r) * deriv u z / u z\nCriticalLineF.zero_logDeriv_residue (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r) (hc' : ContinuousAt (deriv u) r)\n  (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  Tendsto (fun z => (z - r) * logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) (𝓝[≠] r) (𝓝 ↑(n + 1))\n'CriticalLineF.zero_logDeriv_residue' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\nCriticalLineF.zero_logDeriv_no_continuous_extension (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r)\n  (hc' : ContinuousAt (deriv u) r) (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  ¬∃ H, ContinuousAt H r ∧ (fun z => logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) =ᶠ[𝓝[≠] r] H\n'CriticalLineF.zero_logDeriv_no_continuous_extension' depends on axioms: [propext,\n sorryAx,\n Classical.choice,\n Quot.sound]\n'CriticalLineF.zero_logDeriv_no_continuous_extension' depends on axioms: [propext,\n sorryAx,\n Classical.choice,\n Quot.sound]\nCriticalLineF.zero_logDeriv_no_continuous_extension (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r)\n  (hc' : ContinuousAt (deriv u) r) (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  ¬∃ H, ContinuousAt H r ∧ (fun z => logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) =ᶠ[𝓝[≠] r] H\n",
+ "stderr": ""
+}

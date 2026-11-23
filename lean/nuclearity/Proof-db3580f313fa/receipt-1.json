@@ -1,0 +1,14 @@
+{
+ "request_id": "852bea7d763f4757bbabcfaef5c95511",
+ "target": "Proof.lean",
+ "theorem": "Round188D.dividedGroupOrbit_generator_domain",
+ "source_sha256": {
+  "Proof.lean": "db3580f313fa51e757cfeeb908f2d4b51115590e7d10f6d780f1b6d817c93caf"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.914477903977968,
+ "stdout": "Round184D.digamma_real_tail_majorant (t x y : ℝ) (ht : 0 < t) (hx : 1 ≤ x) :\n  1 / t - (t + x - 1) / ((t + x - 1) ^ 2 + y ^ 2) ≤ (x - 1) / t ^ 2 + y ^ 2 / t ^ 3\n'Round184D.digamma_real_tail_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound187D.divided_orbit_hasDerivAt.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E] [NormedSpace ℂ E]\n  [IsScalarTower ℝ ℂ E] [CompleteSpace E] (f : ℝ → E) (hf : Continuous f) (z : ℂ) (t : ℝ) :\n  HasDerivAt (fun s => Complex.exp (z * ↑(t + s)) • (weightedPrimitive f z (t + s) - weightedPrimitive f z s))\n    (z • Complex.exp (z * ↑t) • weightedPrimitive f z t + f t - Complex.exp (z * ↑t) • f 0) 0\n'Round187D.divided_orbit_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound187D.translated_divided_integral.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E] [NormedSpace ℂ E]\n  [IsScalarTower ℝ ℂ E] (f : ℝ → E) (hf : Continuous f) (z : ℂ) (t s : ℝ) :\n  ∫ (v : ℝ) in 0..t, Complex.exp (z * ↑(t - v)) • f (v + s) =\n    Complex.exp (z * ↑(t + s)) • (weightedPrimitive f z (t + s) - weightedPrimitive f z s)\n'Round187D.translated_divided_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188D.dividedGroupOrbit_generator_domain.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E]\n  [NormedSpace ℂ E] [IsScalarTower ℝ ℂ E] [CompleteSpace E] (U : ℝ → E →L[ℂ] E) (hzero : ∀ (x : E), (U 0) x = x)\n  (hgroup : ∀ (s v : ℝ) (x : E), (U s) ((U v) x) = (U (v + s)) x) (hcont : ∀ (x : E), Continuous fun v => (U v) x)\n  (z : ℂ) (t : ℝ) (x : E) :\n  HasDerivAt (fun s => (U s) (dividedGroupOrbit U z t x))\n    (z • dividedGroupOrbit U z t x + (U t) x - Complex.exp (z * ↑t) • x) 0\n'Round188D.dividedGroupOrbit_generator_domain' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round188D.dividedGroupOrbit_generator_domain' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188D.dividedGroupOrbit_generator_domain.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E]\n  [NormedSpace ℂ E] [IsScalarTower ℝ ℂ E] [CompleteSpace E] (U : ℝ → E →L[ℂ] E) (hzero : ∀ (x : E), (U 0) x = x)\n  (hgroup : ∀ (s v : ℝ) (x : E), (U s) ((U v) x) = (U (v + s)) x) (hcont : ∀ (x : E), Continuous fun v => (U v) x)\n  (z : ℂ) (t : ℝ) (x : E) :\n  HasDerivAt (fun s => (U s) (Round188D.dividedGroupOrbit U z t x))\n    (z • Round188D.dividedGroupOrbit U z t x + (U t) x - Complex.exp (z * ↑t) • x) 0\n",
+ "stderr": ""
+}

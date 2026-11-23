@@ -1,0 +1,7 @@
+{
+ "request_id": "311bf796ddfa457f93bdc228c660fab8",
+ "theorem": "Round139F.genuine_coefficient_functional_bound",
+ "source_sha256": "82b7b9ada0fd7d32d35fe41025b233a2252685cc3eb4e8b8b9eb459d2c3b5f00",
+ "compiled": true,
+ "exit_code": 0
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "g-r05-interval-scope-fixed",
+ "target": "IntervalScopeR5.lean",
+ "theorem": "GeometricIntervalR5.real_local_gt_poles",
+ "source_sha256": {
+  "IntervalScopeR5.lean": "0bcf781079741411e9efb8a6aafd50b2749c45e23f5fa2146c578eabddadf256"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.758095905999653,
+ "stdout": "'GeometricIntervalR5.real_local_gt_poles' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricIntervalR5.real_local_gt_poles' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricIntervalR5.real_local_gt_poles {t : ℝ} (ht : 1 < t) (hu : t < 6 / 5) : (√t + (√t)⁻¹) / t < √t / (t ^ 2 - 1)\n",
+ "stderr": ""
+}

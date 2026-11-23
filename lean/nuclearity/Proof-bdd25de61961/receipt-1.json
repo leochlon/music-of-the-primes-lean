@@ -1,0 +1,14 @@
+{
+ "request_id": "d0bfe2508a254969beb93b05df5e20be",
+ "target": "Proof.lean",
+ "theorem": "Round188E.native_resolvent_graph_integral",
+ "source_sha256": {
+  "Proof.lean": "bdd25de61961b5c5809ac21eaa45f06300a53cf609ee66cbe310191be4470b72"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.689333862974308,
+ "stdout": "Round187E.norm_one_tate_seed.{u_1} {V : Type u_1} [AddCommGroup V] [Module ℂ V] (R : Module.End ℂ V)\n  (d0 d1 Z : V →ₗ[ℂ] ℂ) (f : V) (c : ℂ) (hc : c ≠ 1) (h0 : d0 (R f) = d0 f) (h1 : d1 (R f) = d1 f)\n  (hZ : Z (R f) = c * Z f) :\n  have g := (c - 1)⁻¹ • (R f - f);\n  d0 g = 0 ∧ d1 g = 0 ∧ Z g = Z f\n'Round187E.norm_one_tate_seed' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound187E.euler_tate_seed.{u_1} {V : Type u_1} [AddCommGroup V] [Module ℂ V] (D : Module.End ℂ V) (d0 d1 Z : V →ₗ[ℂ] ℂ)\n  (f : V) (z : ℂ) (h0 : ∀ (v : V), d0 (D v) = 0) (h1 : ∀ (v : V), d1 (D v) = d1 v) (hZ : ∀ (v : V), Z (D v) = z * Z v) :\n  have g := D (D f - f);\n  d0 g = 0 ∧ d1 g = 0 ∧ Z g = z * (z - 1) * Z f\n'Round187E.euler_tate_seed' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound187E.native_haar_seed_normalization.{u_1} {V : Type u_1} [AddCommGroup V] [Module ℂ V] (M : V →ₗ[ℂ] ℂ) (g : V)\n  (κ L : ℂ) (hκ : κ ≠ 0) (hM : M g = κ⁻¹ * L) : M (κ • g) = L\n'Round187E.native_haar_seed_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188E.native_resolvent_graph_integral.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X]\n  [NormedAddCommGroup H] [NormedSpace ℂ H] [NormedSpace ℝ H] [IsScalarTower ℝ ℂ H] [CompleteSpace H]\n  (Γ : Submodule ℂ (H × H)) [CompleteSpace ↥Γ] (μ : Measure X) (f : X → ↥Γ) (hf : Integrable f μ) :\n  (∫ (t : X), (↑(f t)).1 ∂μ, ∫ (t : X), (↑(f t)).2 ∂μ) ∈ Γ\n'Round188E.native_resolvent_graph_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round188E.native_resolvent_graph_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound188E.native_resolvent_graph_integral.{u_1, u_2} {X : Type u_1} {H : Type u_2} [MeasurableSpace X]\n  [NormedAddCommGroup H] [NormedSpace ℂ H] [NormedSpace ℝ H] [IsScalarTower ℝ ℂ H] [CompleteSpace H]\n  (Γ : Submodule ℂ (H × H)) [CompleteSpace ↥Γ] (μ : Measure X) (f : X → ↥Γ) (hf : Integrable f μ) :\n  (∫ (t : X), (↑(f t)).1 ∂μ, ∫ (t : X), (↑(f t)).2 ∂μ) ∈ Γ\n",
+ "stderr": ""
+}

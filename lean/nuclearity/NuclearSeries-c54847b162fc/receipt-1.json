@@ -1,0 +1,14 @@
+{
+ "request_id": "bc561822a72b418e929ee6f3ca1620f2",
+ "target": "NuclearSeries.lean",
+ "theorem": "Round103C.right_composed_nuclear_cost",
+ "source_sha256": {
+  "NuclearSeries.lean": "c54847b162fc72d7bdaeea658bfd8a8f5f8d2cd19f25869aed54c0a835ac9880"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.593700316967443,
+ "stdout": "Round103C.rankOne_series_of_cost.{u_1, u_2} {H : Type u_1} {ι : Type u_2} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (u v : ι → H) (hc : Summable fun i => ‖u i‖ * ‖v i‖) :\n  (Summable fun i => ‖((innerSL ℂ) (v i)).smulRight (u i)‖) ∧ Summable fun i => ((innerSL ℂ) (v i)).smulRight (u i)\n'Round103C.rankOne_series_of_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound103C.rankOne_operator_hasSum_of_strong.{u_1, u_2} {H : Type u_1} {ι : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (u v : ι → H) (T : H →L[ℂ] H)\n  (hc : Summable fun i => ‖u i‖ * ‖(innerSL ℂ) (v i)‖) (hs : ∀ (F : H), HasSum (fun i => inner ℂ (v i) F • u i) (T F)) :\n  HasSum (fun i => ((innerSL ℂ) (v i)).smulRight (u i)) T\n'Round103C.rankOne_operator_hasSum_of_strong' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound103C.right_composed_nuclear_cost.{u_1, u_2} {H : Type u_1} {ι : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (u v : ι → H) (T P : H →L[ℂ] H)\n  (hc : Summable fun i => ‖u i‖ * ‖(innerSL ℂ) (v i)‖) (hs : ∀ (F : H), HasSum (fun i => inner ℂ (v i) F • u i) (T F)) :\n  (Summable fun i => ‖u i‖ * ‖((innerSL ℂ) (v i)).comp P‖) ∧\n    ∀ (F : H), HasSum (fun i => (((innerSL ℂ) (v i)).comp P) F • u i) ((T.comp P) F)\n'Round103C.right_composed_nuclear_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round103C.right_composed_nuclear_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound103C.right_composed_nuclear_cost.{u_1, u_2} {H : Type u_1} {ι : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (u v : ι → H) (T P : H →L[ℂ] H)\n  (hc : Summable fun i => ‖u i‖ * ‖(innerSL ℂ) (v i)‖) (hs : ∀ (F : H), HasSum (fun i => inner ℂ (v i) F • u i) (T F)) :\n  (Summable fun i => ‖u i‖ * ‖((innerSL ℂ) (v i)).comp P‖) ∧\n    ∀ (F : H), HasSum (fun i => (((innerSL ℂ) (v i)).comp P) F • u i) ((T.comp P) F)\n",
+ "stderr": ""
+}

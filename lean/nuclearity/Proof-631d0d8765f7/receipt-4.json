@@ -1,0 +1,14 @@
+{
+ "request_id": "f903948f67db45b0beae6b10030c863b",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.finiteAdeleTest_admissible",
+ "source_sha256": {
+  "Proof.lean": "631d0d8765f74fdc197fbf4891c6296ee61162f5989d5ab018d9106c0b0f0347"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 6.525745876017027,
+ "stdout": "",
+ "stderr": ""
+}

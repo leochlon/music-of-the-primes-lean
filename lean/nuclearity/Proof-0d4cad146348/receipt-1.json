@@ -1,0 +1,14 @@
+{
+ "request_id": "ddaad65fe30f43cdb412fa5b93d728b5",
+ "target": "Proof.lean",
+ "theorem": "Round182C.finite_window_resolvent_energy",
+ "source_sha256": {
+  "Proof.lean": "0d4cad146348262d462cb4de267fc483c4ec84d3c1862b01ae800022258ee533"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.6569464929634705,
+ "stdout": "Round182C.resolvent_energy_bound.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (B R : H →L[ℂ] H)\n  (z omega : ℝ) (hnum : ∀ (y : H), (⟪y, B y⟫_ℂ).re ≤ omega * ‖y‖ ^ 2) (hres : ∀ (x : H), ↑z • R x - B (R x) = x)\n  (x : H) : (z - omega) * ‖R x‖ ^ 2 ≤ (⟪R x, x⟫_ℂ).re\n'Round182C.resolvent_energy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182C.finite_window_resolvent_energy.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} [Fintype J] (e : J → H) (B R : H →L[ℂ] H) (z omega : ℝ)\n  (hnum : ∀ (y : H), (⟪y, B y⟫_ℂ).re ≤ omega * ‖y‖ ^ 2) (hres : ∀ (x : H), ↑z • R x - B (R x) = x) :\n  (z - omega) * ∑ j, ‖R (e j)‖ ^ 2 ≤ ∑ j, (⟪R (e j), e j⟫_ℂ).re\n'Round182C.finite_window_resolvent_energy' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round182C.finite_window_resolvent_energy' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182C.finite_window_resolvent_energy.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} [Fintype J] (e : J → H) (B R : H →L[ℂ] H) (z omega : ℝ)\n  (hnum : ∀ (y : H), (⟪y, B y⟫_ℂ).re ≤ omega * ‖y‖ ^ 2) (hres : ∀ (x : H), ↑z • R x - B (R x) = x) :\n  (z - omega) * ∑ j, ‖R (e j)‖ ^ 2 ≤ ∑ j, (⟪R (e j), e j⟫_ℂ).re\n",
+ "stderr": ""
+}

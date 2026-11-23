@@ -1,0 +1,14 @@
+{
+ "request_id": "63275098e7b84dff87b17af740950896",
+ "target": "NativeCutoffR02.lean",
+ "theorem": "NativeCutoffR02.weight_translation_square",
+ "source_sha256": {
+  "NativeCutoffR02.lean": "5a983d0f0a410cae2dc52ebe77e1253ac4f86e45da388a573ee7260afdfe8946"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.871148631034885,
+ "stdout": "'NativeCutoffR02.weight_translation_square' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeCutoffR02.inverse_difference' depends on axioms: [propext]\n'NativeCutoffR02.logged_inverse_difference' depends on axioms: [propext, Quot.sound]\n'NativeCutoffR02.weight_translation_square' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeCutoffR02.weight_translation_square (u v : ℝ) : 1 + (u + v) ^ 2 ≤ (1 + |v|) ^ 2 * (1 + u ^ 2)\n",
+ "stderr": ""
+}

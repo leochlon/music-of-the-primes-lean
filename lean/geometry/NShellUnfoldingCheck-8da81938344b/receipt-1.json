@@ -1,0 +1,14 @@
+{
+ "request_id": "186cf7683c70420c9ce1458004567b6b",
+ "target": "NShellUnfoldingCheck.lean",
+ "theorem": "NArithmeticUnfolding.lintegral_arithmetic_shell_unfold",
+ "source_sha256": {
+  "NShellUnfoldingCheck.lean": "8da81938344bf4c50cad68e7f9f34b9b63f1a01b9e7ba2e695664b089d9fd4a6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 34.78699934098404,
+ "stdout": "NArithmeticUnfolding.lintegral_arithmetic_shell_unfold.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  (lambda : Measure (MasulloGRH.HeckeIdeles K)) [lambda.IsMulLeftInvariant] (v : ℕ → FinitePlace K) (e : Option ℕ)\n  (F : MasulloGRH.HeckeIdeleClasses K → ENNReal) (hF : Measurable F) :\n  ∫⁻ (x : MasulloGRH.HeckeIdeleClasses K),\n      ENNReal.ofReal (NDivisorialShells.descendedMask K v (NDivisorialShells.arithmeticIndentation K) e x) *\n        F x ∂NArithmeticUnfolding.quotientMeasure K lambda =\n    ∫⁻ (y : MasulloGRH.HeckeIdeles K),\n      NArithmeticUnfolding.indentationDensity K y * ENNReal.ofReal (NDivisorialShells.upstairsMask K v e y) *\n        F ↑y ∂lambda\n'NArithmeticUnfolding.lintegral_arithmetic_shell_unfold' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NArithmeticUnfolding.lintegral_arithmetic_shell_unfold' depends on axioms: [propext, Classical.choice, Quot.sound]\nNArithmeticUnfolding.lintegral_arithmetic_shell_unfold.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeIdeles K)] [BorelSpace (MasulloGRH.HeckeIdeles K)]\n  (lambda : Measure (MasulloGRH.HeckeIdeles K)) [lambda.IsMulLeftInvariant] (v : ℕ → FinitePlace K) (e : Option ℕ)\n  (F : MasulloGRH.HeckeIdeleClasses K → ENNReal) (hF : Measurable F) :\n  ∫⁻ (x : MasulloGRH.HeckeIdeleClasses K),\n      ENNReal.ofReal (NDivisorialShells.descendedMask K v (NDivisorialShells.arithmeticIndentation K) e x) *\n        F x ∂NArithmeticUnfolding.quotientMeasure K lambda =\n    ∫⁻ (y : MasulloGRH.HeckeIdeles K),\n      NArithmeticUnfolding.indentationDensity K y * ENNReal.ofReal (NDivisorialShells.upstairsMask K v e y) *\n        F ↑y ∂lambda\n",
+ "stderr": ""
+}

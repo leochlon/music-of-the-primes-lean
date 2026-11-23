@@ -1,0 +1,14 @@
+{
+ "request_id": "5935970687e3449c83198de44dd776ac",
+ "target": "ProjectionOrder.lean",
+ "theorem": "GeometricTrace.projection_after_convolution",
+ "source_sha256": {
+  "ProjectionOrder.lean": "8916d75abcae41fbb38b8db3b53345e525e486c4656397150c7f31c407dc87f1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.511826630041469,
+ "stdout": "'GeometricTrace.projection_after_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTrace.projection_after_convolution.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (M : Submodule ℂ H) [CompleteSpace ↥M] (A : H →L[ℂ] H) (hA : ∀ x ∈ M, A x ∈ M) :\n  (GeometricTrace.spec M).comp A = ((GeometricTrace.spec M).comp A).comp (GeometricTrace.spec M)\n",
+ "stderr": ""
+}

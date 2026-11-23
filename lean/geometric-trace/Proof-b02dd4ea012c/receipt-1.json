@@ -1,0 +1,14 @@
+{
+ "request_id": "f236760ba868468896f0dae418855de2",
+ "target": "Proof.lean",
+ "theorem": "GeometricReview18C.later_unitMask_preserves_geometric_shell_iff_zero",
+ "source_sha256": {
+  "Proof.lean": "b02dd4ea012c27cb6127d0afafb73027f0cc55b64737856e58e7a1b1e79a60ff"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.796374707017094,
+ "stdout": "GeometricReview18C.later_unitMask_preserves_geometric_shell_iff_zero.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  {P Q R : Finset (GeometricReview18C.FinitePlace K)} (hPQ : P ⊆ Q) (hQR : Q ⊆ R)\n  (kernel : GeometricReview18C.Ideles K → GeometricReview18C.Ideles K → ℂ) (x y : GeometricReview18C.Ideles K) :\n  (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y *\n        GeometricReview18C.unitMask K R y =\n      (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y ↔\n    (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y = 0\n'GeometricReview18C.later_unitMask_preserves_geometric_shell_iff_zero' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nGeometricReview18C.later_unitMask_annihilates_geometric_shell.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  {P Q R : Finset (GeometricReview18C.FinitePlace K)} (hPQ : P ⊆ Q) (hQR : Q ⊆ R)\n  (kernel : GeometricReview18C.Ideles K → GeometricReview18C.Ideles K → ℂ) (x y : GeometricReview18C.Ideles K) :\n  (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y *\n      GeometricReview18C.unitMask K R y =\n    0\n'GeometricReview18C.later_unitMask_annihilates_geometric_shell' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricReview18C.later_unitMask_preserves_geometric_shell_iff_zero' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nGeometricReview18C.later_unitMask_preserves_geometric_shell_iff_zero.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  {P Q R : Finset (GeometricReview18C.FinitePlace K)} (hPQ : P ⊆ Q) (hQR : Q ⊆ R)\n  (kernel : GeometricReview18C.Ideles K → GeometricReview18C.Ideles K → ℂ) (x y : GeometricReview18C.Ideles K) :\n  (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y *\n        GeometricReview18C.unitMask K R y =\n      (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y ↔\n    (GeometricReview18C.unitMask K Q y - GeometricReview18C.unitMask K P y) * kernel x y = 0\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "cycle12_complex_remainder_v3",
+ "target": "ComplexSchwartzRemainder.lean",
+ "theorem": "FollowupE12.angular_origin_remainder_bound",
+ "source_sha256": {
+  "ComplexSchwartzRemainder.lean": "43ab21b1c062a97a615adcd2691e810c58043b14ea8660f67de1c53ae8145519"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 17.210542284010444,
+ "stdout": "'FollowupE12.complex_schwartz_taylor_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupE12.complex_schwartz_origin_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD639.angular_rapid_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD639.angular_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD639.angular_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupE12.angular_origin_remainder_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupE12.angular_origin_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupE12.angular_origin_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nFollowupE12.angular_origin_remainder_bound (m : ℤ) (r : ℝ) (f : 𝓢(ℂ, ℂ)) :\n  ‖FollowupE12.angularOriginRemainder m r f‖ ≤ (SchwartzMap.seminorm ℂ 0 2) f * r ^ 2\n",
+ "stderr": ""
+}

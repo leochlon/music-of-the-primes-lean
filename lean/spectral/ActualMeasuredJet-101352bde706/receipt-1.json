@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-d27-actual-action-v2",
+ "target": "ActualMeasuredJet.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualMeasuredJet.lean": "101352bde7063ade9249a033b3ab9ffbe46dda38a75262ceaeb45fa33d8a900f",
+  "preserved/ActualMeasuredJet.cycle06.v2.lean": "101352bde7063ade9249a033b3ab9ffbe46dda38a75262ceaeb45fa33d8a900f"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.64181964402087,
+ "stdout": "'ActualMeasuredJetD.actual_jet_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

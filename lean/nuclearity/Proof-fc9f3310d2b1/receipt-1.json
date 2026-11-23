@@ -1,0 +1,14 @@
+{
+ "request_id": "0ac0939968f34688a64fc44a97c5e0fe",
+ "target": "Proof.lean",
+ "theorem": "Round184A.weighted_zero_kernel_domination",
+ "source_sha256": {
+  "Proof.lean": "fc9f3310d2b183fc434a56fab5a32df8f02f28228154010980a3b098350a69b3"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.587488666991703,
+ "stdout": "Round184A.two_centre_zero_kernel (beta t : ℝ) (h0 : 0 ≤ beta) (h1 : beta ≤ 1) : 1 / (1 + t ^ 2) ≤ twoCentreKernel beta t\n'Round184A.two_centre_zero_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184A.weighted_zero_kernel_domination.{u_1} {ι : Type u_1} (J : Finset ι) (beta ordinate : ι → ℝ)\n  (multiplicity : ι → ℕ) (T : ℝ) (h0 : ∀ i ∈ J, 0 ≤ beta i) (h1 : ∀ i ∈ J, beta i ≤ 1) :\n  ∑ i ∈ J, ↑(multiplicity i) * (1 / (1 + (ordinate i - T) ^ 2)) ≤\n    ∑ i ∈ J, ↑(multiplicity i) * twoCentreKernel (beta i) (ordinate i - T)\n'Round184A.weighted_zero_kernel_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round184A.weighted_zero_kernel_domination' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184A.weighted_zero_kernel_domination.{u_1} {ι : Type u_1} (J : Finset ι) (beta ordinate : ι → ℝ)\n  (multiplicity : ι → ℕ) (T : ℝ) (h0 : ∀ i ∈ J, 0 ≤ beta i) (h1 : ∀ i ∈ J, beta i ≤ 1) :\n  ∑ i ∈ J, ↑(multiplicity i) * (1 / (1 + (ordinate i - T) ^ 2)) ≤\n    ∑ i ∈ J, ↑(multiplicity i) * Round184A.twoCentreKernel (beta i) (ordinate i - T)\n",
+ "stderr": ""
+}

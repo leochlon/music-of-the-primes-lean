@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralF904-riesz-v1",
+ "target": "NativeConvolutionRiesz.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeConvolutionRiesz.lean": "3f639c18c58fe055f00e2a2edbfee54381b05658cc1147e917819720f31f80db",
+  "preserved/NativeConvolutionRiesz.904.v1.lean": "3f639c18c58fe055f00e2a2edbfee54381b05658cc1147e917819720f31f80db"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 43.67594368295977,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralRound11B.genuineMellinJet_normalization.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : UnitaryHeckeCharacter K) (z : ℂ) (a s alpha : ℝ) (m : ℕ) (x : HeckeIdeleClasses K) :\n  genuineNormalizedMellinJet K chi z a s alpha m x * ↑(nativeHalfWeight alpha s (classLog K x)) =\n    genuineMellinJet K chi z a m x\n'SpectralRound11B.genuineMellinJet_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_convolution_product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_weighted_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupC633.native_weighted_convolution_triangular' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupC633.native_normalized_transpose_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupC633.native_normalized_transpose_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupC633.native_riesz_transpose_formula' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralF903.actual_convolution_riesz_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "6edb6b3d1dbb4e96aba9b2dd2fff5ebb",
+ "target": "DivisorialCarving.lean",
+ "theorem": "DivisorialCarving.telescoping",
+ "source_sha256": {
+  "DivisorialCarving.lean": "a3734a031ed549fba5ea3022b9348cee7a1e2cf62aaa6f5d4bd38c1d1afe52a9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.376526086998638,
+ "stdout": "'DivisorialCarving.telescoping' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DivisorialCarving.inverse_defect' depends on axioms: [propext]\n'DivisorialCarving.gram_defect' depends on axioms: [propext]\n'DivisorialCarving.telescoping' depends on axioms: [propext, Classical.choice, Quot.sound]\nDivisorialCarving.telescoping (c : ℕ → ℂ) (n : ℕ) : c 0 = c n - ∑ k ∈ Finset.range n, (c (k + 1) - c k)\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralB-c06-jetflag-v2",
+ "target": "JetFlagDiagonal.lean",
+ "theorem": null,
+ "source_sha256": {
+  "JetFlagDiagonal.lean": "f22506e35c972303bacb7655dcd570ce5e57f31f29289e41aa7e517d6e50ffe1",
+  "submitted/spectralB-c06-jetflag-v2.lean": "f22506e35c972303bacb7655dcd570ce5e57f31f29289e41aa7e517d6e50ffe1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.9974864630494267,
+ "stdout": "'SpectralCycle6B.diagonal_from_native_jet_flag' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

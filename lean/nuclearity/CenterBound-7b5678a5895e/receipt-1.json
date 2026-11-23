@@ -1,0 +1,15 @@
+{
+ "request_id": "582e2cfb15e041b49e3068a4460d712a",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.dirichletPoleCleared_center_lower",
+ "source_sha256": {
+  "Proof.lean": "7b5678a5895e4eb6c7d13f83ef24047f7a7cc39ad5ac8fb0c4e1137f024fc275",
+  "CenterBound.lean": "7b5678a5895e4eb6c7d13f83ef24047f7a7cc39ad5ac8fb0c4e1137f024fc275"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.101080059015658,
+ "stdout": "MasulloGRH.dirichlet_LSeries_norm_le_centerMajorant {N : ℕ} (χ : DirichletCharacter ℂ N) (s : ℂ) (hs : s.re = 2) :\n  ‖LSeries (fun n => χ ↑n) s‖ ≤ MasulloGRH.dirichletCenterMajorant\n'MasulloGRH.dirichlet_LSeries_norm_le_centerMajorant' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletCenterMajorant_pos : 0 < MasulloGRH.dirichletCenterMajorant\n'MasulloGRH.dirichletCenterMajorant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichlet_LSeries_center_lower {N : ℕ} (χ : DirichletCharacter ℂ N) (t : ℝ) :\n  MasulloGRH.dirichletCenterMajorant⁻¹ ≤ ‖LSeries (fun n => χ ↑n) (2 + Complex.I * ↑t)‖\n'MasulloGRH.dirichlet_LSeries_center_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichlet_LFunction_center_lower {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (t : ℝ) :\n  MasulloGRH.dirichletCenterMajorant⁻¹ ≤ ‖DirichletCharacter.LFunction χ (2 + Complex.I * ↑t)‖\n'MasulloGRH.dirichlet_LFunction_center_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletPoleCleared_center_lower {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ t : ℝ) :\n  MasulloGRH.dirichletCenterMajorant⁻¹ ≤ ‖MasulloGRH.dirichletCenterPoleCleared χ τ (2 + Complex.I * ↑(t - τ))‖\n'MasulloGRH.dirichletPoleCleared_center_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.dirichletPoleCleared_center_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.dirichletPoleCleared_center_lower {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (τ t : ℝ) :\n  MasulloGRH.dirichletCenterMajorant⁻¹ ≤ ‖MasulloGRH.dirichletCenterPoleCleared χ τ (2 + Complex.I * ↑(t - τ))‖\n",
+ "stderr": ""
+}

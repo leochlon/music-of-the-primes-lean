@@ -1,0 +1,14 @@
+{
+ "request_id": "i-correction-r01-hadamard-v3",
+ "target": "CorrectionHadamardR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionHadamardR01.lean": "53f02a76a91f2e69c37f92ad3bbbbe5d7733ccf1214ba14f03cfe88955fe53c2"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.851776429975871,
+ "stdout": "'CorrectionHadamardR01.logDeriv_E1_factor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionHadamardR01.eventually_large_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionHadamardR01.inverse_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionHadamardR01.missing_jet_series_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

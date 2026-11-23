@@ -1,0 +1,14 @@
+{
+ "request_id": "52aa11bdc0e142458aa108cf6881e981",
+ "target": "Proof.lean",
+ "theorem": "Round182G.measured_two_root_offdiagonal",
+ "source_sha256": {
+  "Proof.lean": "079f5964c2f36fe1b7a85b16be280272dfa738fd7f7c59320ffcc9e851b40417"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.285891191044357,
+ "stdout": "Round182G.native_gram_determinant (a b c t : ℝ) :\n  gramDenominator a b c t - gramNumerator a b c = rootDistanceSq b c t * gapFactor a b c t\n'Round182G.native_gram_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182G.two_root_native_gram_cancellation (a b c t : ℝ) (_ha : 0 ≤ a) (hb : |b| ≤ a) (hc : |c| ≤ a) :\n  0 ≤ gramNumerator a b c ∧\n    rootDistanceSq b c t * gramNumerator a b c ≤ (2 * a) ^ 2 * (gramDenominator a b c t - gramNumerator a b c)\n'Round182G.two_root_native_gram_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182G.measured_two_root_offdiagonal (a b c t D : ℝ) (u v : ℂ) (ha : 0 ≤ a) (hb : |b| ≤ a) (hc : |c| ≤ a)\n  (hM : ‖v - u‖ ^ 2 ≤ D ^ 2 * rootDistanceSq b c t) :\n  ‖v - u‖ ^ 2 * gramNumerator a b c ≤ (2 * a * D) ^ 2 * (gramDenominator a b c t - gramNumerator a b c)\n'Round182G.measured_two_root_offdiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round182G.measured_two_root_offdiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound182G.measured_two_root_offdiagonal (a b c t D : ℝ) (u v : ℂ) (ha : 0 ≤ a) (hb : |b| ≤ a) (hc : |c| ≤ a)\n  (hM : ‖v - u‖ ^ 2 ≤ D ^ 2 * Round182G.rootDistanceSq b c t) :\n  ‖v - u‖ ^ 2 * Round182G.gramNumerator a b c ≤\n    (2 * a * D) ^ 2 * (Round182G.gramDenominator a b c t - Round182G.gramNumerator a b c)\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "0fa16d688cf84792be75487f8639155f",
+ "target": "Proof.lean",
+ "theorem": "Round88F.actual_logWeight_shear_ratio",
+ "source_sha256": {
+  "Proof.lean": "14cd0bcf1d08d0708bed1b794c8f30f02d151936e272dc62f73a2c9f18b002c2"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 5.218159069947433,
+ "stdout": "Proof.lean:71:25: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\nRound88F.actual_logWeight_shear_bound (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u v : ℝ) :\n  Round88F.logWeight alpha d (u + v) ≤ 2 ^ d * Round88F.logWeight alpha d u * Round88F.logWeight alpha d v\nRound88F.actual_logWeight_shear_ratio (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u x y : ℝ) :\n  Round88F.logWeight alpha d (u + x) / Round88F.logWeight alpha d (u + y) ≤\n    (2 ^ d * Round88F.logWeight alpha d u) ^ 2 * (Round88F.logWeight alpha d x / Round88F.logWeight alpha d y)\nRound88F.printed_translation_bound_fails_at_identity (C alpha : ℝ) :\n  ¬1 ≤ C * max (Real.rpow 1 alpha) (Real.rpow 1 (-alpha)) * |Real.log 1|\n'Round88F.actual_logWeight_shear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round88F.actual_logWeight_shear_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round88F.printed_translation_bound_fails_at_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round88F.actual_logWeight_shear_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound88F.actual_logWeight_shear_ratio (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u x y : ℝ) :\n  Round88F.logWeight alpha d (u + x) / Round88F.logWeight alpha d (u + y) ≤\n    (2 ^ d * Round88F.logWeight alpha d u) ^ 2 * (Round88F.logWeight alpha d x / Round88F.logWeight alpha d y)\n",
+ "stderr": ""
+}

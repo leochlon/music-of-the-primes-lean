@@ -1,0 +1,14 @@
+{
+ "request_id": "c7f24733929d4043bc043c835d8a43c2",
+ "target": "ROriginalHaarNormalizationCheck.lean",
+ "theorem": "RIntegrated.originalHaar_radial_integral",
+ "source_sha256": {
+  "ROriginalHaarNormalizationCheck.lean": "3076b5e2359777edeac14a0bc91a5de76b56ce1df4dc470caa0f66b2603e9ba3"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 33.561157851014286,
+ "stdout": "RIntegrated.originalHaar_classLog_map_unitBand.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] :\n  have c := mu (Masullo.IdeleClassGeometry.classLog K ⁻¹' Set.Ico 0 1);\n  c ≠ 0 ∧ c ≠ ⊤ ∧ MeasureTheory.Measure.map (Masullo.IdeleClassGeometry.classLog K) mu = c • MeasureTheory.volume\n'RIntegrated.originalHaar_classLog_map_unitBand' depends on axioms: [propext, Classical.choice, Quot.sound]\nRIntegrated.originalHaar_radial_integral.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] (f : ℝ → ℂ) (hf : MeasureTheory.StronglyMeasurable f) :\n  ∫ (x : MasulloGRH.HeckeIdeleClasses K), f (Masullo.IdeleClassGeometry.classLog K x) ∂mu =\n    (mu (Masullo.IdeleClassGeometry.classLog K ⁻¹' Set.Ico 0 1)).toReal • ∫ (t : ℝ), f t\n'RIntegrated.originalHaar_radial_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RIntegrated.originalHaar_radial_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nRIntegrated.originalHaar_radial_integral.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] (f : ℝ → ℂ) (hf : MeasureTheory.StronglyMeasurable f) :\n  ∫ (x : MasulloGRH.HeckeIdeleClasses K), f (Masullo.IdeleClassGeometry.classLog K x) ∂mu =\n    (mu (Masullo.IdeleClassGeometry.classLog K ⁻¹' Set.Ico 0 1)).toReal • ∫ (t : ℝ), f t\n",
+ "stderr": ""
+}

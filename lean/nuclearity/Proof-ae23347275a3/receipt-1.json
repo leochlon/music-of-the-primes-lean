@@ -1,0 +1,14 @@
+{
+ "request_id": "ec6096d20f8742868bf7f8fa83c0f23b",
+ "target": "Proof.lean",
+ "theorem": "GlobalNuclearBound.missingOffDiagonal",
+ "source_sha256": {
+  "Proof.lean": "ae23347275a3b33f844df17c013384c033c1dd8da35e94e1161293ba1c1b8db8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.90716738399351,
+ "stdout": "GlobalNuclearBound.convolution_after_rankOne.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A : E →L[ℂ] E) (v : E) (η : E →L[ℂ] ℂ) : A.comp (η.smulRight v) = η.smulRight (A v)\n'GlobalNuclearBound.convolution_after_rankOne' depends on axioms: [propext, Classical.choice, Quot.sound]\nGlobalNuclearBound.missingOffDiagonal.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E] (A P : E →L[ℂ] E)\n  (h : ∀ (x : E), P (A x) = P (A (P x))) : A.comp P = P.comp A + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\n'GlobalNuclearBound.missingOffDiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalNuclearBound.missingOffDiagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\nGlobalNuclearBound.missingOffDiagonal.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E] (A P : E →L[ℂ] E)\n  (h : ∀ (x : E), P (A x) = P (A (P x))) : A.comp P = P.comp A + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\n",
+ "stderr": ""
+}

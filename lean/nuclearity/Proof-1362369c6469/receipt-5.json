@@ -1,0 +1,7 @@
+{
+ "request_id": "df8424f3b298476481610cd9a6b9d4e0",
+ "theorem": "Round133Cutoff.genuine_sign_commutator_cutoff_exact",
+ "source_sha256": "1362369c6469bf5ec3b2b4478d2e76b98ba259001c26820c095126a6607a743e",
+ "compiled": true,
+ "exit_code": 0
+}

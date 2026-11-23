@@ -1,0 +1,15 @@
+{
+ "request_id": "followupF634infrastructure5",
+ "target": "NativeQuotientInfrastructure.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeQuotientInfrastructure.lean": "ebeb5d03064b4e5124e4cd743de48d11811b6a321e83aca26244589a8063c7c4",
+  "preserved/NativeQuotientInfrastructure.v5.lean": "ebeb5d03064b4e5124e4cd743de48d11811b6a321e83aca26244589a8063c7c4"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.888680395029951,
+ "stdout": "'FollowupF634.actual_countable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupF634.actual_measurableInv' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

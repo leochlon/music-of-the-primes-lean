@@ -1,0 +1,14 @@
+{
+ "request_id": "spectral-C12-uniform-v3",
+ "target": "AlpoSchwartzUniform.lean",
+ "theorem": null,
+ "source_sha256": {
+  "AlpoSchwartzUniform.lean": "943932bf411f634a919aefca1d17c0d83f00e6873773abe9d7436322078de091"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.073301650001667,
+ "stdout": "'SpectralC12.uniform_mixed_schwartz_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC12.continuous_decayControl' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC12.norm_integral_mul_le_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

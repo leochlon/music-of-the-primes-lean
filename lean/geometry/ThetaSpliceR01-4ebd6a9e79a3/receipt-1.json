@@ -1,0 +1,14 @@
+{
+ "request_id": "F_global_r02_theta_splice_repair",
+ "target": "ThetaSpliceR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ThetaSpliceR01.lean": "4ebd6a9e79a3513b01aba8f7e7f6f567f74bef992b856f93561f973d00054ec5"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.062695270986296,
+ "stdout": "'ActualThetaSpliceR01.tsum_units_eq_tsum_sub' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaSpliceR01.regularized_eq_splice' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaSpliceR01.tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualThetaSpliceR01.splice_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

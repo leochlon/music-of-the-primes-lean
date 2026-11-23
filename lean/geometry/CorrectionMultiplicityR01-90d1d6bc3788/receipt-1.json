@@ -1,0 +1,14 @@
+{
+ "request_id": "g-correction-multiplicity-r01-3",
+ "target": "CorrectionMultiplicityR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionMultiplicityR01.lean": "90d1d6bc3788c8d02613650ce9a1fdf036a8870814fe78eabe41be21a2adeb34"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.57165099401027,
+ "stdout": "'ManuscriptRH.correction_coefficient_right' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

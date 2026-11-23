@@ -1,0 +1,14 @@
+{
+ "request_id": "9de9411603bd49c4ab9298bf5dfe5f74",
+ "target": "Proof.lean",
+ "theorem": "Round90D.convolution_projection_remainder",
+ "source_sha256": {
+  "Proof.lean": "be4155a4f24728a477a7f496f335d4f8a8a66862f1914b5a0dfd8cd8a7722a1e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.410676278988831,
+ "stdout": "Round90D.convolution_projection_remainder.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (A P : H →L[ℂ] H) : A.comp P = P.comp (A.comp P) + (ContinuousLinearMap.id ℂ H - P).comp (A.comp P)\n'Round90D.convolution_projection_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round90D.convolution_projection_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound90D.convolution_projection_remainder.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (A P : H →L[ℂ] H) : A.comp P = P.comp (A.comp P) + (ContinuousLinearMap.id ℂ H - P).comp (A.comp P)\n",
+ "stderr": ""
+}

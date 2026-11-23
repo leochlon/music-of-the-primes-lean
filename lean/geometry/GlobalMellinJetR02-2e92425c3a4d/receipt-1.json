@@ -1,0 +1,14 @@
+{
+ "request_id": "h-r02-mellin-jets-v1",
+ "target": "GlobalMellinJetR02.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GlobalMellinJetR02.lean": "2e92425c3a4deefcfb8f4c697160e7ad2714bf560e5cece5d5f50ef9a4857637"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.700671309023164,
+ "stdout": "'GlobalMellinJetR02.jetMatrix_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalMellinJetR02.logSharp_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalMellinJetR02.finite_root_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

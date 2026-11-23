@@ -1,0 +1,14 @@
+{
+ "request_id": "3697a88ef8c046ed919e99e8e137c75d",
+ "target": "NativePWCondensation.lean",
+ "theorem": "NativePWCondensation.source_invariant_condensation",
+ "source_sha256": {
+  "NativePWCondensation.lean": "d8cef045c043736a72540464d2a169785ea4232fef7030a054fcc2ef4d272052"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.6574493990046903,
+ "stdout": "'NativePWCondensation.full_input_remainder' depends on axioms: [propext]\n'NativePWCondensation.source_trace_split' depends on axioms: [propext, Quot.sound]\n'NativePWCondensation.source_invariant_condensation' depends on axioms: [propext]\n'NativePWCondensation.source_invariant_condensation' depends on axioms: [propext]\nNativePWCondensation.source_invariant_condensation.{u_1} {R : Type u_1} [Ring R] (M S A W : R) (hSA : S * A * S = A * S)\n  (hSW : S * W = W) : M * S * A * W = M * A * W\n",
+ "stderr": ""
+}

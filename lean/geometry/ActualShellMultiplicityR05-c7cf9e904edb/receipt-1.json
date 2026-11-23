@@ -1,0 +1,14 @@
+{
+ "request_id": "i-r05-shell-multiplicity-v2",
+ "target": "ActualShellMultiplicityR05.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualShellMultiplicityR05.lean": "c7cf9e904edbb0a21eb3555b7d31dfa7a26c30708e73b3d4544d7831e250a527"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.963856753020082,
+ "stdout": "'ActualPolarApplication.normalized_polar_tests' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPolarApplication.polar_matrix_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPolarApplication.regularization_defect_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellMultiplicityR05.eliminate_mem' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellMultiplicityR05.eliminate_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellMultiplicityR05.eliminate_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellMultiplicityR05.extension_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellMultiplicityR05.exceptional_integral_cocycle' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

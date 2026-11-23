@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The Music of the Primes: review and Lean formalisation"
+authors:
+  - name: "Hassana Labs"
+date-released: 2026-11-23
+license: CC-BY-NC-4.0
+type: dataset
+url: "https://hassana.io/music-of-the-primes/"
+repository-code: "https://github.com/leochlon/music-of-the-primes-lean"
+abstract: "Issues, repairs and Lean formalisation for A. M. Masullo's manuscript The Music of the Primes, with the source and compiler receipts of every checked declaration."
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - Generalized Riemann Hypothesis
+  - trace formula

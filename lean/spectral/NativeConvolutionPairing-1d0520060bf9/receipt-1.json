@@ -1,0 +1,15 @@
+{
+ "request_id": "followupD632pairing1",
+ "target": "NativeConvolutionPairing.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeConvolutionPairing.lean": "1d0520060bf99abe7fad0ea60906429d99b8498b704d4bc3b8631974571a86b0",
+  "preserved/NativeConvolutionPairing.cycle6.v1.lean": "1d0520060bf99abe7fad0ea60906429d99b8498b704d4bc3b8631974571a86b0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 16.4106161359814,
+ "stdout": "'FollowupD31.classCharacter_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD31.genuineMellinJet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD31.genuineMellinJet_integrated_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD632.native_haar_substitution' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD632.native_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

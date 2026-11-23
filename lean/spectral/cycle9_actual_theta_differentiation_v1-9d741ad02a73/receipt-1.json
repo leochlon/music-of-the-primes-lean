@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle9_actual_theta_differentiation_v1",
+ "target": "ActualThetaDifferentiation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualThetaDifferentiation.lean": "9d741ad02a733c39c7345b7b1efe4b49d95a61aeecd0fda48d3a1377c0dac82e",
+  "submitted/cycle9_actual_theta_differentiation_v1.lean": "9d741ad02a733c39c7345b7b1efe4b49d95a61aeecd0fda48d3a1377c0dac82e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 31.929654591018334,
+ "stdout": "'ConditionalB27.genuineMellinJet_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB27.genuineMellinJet_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_jet_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_mellin_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_mellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA879.native_moments_of_two_sided_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA879.native_rapid_mellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB880.ideleTheta_principal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB880.classTheta_mk' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB880.theta_summable_principal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupA635.actual_classLog_inv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupA635.actual_theta_two_sided_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupA635.actual_theta_mellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

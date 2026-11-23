@@ -1,0 +1,14 @@
+{
+ "request_id": "0b95e9a0709944d890c29948811c1de6",
+ "target": "HCompressionTraceCheck.lean",
+ "theorem": "HOperatorTrace.source_compression_trace",
+ "source_sha256": {
+  "HCompressionTraceCheck.lean": "896031faa772b75e8fb6b9bf1fd005b0bf117d5f670e93c36bd9ce0bd99a9640"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 29.816998063004576,
+ "stdout": "HOperatorTrace.nuclear_complement_trace.{u_1, u_2} {κ : Type u_1} {H : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (S : Submodule ℂ H) [S.HasOrthogonalProjection] (T : H →L[ℂ] H)\n  (u v : κ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖) (hT : ∀ (x : H), HasSum (fun n => ⟪u n, x⟫_ℂ • v n) (T x)) :\n  Masullo.TraceClass.trace ((1 - S.starProjection).comp T) = ∑' (n : κ), ⟪u n, v n - S.starProjection (v n)⟫_ℂ\n'HOperatorTrace.nuclear_complement_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\nHOperatorTrace.source_compression_extension.{u_2} {H : Type u_2} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (S : Submodule ℂ H) [S.HasOrthogonalProjection] (A : H →L[ℂ] H)\n  (hz : ((1 - S.starProjection).comp A).comp S.starProjection = 0) :\n  Sᗮ.subtypeL.comp ((Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL)).comp Sᗮ.orthogonalProjection) =\n    (1 - S.starProjection).comp A\n'HOperatorTrace.source_compression_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\nHOperatorTrace.source_compression_trace.{u_1, u_2} {κ : Type u_1} {H : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (S : Submodule ℂ H) [S.HasOrthogonalProjection] (A : H →L[ℂ] H)\n  (hz : ((1 - S.starProjection).comp A).comp S.starProjection = 0) (u v : κ → ↥Sᗮ)\n  (hc : Summable fun i => ‖u i‖ * ‖v i‖)\n  (hB : ∀ (y : ↥Sᗮ), HasSum (fun i => ⟪u i, y⟫_ℂ • v i) ((Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL)) y)) :\n  Masullo.TraceClass.trace ((1 - S.starProjection).comp A) =\n    Masullo.TraceClass.trace (Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL))\n'HOperatorTrace.source_compression_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HOperatorTrace.source_compression_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\nHOperatorTrace.source_compression_trace.{u_1, u_2} {κ : Type u_1} {H : Type u_2} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] [CompleteSpace H] (S : Submodule ℂ H) [S.HasOrthogonalProjection] (A : H →L[ℂ] H)\n  (hz : ((1 - S.starProjection).comp A).comp S.starProjection = 0) (u v : κ → ↥Sᗮ)\n  (hc : Summable fun i => ‖u i‖ * ‖v i‖)\n  (hB : ∀ (y : ↥Sᗮ), HasSum (fun i => ⟪u i, y⟫_ℂ • v i) ((Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL)) y)) :\n  Masullo.TraceClass.trace ((1 - S.starProjection).comp A) =\n    Masullo.TraceClass.trace (Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL))\n",
+ "stderr": ""
+}

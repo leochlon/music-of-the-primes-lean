@@ -1,0 +1,14 @@
+{
+ "request_id": "g-global-r05-density-1",
+ "target": "TraceDensityUniquenessR05.lean",
+ "theorem": null,
+ "source_sha256": {
+  "TraceDensityUniquenessR05.lean": "d300905ce6cbe94aa3b37f5606bd4e709308cffff4c4154accc783a380e626da"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.1651698460336775,
+ "stdout": "'TraceDensityUniquenessR05.density_unique_of_localized_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

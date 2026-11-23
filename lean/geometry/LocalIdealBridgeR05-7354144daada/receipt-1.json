@@ -1,0 +1,14 @@
+{
+ "request_id": "F_r05_local_ideal_bridge",
+ "target": "LocalIdealBridgeR05.lean",
+ "theorem": "GeometricTraceR05.range_mem_of_total",
+ "source_sha256": {
+  "LocalIdealBridgeR05.lean": "7354144daadafe97eabf655b4b90e2bcbb6fef1900663a679ad66dd23cf66e6d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.962874674005434,
+ "stdout": "'GeometricTraceR05.poleFilter_kills' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR05.poleFilter_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR05.range_mem_of_total' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR05.range_mem_of_total' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometricTraceR05.range_mem_of_total.{u_2, u_3, u_4} {H : Type u_2} {F : Type u_3} {ι : Type u_4} [NormedAddCommGroup H]\n  [NormedSpace ℂ H] [NormedAddCommGroup F] [NormedSpace ℂ F] (b : ι → H)\n  (htotal : (Submodule.span ℂ (Set.range b)).topologicalClosure = ⊤) (T : H →L[ℂ] F) (W : Submodule ℂ F)\n  (hW : IsClosed ↑W) (hb : ∀ (i : ι), T (b i) ∈ W) (x : H) : T x ∈ W\n",
+ "stderr": ""
+}

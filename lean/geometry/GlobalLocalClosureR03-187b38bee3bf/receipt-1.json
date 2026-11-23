@@ -1,0 +1,14 @@
+{
+ "request_id": "e-global-r04-carried-closure",
+ "target": "GlobalLocalClosureR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GlobalLocalClosureR03.lean": "187b38bee3bf2643f1e5e3a5178e3006777d49acfee08f1f30c6b2085cc65ddd"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 59.43936857196968,
+ "stdout": "'GroundTheory.Automorphic.isTraceClass_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.trace_comp_comm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_isTraceClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.actual_projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.tendsto_trace_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.cutoff_geometric_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.geometric_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PhysicalCutoffR01.physical_band_strong' depends on axioms: [propext, Classical.choice, Quot.sound]\n'PhysicalCutoffR01.cut_complement_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'WeightedProjectedTraceR01.actual_weighted_projected_trace_limit' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GlobalLocalClosureR03.completed_strong' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalLocalClosureR03.completed_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalLocalClosureR03.finite_level_trace_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalLocalClosureR03.real_even_angular' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalLocalClosureR03.real_odd_angular' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

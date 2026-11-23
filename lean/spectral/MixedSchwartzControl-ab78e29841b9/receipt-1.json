@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralD909mixed5",
+ "target": "submitted/MixedSchwartzControl.v5.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MixedSchwartzControl.lean": "ab78e29841b9d6092f1927b44d2da882fb6847152ec08ca5dbb3201bd1465bd1",
+  "submitted/MixedSchwartzControl.v5.lean": "ab78e29841b9d6092f1927b44d2da882fb6847152ec08ca5dbb3201bd1465bd1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.471239885955583,
+ "stdout": "'SpectralD909.mixed_schwartz_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD909.continuous_testControl' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD909.weighted_test_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

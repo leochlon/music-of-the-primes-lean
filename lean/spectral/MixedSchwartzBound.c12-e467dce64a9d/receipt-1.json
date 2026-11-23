@@ -1,0 +1,15 @@
+{
+ "request_id": "conditionalD885-mixed-bound-v4",
+ "target": "MixedSchwartzBound.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MixedSchwartzBound.lean": "e467dce64a9d89e72099d5ad6400b6803e4986b3941a346d039fa070db46eae7",
+  "preserved/MixedSchwartzBound.c12.v4.lean": "e467dce64a9d89e72099d5ad6400b6803e4986b3941a346d039fa070db46eae7"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.484856656985357,
+ "stdout": "'ConditionalD885.complex_mellin_strip_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD885.complex_tail_majorant_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD885.continuous_complexDecayBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD885.mixed_weighted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD885.continuous_mixedDecayBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalD885.complex_log_mellin_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

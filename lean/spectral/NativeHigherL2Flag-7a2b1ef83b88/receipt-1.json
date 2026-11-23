@@ -1,0 +1,14 @@
+{
+ "request_id": "spectral_B_c09_higher_v3",
+ "target": "NativeHigherL2Flag.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeHigherL2Flag.lean": "7a2b1ef83b889e747a1c8c63a70055377dd8fb7d6f4413927006d3e79fde5e0c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 33.60322971700225,
+ "stdout": "'SpectralCycle6B.native_gramSchmidt_flag' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7B.native_zero_finite_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7B.native_zero_L2_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle8B.native_admitted_zero_flag' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.nilpotent_shift_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.nilpotent_shift_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.polynomial_shift_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.polynomial_shift_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH904.native_polynomial_blocks_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_mixed_finite_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_selected_finite_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_selected_L2_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_admitted_higher_flag' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

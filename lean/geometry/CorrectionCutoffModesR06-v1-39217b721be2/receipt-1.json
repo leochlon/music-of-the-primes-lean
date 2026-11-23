@@ -1,0 +1,15 @@
+{
+ "request_id": "b-arithmetic-r06-cutoff-v1",
+ "target": "CorrectionCutoffModesR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionCutoffModesR06.lean": "39217b721be208b8814e8581cb684dd277407ab91be980207a2c546898387e0a",
+  "submitted/CorrectionCutoffModesR06-v1.lean": "39217b721be208b8814e8581cb684dd277407ab91be980207a2c546898387e0a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.744156036002096,
+ "stdout": "'CorrectionCutoffModesR06.pairing_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffModesR06.pairing_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffModesR06.logged_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffModesR06.surviving_constant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffModesR06.reflected_generator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffModesR06.nilpotent_cutoff_example' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

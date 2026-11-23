@@ -1,0 +1,14 @@
+{
+ "request_id": "r03_projection_bridge",
+ "target": "ProjectionBridge_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ProjectionBridge_C.lean": "825edaae93471fbe12b720b7f4d32a369998fbff5a8c850e3e499fd2d7b7de32"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.40002529200865,
+ "stdout": "'GeometricTraceC.P_eq_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.translation_weight_core' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

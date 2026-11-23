@@ -1,0 +1,14 @@
+{
+ "request_id": "a4239031d0024996a7d61ee0fd9afeb7",
+ "target": "Proof.lean",
+ "theorem": "Round184B.hecke_zero_kernel_dominates_native_weight",
+ "source_sha256": {
+  "Proof.lean": "b9ad5a21bcb5b8397120a6b43f24ace332d2de5bac0f00beedb53a8210449b7d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.478561866970267,
+ "stdout": "Round183B.accretive_resolvent_column_bound.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (D R : H →L[ℂ] H) (c l : ℝ) (hD : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hR : ∀ (x : H), ↑l • R x - D (R x) = x)\n  (x : H) : (l - c) * ‖R x‖ ^ 2 ≤ (⟪R x, x⟫_ℂ).re\n'Round183B.accretive_resolvent_column_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound183B.accretive_resolvent_hilbert_schmidt_cost.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H]\n  [InnerProductSpace ℂ H] {ι : Type u_2} (D R : H →L[ℂ] H) (c l : ℝ) (hl : c < l)\n  (hD : ∀ (v : H), (⟪v, D v⟫_ℂ).re ≤ c * ‖v‖ ^ 2) (hR : ∀ (x : H), ↑l • R x - D (R x) = x) (J : Finset ι) (b : ι → H) :\n  ∑ i ∈ J, ‖R (b i)‖ ^ 2 ≤ (∑ i ∈ J, (⟪R (b i), b i⟫_ℂ).re) / (l - c)\n'Round183B.accretive_resolvent_hilbert_schmidt_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184B.hecke_zero_kernel_dominates_native_weight (x t : ℝ) (hx : 1 ≤ x) (hx2 : x ≤ 2) :\n  1 / (1 + t ^ 2) ≤ 2 * (x / (x ^ 2 + t ^ 2))\n'Round184B.hecke_zero_kernel_dominates_native_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round184B.hecke_zero_kernel_dominates_native_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound184B.hecke_zero_kernel_dominates_native_weight (x t : ℝ) (hx : 1 ≤ x) (hx2 : x ≤ 2) :\n  1 / (1 + t ^ 2) ≤ 2 * (x / (x ^ 2 + t ^ 2))\n",
+ "stderr": ""
+}

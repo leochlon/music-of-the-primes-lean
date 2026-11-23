@@ -1,0 +1,15 @@
+{
+ "request_id": "284c25616e4a420ca3f2a521c7d94cac",
+ "target": "Proof.lean",
+ "theorem": "CriticalLineF.zero_logDeriv_no_continuous_extension",
+ "source_sha256": {
+  "Proof.lean": "c3aee10a0f36edb2d64f8ad791e391c23fd1cdd1b95993bf27fd8ea04bf536a2",
+  "preserved/r53/Proof.lean": "5d0049cf89a6604fb43d4267f7da6fb78a5f553acfef8f3c1279944a3f03ca6d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.659426798985805,
+ "stdout": "CriticalLineF.zero_logDeriv_residue (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r) (hc' : ContinuousAt (deriv u) r)\n  (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  Tendsto (fun z => (z - r) * logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) (𝓝[≠] r) (𝓝 ↑(n + 1))\n'CriticalLineF.zero_logDeriv_residue' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.zero_logDeriv_no_continuous_extension (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r)\n  (hc' : ContinuousAt (deriv u) r) (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  ¬∃ H, ContinuousAt H r ∧ (fun z => logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) =ᶠ[𝓝[≠] r] H\n'CriticalLineF.zero_logDeriv_no_continuous_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CriticalLineF.zero_logDeriv_no_continuous_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.zero_logDeriv_no_continuous_extension (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r)\n  (hc' : ContinuousAt (deriv u) r) (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  ¬∃ H, ContinuousAt H r ∧ (fun z => logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) =ᶠ[𝓝[≠] r] H\n",
+ "stderr": ""
+}

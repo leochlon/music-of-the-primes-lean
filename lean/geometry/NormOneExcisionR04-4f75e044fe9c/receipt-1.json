@@ -1,0 +1,14 @@
+{
+ "request_id": "F_r04_excision_2",
+ "target": "NormOneExcisionR04.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NormOneExcisionR04.lean": "4f75e044fe9cacc26ced06ea489c13f84177ac3c5f908102b9bc0e1666ff5e22"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.251832798996475,
+ "stdout": "'GeometricTraceExcisionR04.logarithmic_second_derivative_algebra' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricTraceExcisionR04.fourier_excision_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceExcisionR04.low_frequency_excision_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

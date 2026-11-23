@@ -1,0 +1,14 @@
+{
+ "request_id": "49f773117adf4056a8858465d9e9f15b",
+ "target": "NativeResidueExhaustion.lean",
+ "theorem": "NativeResidueExhaustion.strong_of_dense_fixed_vectors",
+ "source_sha256": {
+  "NativeResidueExhaustion.lean": "8d487fcabd024c564578936a1382bc74ddeec2132d1bac69310c2d6a297eb96c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.8399608170147985,
+ "stdout": "'NativeResidueExhaustion.strong_of_dense_fixed_vectors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeResidueExhaustion.nuclear_error_tends_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeResidueExhaustion.strong_of_dense_fixed_vectors' depends on axioms: [propext, Classical.choice, Quot.sound]\nNativeResidueExhaustion.strong_of_dense_fixed_vectors.{u_1} {H : Type u_1} [NormedAddCommGroup H] [NormedSpace ℂ H]\n  (E : ℕ → H →L[ℂ] H) (hcontract : ∀ (n : ℕ) (x : H), ‖(E n) x‖ ≤ ‖x‖)\n  (happrox : ∀ (x : H) (ε : ℝ), 0 < ε → ∃ y N, ‖x - y‖ < ε ∧ ∀ n ≥ N, (E n) y = y) (x : H) :\n  Tendsto (fun n => (E n) x) atTop (𝓝 x)\n",
+ "stderr": ""
+}

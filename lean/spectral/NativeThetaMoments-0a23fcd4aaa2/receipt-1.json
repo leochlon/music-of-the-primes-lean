@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-a879-theta-moments-v2",
+ "target": "NativeThetaMoments.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeThetaMoments.lean": "0a23fcd4aaa2fa0a4280c1e2530c359526e04984ee1f10e567c158c5fcb0072f",
+  "preserved/NativeThetaMoments.v2.lean": "0a23fcd4aaa2fa0a4280c1e2530c359526e04984ee1f10e567c158c5fcb0072f"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 22.18428790901089,
+ "stdout": "'ConditionalB27.genuineMellinJet_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalB27.genuineMellinJet_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_jet_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_mellin_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA878.native_mellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA879.native_moments_of_two_sided_decay' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalA879.native_rapid_mellin_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

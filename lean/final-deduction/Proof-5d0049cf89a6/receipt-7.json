@@ -1,0 +1,16 @@
+{
+ "request_id": "b57df0a72c75496db73bfc30e7b978e0",
+ "target": "Proof.lean",
+ "theorem": "CriticalLineF.no_zero_germ_of_continued_identity",
+ "source_sha256": {
+  "Proof.lean": "e65a27436323f26745aebbe2876f81f92768b2a080a53305cf8d0cc88d061a6e",
+  "preserved/Checked18F/Proof.lean": "c3aee10a0f36edb2d64f8ad791e391c23fd1cdd1b95993bf27fd8ea04bf536a2",
+  "preserved/HeckeSeed/Proof.lean": "5d0049cf89a6604fb43d4267f7da6fb78a5f553acfef8f3c1279944a3f03ca6d"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.526141889975406,
+ "stdout": "CriticalLineF.zero_logDeriv_residue (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r) (hc' : ContinuousAt (deriv u) r)\n  (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  Tendsto (fun z => (z - r) * logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) (𝓝[≠] r) (𝓝 ↑(n + 1))\n'CriticalLineF.zero_logDeriv_residue' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.zero_logDeriv_no_continuous_extension (u : ℂ → ℂ) (r : ℂ) (n : ℕ) (hc : ContinuousAt u r)\n  (hc' : ContinuousAt (deriv u) r) (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) :\n  ¬∃ H, ContinuousAt H r ∧ (fun z => logDeriv (fun w => (w - r) ^ (n + 1) * u w) z) =ᶠ[𝓝[≠] r] H\n'CriticalLineF.zero_logDeriv_no_continuous_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.continue_differential_identity (f H : ℂ → ℂ) (D : Set ℂ) (b : ℂ) (hf : AnalyticOnNhd ℂ f D)\n  (hf' : AnalyticOnNhd ℂ (deriv f) D) (hH : AnalyticOnNhd ℂ H D) (hD : IsPreconnected D) (hb : b ∈ D)\n  (hbase : deriv f =ᶠ[𝓝 b] fun z => H z * f z) : Set.EqOn (deriv f) (fun z => H z * f z) D\n'CriticalLineF.continue_differential_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.no_zero_germ_of_continued_identity (f H u : ℂ → ℂ) (D : Set ℂ) (b r : ℂ) (n : ℕ) (hopen : IsOpen D)\n  (hD : IsPreconnected D) (hb : b ∈ D) (hr : r ∈ D) (hf : AnalyticOnNhd ℂ f D) (hf' : AnalyticOnNhd ℂ (deriv f) D)\n  (hH : AnalyticOnNhd ℂ H D) (hbase : deriv f =ᶠ[𝓝 b] fun z => H z * f z)\n  (hfactor : f =ᶠ[𝓝 r] fun z => (z - r) ^ (n + 1) * u z) (hc : ContinuousAt u r) (hc' : ContinuousAt (deriv u) r)\n  (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) : False\n'CriticalLineF.no_zero_germ_of_continued_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CriticalLineF.no_zero_germ_of_continued_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\nCriticalLineF.no_zero_germ_of_continued_identity (f H u : ℂ → ℂ) (D : Set ℂ) (b r : ℂ) (n : ℕ) (hopen : IsOpen D)\n  (hD : IsPreconnected D) (hb : b ∈ D) (hr : r ∈ D) (hf : AnalyticOnNhd ℂ f D) (hf' : AnalyticOnNhd ℂ (deriv f) D)\n  (hH : AnalyticOnNhd ℂ H D) (hbase : deriv f =ᶠ[𝓝 b] fun z => H z * f z)\n  (hfactor : f =ᶠ[𝓝 r] fun z => (z - r) ^ (n + 1) * u z) (hc : ContinuousAt u r) (hc' : ContinuousAt (deriv u) r)\n  (hd : ∀ᶠ (z : ℂ) in 𝓝 r, DifferentiableAt ℂ u z) (hu : u r ≠ 0) : False\n",
+ "stderr": ""
+}

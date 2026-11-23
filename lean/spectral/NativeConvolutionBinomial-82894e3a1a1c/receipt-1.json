@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralD903-binomial-v1",
+ "target": "NativeConvolutionBinomial.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeConvolutionBinomial.lean": "82894e3a1a1cda7b4545e9a922ab5883982ea30426c3c198f275ae9d72b5beed",
+  "submitted/NativeConvolutionBinomial.v1.lean": "82894e3a1a1cda7b4545e9a922ab5883982ea30426c3c198f275ae9d72b5beed"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 32.72756197996205,
+ "stdout": "'ActualMeasuredJetD.actual_jet_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredJetD.actual_logged_compact_moment_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_convolution_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD903.native_weighted_convolution_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralD903.native_logged_weighted_convolution_binomial' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "i-r01-cutoff-defect-v2",
+ "target": "CorrectionCutoffDefectR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionCutoffDefectR01.lean": "1df5973f3e55f530439d12653e619e37efc3bebb649009bc9a188bcbf62cfcfa"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 30.815628842043225,
+ "stdout": "'CorrectionCutoffDefectR01.offdiag_cutoff_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffDefectR01.full_minus_compressed_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionCutoffDefectR01.cutoff_defect_tends_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

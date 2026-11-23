@@ -1,0 +1,14 @@
+{
+ "request_id": "r03_projection_order",
+ "target": "ProjectionOrder.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ProjectionOrder.lean": "86cee82ae0a6d501090eb2542b7482f01419897279c223b44027ce5d03370169"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.84144331200514,
+ "stdout": "'GeometricTrace.convolution_then_projection' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

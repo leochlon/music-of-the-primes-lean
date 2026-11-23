@@ -1,0 +1,14 @@
+{
+ "request_id": "e-arithmetic-r05-profile-v1",
+ "target": "TranslatedCorrectionProfileR05.lean",
+ "theorem": null,
+ "source_sha256": {
+  "TranslatedCorrectionProfileR05.lean": "3397639fd3fa2c532507af9236a92489fdd501a8882aad1e0f923b131029985f"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.834458544966765,
+ "stdout": "'TranslatedCorrectionProfileR05.profile_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TranslatedCorrectionProfileR05.logged_profile_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TranslatedCorrectionProfileR05.norm_sq_weight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'TranslatedCorrectionProfileR05.translation_polynomial_weight' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

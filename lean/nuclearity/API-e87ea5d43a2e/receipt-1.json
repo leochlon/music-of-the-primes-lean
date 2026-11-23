@@ -1,0 +1,14 @@
+{
+ "request_id": "4a2fff0a96284a26864ea42aaf400d4e",
+ "target": "API.lean",
+ "theorem": "Nat.descFactorial_le_pow",
+ "source_sha256": {
+  "API.lean": "e87ea5d43a2e2b6b6b8ffe81651627193cddaad6469f97479928e34dfffbc4f1"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.6570457680500112,
+ "stdout": "Nat.descFactorial_le_pow (n k : ℕ) : n.descFactorial k ≤ n ^ k\nNat.descFactorial_le (n : ℕ) {k m : ℕ} (h : k ≤ m) : k.descFactorial n ≤ m.descFactorial n\npow_le_pow_right₀.{u_2} {M₀ : Type u_2} [MonoidWithZero M₀] [Preorder M₀] {a : M₀} {m n : ℕ} [ZeroLEOneClass M₀]\n  [PosMulMono M₀] (ha : 1 ≤ a) (hmn : m ≤ n) : a ^ m ≤ a ^ n\npow_le_pow_left₀.{u_2} {M₀ : Type u_2} [MonoidWithZero M₀] [Preorder M₀] {a b : M₀} [PosMulMono M₀] [MulPosMono M₀]\n  (ha : 0 ≤ a) (hab : a ≤ b) (n : ℕ) : a ^ n ≤ b ^ n\none_le_pow₀.{u_2} {M₀ : Type u_2} [MonoidWithZero M₀] [Preorder M₀] {a : M₀} [ZeroLEOneClass M₀] [PosMulMono M₀]\n  (ha : 1 ≤ a) {n : ℕ} : 1 ≤ a ^ n\nNat.cast_pow.{u_1} {α : Type u_1} [Semiring α] (m n : ℕ) : ↑(m ^ n) = ↑m ^ n\npow_le_pow_right₀.{u_2} {M₀ : Type u_2} [MonoidWithZero M₀] [Preorder M₀] {a : M₀} {m n : ℕ} [ZeroLEOneClass M₀]\n  [PosMulMono M₀] (ha : 1 ≤ a) (hmn : m ≤ n) : a ^ m ≤ a ^ n\nReal.exp_nat_mul (x : ℝ) (n : ℕ) : Real.exp (↑n * x) = Real.exp x ^ n\nReal.exp_log {x : ℝ} (hx : 0 < x) : Real.exp (Real.log x) = x\n'Nat.descFactorial_le_pow' does not depend on any axioms\nNat.descFactorial_le_pow (n k : ℕ) : n.descFactorial k ≤ n ^ k\n",
+ "stderr": ""
+}

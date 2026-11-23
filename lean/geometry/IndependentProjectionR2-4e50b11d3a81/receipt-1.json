@@ -1,0 +1,14 @@
+{
+ "request_id": "97dbb17cc65e45e49413c7b845e43781",
+ "target": "IndependentProjectionR2.lean",
+ "theorem": "IndependentGeometryR2.spectral_after_convolution",
+ "source_sha256": {
+  "IndependentProjectionR2.lean": "4e50b11d3a8152abfc2004a79b99be54cbea6e3441b48c183cf347d55b2656fa"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.2777912220335566,
+ "stdout": "'IndependentGeometryR2.spectral_after_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]\nIndependentGeometryR2.spectral_after_convolution.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (M : Submodule ℂ H) [CompleteSpace ↥M] (A : H →L[ℂ] H) (hA : ∀ y ∈ M, A y ∈ M) :\n  (IndependentGeometryR2.spec M).comp A = ((IndependentGeometryR2.spec M).comp A).comp (IndependentGeometryR2.spec M)\n",
+ "stderr": ""
+}

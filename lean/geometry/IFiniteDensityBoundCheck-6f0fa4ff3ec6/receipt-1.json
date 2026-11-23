@@ -1,0 +1,14 @@
+{
+ "request_id": "d8b897c4aef8474b8af0a71a867298ff",
+ "target": "IFiniteDensityBoundCheck.lean",
+ "theorem": "ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_norm_le",
+ "source_sha256": {
+  "IFiniteDensityBoundCheck.lean": "6f0fa4ff3ec693e545a371b38bd4ffc3675032f81b998c55149ba8a0cff1801a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.63164392899489,
+ "stdout": "ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_norm_le.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) (q : Fin 2)\n  (v : NumberField.FinitePlace K) (u : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ) :\n  ‖NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q) u‖ ≤\n    ‖LIntegrated.requiredTest K phi q ((NLocalArithmetic.finiteClass K v) u)‖\n'ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_norm_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'ReviewI.LocalArithmetic.both_tests_finiteLocalDensity_norm_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nReviewI.LocalArithmetic.both_tests_finiteLocalDensity_norm_le.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) (q : Fin 2)\n  (v : NumberField.FinitePlace K) (u : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ) :\n  ‖NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q) u‖ ≤\n    ‖LIntegrated.requiredTest K phi q ((NLocalArithmetic.finiteClass K v) u)‖\n",
+ "stderr": ""
+}

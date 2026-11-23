@@ -1,0 +1,14 @@
+{
+ "request_id": "859c14b889ea4aefb7e02f0db4b24891",
+ "target": "Proof.lean",
+ "theorem": "Round89E.actual_jet_dual_moment_lower",
+ "source_sha256": {
+  "Proof.lean": "d2b4c8027f456ccc6b5b825cb48dabe82fdabff13549ea3bc2d80c3d96355df4"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.437334632035345,
+ "stdout": "Round89E.actual_jet_density_slab_lower (alpha s : ℝ) (m : ℕ) (ha : 0 ≤ alpha) (hs : 0 ≤ s) (u : ℝ)\n  (hu : u ∈ Set.Icc 2 3) : 4 ^ m * Real.exp (-6 * alpha) / 10 ^ (s / 2) ≤ jetDensity alpha s m u\n'Round89E.actual_jet_density_slab_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound89E.actual_jet_dual_moment_lower (alpha s : ℝ) (m : ℕ) (ha : 0 ≤ alpha) (hs : 0 ≤ s) :\n  ENNReal.ofReal (4 ^ m * Real.exp (-6 * alpha) / 10 ^ (s / 2)) ≤ ∫⁻ (u : ℝ), ENNReal.ofReal (jetDensity alpha s m u)\n'Round89E.actual_jet_dual_moment_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round89E.actual_jet_dual_moment_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound89E.actual_jet_dual_moment_lower (alpha s : ℝ) (m : ℕ) (ha : 0 ≤ alpha) (hs : 0 ≤ s) :\n  ENNReal.ofReal (4 ^ m * Real.exp (-6 * alpha) / 10 ^ (s / 2)) ≤\n    ∫⁻ (u : ℝ), ENNReal.ofReal (Round89E.jetDensity alpha s m u)\n",
+ "stderr": ""
+}

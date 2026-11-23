@@ -1,0 +1,14 @@
+{
+ "request_id": "8590596af10042e78111f5a79dc3209e",
+ "target": "NativeGlobalDiagonalR31.lean",
+ "theorem": "NativeGlobalDiagonalR31.ordered_cross_block",
+ "source_sha256": {
+  "NativeGlobalDiagonalR31.lean": "88bb3186560c451ebb41ca43142dd1dd2fb129b56f5270a0f4e51f4e66343225"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.37611327500781,
+ "stdout": "'NativeGlobalDiagonalR31.native_projection_error' depends on axioms: [propext, Quot.sound]\n'NativeGlobalDiagonalR31.localized_source_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeGlobalDiagonalR31.unmasked_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeGlobalDiagonalR31.ordered_cross_block' depends on axioms: [propext, Quot.sound]\n'NativeGlobalDiagonalR31.ordered_cross_block' depends on axioms: [propext, Quot.sound]\nNativeGlobalDiagonalR31.ordered_cross_block.{u_1} {R : Type u_1} [Ring R] (S A : R) (hinv : (1 - S) * A * S = 0) :\n  A * (1 - S) - (1 - S) * A = S * A * (1 - S)\n",
+ "stderr": ""
+}

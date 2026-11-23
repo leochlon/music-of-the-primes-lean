@@ -1,0 +1,14 @@
+{
+ "request_id": "c-r04-polar-boundary-v3",
+ "target": "PolarBoundary_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "PolarBoundary_C.lean": "50084d62cc1289b5ba7ee08a798cff6ad6d38df4023c76a7e07d3d192c9d468a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.649292720016092,
+ "stdout": "'GeometricTraceC.PolarBoundary.cyclic_matrix_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarBoundary.correction_range' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarBoundary.rank_one_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.PolarBoundary.cyclic_row_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+ "request_id": "caef12b1b2034e39818cb1f9cbdffe73",
+ "target": "NativeOrderedKernel.lean",
+ "theorem": "NativeOrderedKernel.native_order_defect",
+ "source_sha256": {
+  "NativeOrderedKernel.lean": "2086a72ce1bb769da040fb9cc0060e83e4d66c0c5e52df744d0a2c12bc0ea9fc"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 3.971704448980745,
+ "stdout": "'NativeOrderedKernel.native_order_defect' depends on axioms: [propext]\n'NativeOrderedKernel.native_order_defect' depends on axioms: [propext]\nNativeOrderedKernel.native_order_defect.{u_1} {R : Type u_1} [Ring R] (s a : R) (hsource : (1 - s) * a * s = 0) :\n  s * a - a * s = s * a * (1 - s)\n",
+ "stderr": ""
+}

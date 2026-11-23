@@ -1,0 +1,14 @@
+{
+ "request_id": "p-r01-operator-energy-v1",
+ "target": "OperatorEnergyR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "OperatorEnergyR01.lean": "1daac462799757883ce8e26139d2cdf3b39129d59f7b4715dcaca9a88952f352"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.036151949025225,
+ "stdout": "'OperatorEnergyR01.ray_weight_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OperatorEnergyR01.polynomial_weight_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OperatorEnergyR01.energy_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OperatorEnergyR01.ambient_gap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OperatorEnergyR01.exterior_gap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OperatorEnergyR01.kernel_precludes_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

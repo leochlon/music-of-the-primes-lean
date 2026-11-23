@@ -1,0 +1,9 @@
+{
+ "request_id": "217a73a47bde4e8d92097ef8cf3a70ca",
+ "target": "Proof.lean",
+ "theorem": "Round197B.actual_complex_seed_lattice_decay",
+ "source_sha256": "759a94d5c8ec432266fea654e9cfa35693507f12a01388d415bf4455991ff8ea",
+ "compiled": true,
+ "exit_code": 0,
+ "elapsed_seconds": 25.373620081983972
+}

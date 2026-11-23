@@ -1,0 +1,14 @@
+{
+ "request_id": "0b7408284e14486d84058784c6f083e4",
+ "target": "IFiniteLocalSupportCheck.lean",
+ "theorem": "ReviewI.LocalArithmetic.both_tests_finite_local_support",
+ "source_sha256": {
+  "IFiniteLocalSupportCheck.lean": "2d49254b5655a7acfdaeacee439791af6c80d6e3f3492c0ec17fa317312341f6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.109514014038723,
+ "stdout": "ReviewI.LocalArithmetic.both_tests_finite_local_support.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) :\n  ∃ S,\n    ∀ v ∉ S,\n      ∀ (q : Fin 2),\n        (∀ (u : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ),\n            NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q) u = 0) ∧\n          ∀ (m : MeasurableSpace (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ)\n            (nu : MeasureTheory.Measure (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ),\n            NLocalArithmetic.finiteLocalTerm K v nu (LIntegrated.requiredTest K phi q) = 0\n'ReviewI.LocalArithmetic.both_tests_finite_local_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewI.LocalArithmetic.both_tests_finite_local_support' depends on axioms: [propext, Classical.choice, Quot.sound]\nReviewI.LocalArithmetic.both_tests_finite_local_support.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi)\n  (hphi : ∀ (x : MasulloGRH.HeckeIdeleClasses K), Masullo.IdeleClassGeometry.classLog K x = 0 → phi x = 0) :\n  ∃ S,\n    ∀ v ∉ S,\n      ∀ (q : Fin 2),\n        (∀ (u : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ),\n            NLocalArithmetic.finiteLocalDensity K v (LIntegrated.requiredTest K phi q) u = 0) ∧\n          ∀ (m : MeasurableSpace (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ)\n            (nu : MeasureTheory.Measure (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v.maximalIdeal)ˣ),\n            NLocalArithmetic.finiteLocalTerm K v nu (LIntegrated.requiredTest K phi q) = 0\n",
+ "stderr": ""
+}

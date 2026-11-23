@@ -1,0 +1,14 @@
+{
+ "request_id": "b-correction-r03-retained-v1",
+ "target": "RetainedTraceConnectionR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "RetainedTraceConnectionR03.lean": "26fcdd59fd5f4ab8c4c6639a0e91b64bde5bb856be4d3c2940f34e05d3f28d72"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 9.234887809026986,
+ "stdout": "'CorrectionApplicationR01.gapsw80_t38_logDeriv_E1_factor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionApplicationR01.gapsw80_t45_eventually_large_norm_cofinite' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'CorrectionApplicationR01.compensated_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CorrectionApplicationR01.correction_summable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ManuscriptRH.correction_right_of_width' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RetainedTraceConnectionR03.retained_square_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RetainedTraceConnectionR03.retained_anchored_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

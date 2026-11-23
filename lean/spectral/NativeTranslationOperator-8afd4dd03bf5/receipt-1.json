@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralA904-native-translation-v3",
+ "target": "NativeTranslationOperator.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeTranslationOperator.lean": "8afd4dd03bf5d7b31ad86db93c8840cc15d900ca8cbc88972bc3d8272e6f8300",
+  "submitted/cycle08/NativeTranslationOperator.v3.lean": "8afd4dd03bf5d7b31ad86db93c8840cc15d900ca8cbc88972bc3d8272e6f8300"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 21.24516405595932,
+ "stdout": "'SpectralCycle7G.nativeHalfWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_halfWeight_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_eLpNorm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle7G.actual_weighted_translation_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA904.nativeTranslationCLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA904.nativeTranslationCLM_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

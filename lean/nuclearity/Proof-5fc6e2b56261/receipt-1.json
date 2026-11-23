@@ -1,0 +1,14 @@
+{
+ "request_id": "bfeb1261699d48cba868550c17c137e2",
+ "target": "Proof.lean",
+ "theorem": "Round173E.finite_block_cutoffs_nuclear_error",
+ "source_sha256": {
+  "Proof.lean": "5fc6e2b5626184303a19309a147ff9529be626943b0b4c767acaad703e164b74"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.14284232899081,
+ "stdout": "Round173E.finite_block_cutoffs_nuclear_error.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} (l : Filter J) {d : ℕ} (u v : Fin d → H) (P : J → H →L[ℂ] H)\n  (hself : ∀ (j : J) (x y : H), ⟪x, (P j) y⟫_ℂ = ⟪(P j) x, y⟫_ℂ)\n  (hstrong : ∀ (x : H), Tendsto (fun j => (P j) x) l (nhds x)) :\n  (∀ (j : J), FiniteNuclearCost ((block u v).comp (P j) - block u v) (∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖)) ∧\n    (∀ (j : J), 0 ≤ ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) ∧ Tendsto (fun j => ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) l (nhds 0)\n'Round173E.finite_block_cutoffs_nuclear_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round173E.finite_block_cutoffs_nuclear_error' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound173E.finite_block_cutoffs_nuclear_error.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {J : Type u_2} (l : Filter J) {d : ℕ} (u v : Fin d → H) (P : J → H →L[ℂ] H)\n  (hself : ∀ (j : J) (x y : H), ⟪x, (P j) y⟫_ℂ = ⟪(P j) x, y⟫_ℂ)\n  (hstrong : ∀ (x : H), Tendsto (fun j => (P j) x) l (nhds x)) :\n  (∀ (j : J),\n      Round173E.FiniteNuclearCost ((Round173E.block u v).comp (P j) - Round173E.block u v)\n        (∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖)) ∧\n    (∀ (j : J), 0 ≤ ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) ∧ Tendsto (fun j => ∑ i, ‖(P j) (v i) - v i‖ * ‖u i‖) l (nhds 0)\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "cycle5_geometric_cutoff_v1",
+ "target": "GeometricCutoff.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GeometricCutoff.lean": "324aff914688d2714878347f6dfd2041e37bc66ce3e440d1aef4486d33feba6f",
+  "preserved/GeometricCutoff.cycle5.v1.lean": "324aff914688d2714878347f6dfd2041e37bc66ce3e440d1aef4486d33feba6f"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 14.980080283014104,
+ "stdout": "Spectral19.rankOne_diagonal_bound.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : ι → H) (hb : Orthonormal ℂ b) (u v : H) :\n  (Summable fun i => ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖) ∧ ∑' (i : ι), ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖ ≤ ‖u‖ * ‖v‖\n'Spectral19.rankOne_diagonal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_diagonal_interchange.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖) :\n  (Summable fun p => ‖⟪u p.1, b p.2⟫_ℂ * ⟪b p.2, v p.1⟫_ℂ‖) ∧\n    ∑' (i : ι) (n : ℕ), ⟪u n, b i⟫_ℂ * ⟪b i, v n⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_diagonal_interchange' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_operator_diagonal.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (T : H →L[ℂ] H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖)\n  (hT : ∀ (x : H), HasSum (fun n => ⟪u n, x⟫_ℂ • v n) (T x)) : ∑' (i : ι), ⟪b i, T (b i)⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_operator_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricCutoff.left_cutoff_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricCutoff.strong_left_cutoff_trace_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricCutoff.genuine_PA_strong_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

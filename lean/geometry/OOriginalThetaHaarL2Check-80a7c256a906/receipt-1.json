@@ -1,0 +1,14 @@
+{
+ "request_id": "305ef331a01d4a0291bed2755a296790",
+ "target": "OOriginalThetaHaarL2Check.lean",
+ "theorem": "OSourceHaar.originalBruhat_normalizedTheta_positive_memLp",
+ "source_sha256": {
+  "OOriginalThetaHaarL2Check.lean": "80a7c256a90669f87f8e4a60c486825ee394f891c0e792d4d4cc99a786a0b080"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 60.87551894399803,
+ "stdout": "OSourceHaar.originalBruhat_normalizedTheta_positive_memLp.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] [SecondCountableTopology (MasulloGRH.HeckeAdeles K)]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsMulLeftInvariant] [MeasureTheory.IsLocallyFiniteMeasure mu] (a alpha s : ℝ) (hs : 0 ≤ s)\n  (f : MasulloGRH.HeckeAdeles K → ℂ) (hf : JThetaAttachment.IsOriginalBruhat K f) :\n  MeasureTheory.MemLp\n    ({x | 0 ≤ Masullo.IdeleClassGeometry.classLog K x}.indicator (JThetaAttachment.normalizedTheta K a alpha s f)) 2 mu\n'OSourceHaar.originalBruhat_classTheta_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.originalBruhat_normalizedTheta_stronglyMeasurable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OSourceHaar.originalBruhat_normalizedTheta_positive_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\nOSourceHaar.theta_weight_module_reflection.{u_1} (K : Type u_1) [Field K] [NumberField K] (a alpha s : ℝ)\n  (x : MasulloGRH.HeckeIdeleClasses K) :\n  ↑(Masullo.GenuineMellinJet.nativeHalfWeight alpha s (Masullo.IdeleClassGeometry.classLog K x)) *\n        ↑(Real.exp (a * Masullo.IdeleClassGeometry.classLog K x)) *\n      ↑(↑((GroundTheory.Global.IdeleClassGroup.ideleModule K) x))⁻¹ =\n    ↑(Masullo.GenuineMellinJet.nativeHalfWeight alpha s (Masullo.IdeleClassGeometry.classLog K x⁻¹)) *\n      ↑(Real.exp ((1 - a) * Masullo.IdeleClassGeometry.classLog K x⁻¹))\n'OSourceHaar.theta_weight_module_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OSourceHaar.originalBruhat_normalizedTheta_positive_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\nOSourceHaar.originalBruhat_normalizedTheta_positive_memLp.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableSpace (MasulloGRH.HeckeAdeles K)] [SecondCountableTopology (MasulloGRH.HeckeAdeles K)]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsMulLeftInvariant] [MeasureTheory.IsLocallyFiniteMeasure mu] (a alpha s : ℝ) (hs : 0 ≤ s)\n  (f : MasulloGRH.HeckeAdeles K → ℂ) (hf : JThetaAttachment.IsOriginalBruhat K f) :\n  MeasureTheory.MemLp\n    ({x | 0 ≤ Masullo.IdeleClassGeometry.classLog K x}.indicator (JThetaAttachment.normalizedTheta K a alpha s f)) 2 mu\n",
+ "stderr": ""
+}

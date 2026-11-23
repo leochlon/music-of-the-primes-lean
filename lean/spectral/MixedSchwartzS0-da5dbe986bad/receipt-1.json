@@ -1,0 +1,14 @@
+{
+ "request_id": "C885-mixed-s0-v2",
+ "target": "MixedSchwartzS0.lean",
+ "theorem": null,
+ "source_sha256": {
+  "MixedSchwartzS0.lean": "da5dbe986badf9053462378c3b7b27080254e4ed0c6855ab27c5ff2983b92b7a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 15.650454510003328,
+ "stdout": "'ConditionalC885.mixedFourier_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC885.fourierOriginCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC885.mem_mixedS0_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC885.isClosed_mixedS0' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ConditionalC885.continuous_original_constraints' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

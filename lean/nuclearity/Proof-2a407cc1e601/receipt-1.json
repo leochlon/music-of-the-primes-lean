@@ -1,0 +1,14 @@
+{
+ "request_id": "bcf249fe65bc48288d78f57321f0ab9c",
+ "target": "Proof.lean",
+ "theorem": "NuclearBoundR88G.logWeight_translate_bound",
+ "source_sha256": {
+  "Proof.lean": "2a407cc1e6018e82e857a31f8fbd0bebda5406c0da4c0c80a511fef68e338550"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.877728361054324,
+ "stdout": "NuclearBoundR88G.convolution_after_projection_split.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) : A.comp P = P.comp (A.comp P) + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\nNuclearBoundR88G.lifted_vector_norm_split.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) (u : E) : ‖A u‖ ≤ ‖P (A u)‖ + ‖A u - P (A u)‖\nNuclearBoundR88G.convolution_after_projection_off_diagonal.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℂ E]\n  (A P : E →L[ℂ] E) (hinvariant : P.comp (A.comp (ContinuousLinearMap.id ℂ E - P)) = 0) :\n  A.comp P = P.comp A + (ContinuousLinearMap.id ℂ E - P).comp (A.comp P)\nNuclearBoundR88G.logWeight_translate_bound (α : ℝ) (hα : 0 ≤ α) (d : ℕ) (h x : ℝ) :\n  logWeight α d (h + x) ≤ Real.exp (2 * α * |h|) * (2 * (1 + h ^ 2)) ^ d * logWeight α d x\n'NuclearBoundR88G.convolution_after_projection_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.lifted_vector_norm_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.convolution_after_projection_off_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.logWeight_translate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NuclearBoundR88G.logWeight_translate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nNuclearBoundR88G.logWeight_translate_bound (α : ℝ) (hα : 0 ≤ α) (d : ℕ) (h x : ℝ) :\n  NuclearBoundR88G.logWeight α d (h + x) ≤\n    Real.exp (2 * α * |h|) * (2 * (1 + h ^ 2)) ^ d * NuclearBoundR88G.logWeight α d x\n",
+ "stderr": ""
+}

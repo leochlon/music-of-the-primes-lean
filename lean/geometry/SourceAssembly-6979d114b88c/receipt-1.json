@@ -1,0 +1,15 @@
+{
+ "request_id": "43bb4d6404e7411fa28e9724062623f4",
+ "target": "submitted/SourceAssembly.v1.lean",
+ "theorem": "FReview.SourceAssembly.finite_source_mask_limit",
+ "source_sha256": {
+  "SourceAssembly.lean": "6979d114b88c3a1329cb34dfe5279bdb810a072f45ff9d1cb71d17d33070c54a",
+  "submitted/SourceAssembly.v1.lean": "6979d114b88c3a1329cb34dfe5279bdb810a072f45ff9d1cb71d17d33070c54a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 11.982473293028306,
+ "stdout": "'Masullo.CoreInvarianceExtends.core_invariance_extends' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.projection_order_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.convolution_first_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.CoreInvarianceExtends.paired_cutoff_order_defects' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CReview.projected_source_flag_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CReview.incoming_tail_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CReview.no_uniform_incoming_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CReview.ordered_two_error_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'CReview.compensated_source_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EReview.incomingCompensation_sqrt_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EReview.incomingCompensation_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EReview.tail_gram_contraction_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EReview.compensated_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.SourceAssembly.finite_source_cost' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.SourceAssembly.finite_source_mask_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.SourceAssembly.retained_source_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.SourceAssembly.finite_source_mask_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nFReview.SourceAssembly.finite_source_mask_limit.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  (m : ℕ) (u : Fin m → H) (A : H →L[ℂ] H) (M : ℕ → H →L[ℂ] H) (Hh : ℂ) (hreturn : EReview.packetTrace u A = ↑m * Hh)\n  (hM : ∀ (v : H), Tendsto (fun n => (M n) v) atTop (𝓝 v)) :\n  Tendsto (fun n => EReview.packetTrace u (A.comp (M n))) atTop (𝓝 (↑m * Hh))\n",
+ "stderr": ""
+}

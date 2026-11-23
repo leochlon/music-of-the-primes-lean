@@ -1,0 +1,14 @@
+{
+ "request_id": "10c8af95c9e24981a380986c81762470",
+ "target": "ROriginalHaarMellinCheck.lean",
+ "theorem": "RIntegrated.originalHaar_classLog_map",
+ "source_sha256": {
+  "ROriginalHaarMellinCheck.lean": "7f4804369e4033762b490427c5530acdfe102b5595c7b361876a1dd6cc6e0f72"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 30.205125275999308,
+ "stdout": "RIntegrated.originalHaar_classLog_map.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] :\n  ∃ c, c ≠ 0 ∧ c ≠ ⊤ ∧ MeasureTheory.Measure.map (Masullo.IdeleClassGeometry.classLog K) mu = c • MeasureTheory.volume\n'RIntegrated.originalHaar_classLog_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RIntegrated.originalHaar_classLog_map' depends on axioms: [propext, Classical.choice, Quot.sound]\nRIntegrated.originalHaar_classLog_map.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  [MeasurableMul (MasulloGRH.HeckeIdeleClasses K)] (mu : MeasureTheory.Measure (MasulloGRH.HeckeIdeleClasses K))\n  [mu.IsHaarMeasure] :\n  ∃ c, c ≠ 0 ∧ c ≠ ⊤ ∧ MeasureTheory.Measure.map (Masullo.IdeleClassGeometry.classLog K) mu = c • MeasureTheory.volume\n",
+ "stderr": ""
+}

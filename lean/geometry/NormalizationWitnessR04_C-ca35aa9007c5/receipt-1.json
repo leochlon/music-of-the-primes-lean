@@ -1,0 +1,14 @@
+{
+ "request_id": "c-global-r04-normalization-witness",
+ "target": "NormalizationWitnessR04_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NormalizationWitnessR04_C.lean": "ca35aa9007c57f5f37292229ee5a935e9fe41f234c2b23a5ba12906a07be20c0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.22790277301101,
+ "stdout": "'GeometricTraceC.NormalizationWitness.both_local_integrands_pos' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricTraceC.NormalizationWitness.gaussian_volume_pos_lt_one' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricTraceC.NormalizationWitness.normalized_identity_excludes_printed' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

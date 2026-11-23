@@ -1,0 +1,14 @@
+{
+ "request_id": "28ec59a21b8949c3990a7cccb5dd0e1a",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.genuineSpectralJet_dual_energy_bound_arithmetic",
+ "source_sha256": {
+  "Proof.lean": "ee8b55856b4230d564b3ad7625e0f9365f17657897354b0c408a8b4c42f462ee"
+ },
+ "compiled": false,
+ "exit_code": 1,
+ "timed_out": false,
+ "elapsed_seconds": 6.2830573550309055,
+ "stdout": "Round88F.actual_logWeight_shear_bound (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u v : ℝ) :\n  Round88F.logWeight alpha d (u + v) ≤ 2 ^ d * Round88F.logWeight alpha d u * Round88F.logWeight alpha d v\nRound88F.actual_logWeight_shear_ratio (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u x y : ℝ) :\n  Round88F.logWeight alpha d (u + x) / Round88F.logWeight alpha d (u + y) ≤\n    (2 ^ d * Round88F.logWeight alpha d u) ^ 2 * (Round88F.logWeight alpha d x / Round88F.logWeight alpha d y)\nRound88F.printed_translation_bound_fails_at_identity (C alpha : ℝ) :\n  ¬1 ≤ C * max (Real.rpow 1 alpha) (Real.rpow 1 (-alpha)) * |Real.log 1|\n'Round88F.actual_logWeight_shear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round88F.actual_logWeight_shear_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Round88F.printed_translation_bound_fails_at_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound88F.actual_weighted_translation_integral.{u_1} {X : Type u_1} [MeasurableSpace X] (mu : MeasureTheory.Measure X)\n  (alpha : ℝ) (ha : 0 ≤ alpha) (d : ℕ) (u : ℝ) (q : X → ℝ) (f : X → ℂ)\n  (hf : MeasureTheory.Integrable (fun x => ‖f x‖ ^ 2 * Round88F.logWeight alpha d (q x)) mu)\n  (hs : MeasureTheory.Integrable (fun x => ‖f x‖ ^ 2 * Round88F.logWeight alpha d (u + q x)) mu) :\n  ∫ (x : X), ‖f x‖ ^ 2 * Round88F.logWeight alpha d (u + q x) ∂mu ≤\n    2 ^ d * Round88F.logWeight alpha d u * ∫ (x : X), ‖f x‖ ^ 2 * Round88F.logWeight alpha d (q x) ∂mu\n'Round88F.actual_weighted_translation_integral' depends on axioms: [propext, Classical.choice, Quot.sound]\nRound88F.actual_jet_slab_lower_bound (alpha : ℝ) (ha : 0 ≤ alpha) (d m : ℕ) (u : ℝ) (hu : 2 ≤ u) (hu' : u ≤ 3) :\n  4 ^ m / (Real.exp (6 * alpha) * 10 ^ d) ≤ u ^ (2 * m) / Round88F.logWeight alpha d u\n'Round88F.actual_jet_slab_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nProof.lean:150:14: error(lean.unknownIdentifier): Unknown constant `MasulloGRH.genuineSpectralJet_dual_energy_bound_arithmetic`\nProof.lean:151:7: error(lean.unknownIdentifier): Unknown identifier `MasulloGRH.genuineSpectralJet_dual_energy_bound_arithmetic`\n",
+ "stderr": ""
+}

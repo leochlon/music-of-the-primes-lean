@@ -1,0 +1,14 @@
+{
+ "request_id": "h-correction-r02-v2",
+ "target": "CorrectionOperatorR02.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionOperatorR02.lean": "96640dff90aa11e27df19019fe5e6ba3bd17a3d9528163821b771c4596b15454"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.166376799985301,
+ "stdout": "'ManuscriptRH.actual_correction_as_trace_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

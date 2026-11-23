@@ -1,0 +1,15 @@
+{
+ "request_id": "followupB636cross3",
+ "target": "NativeCrossComponent.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeCrossComponent.lean": "df402a5d4cce14482fe986a44375d1f3f6af2ef95d8a97ca190cda20125335e4",
+  "submitted/NativeCrossComponent-c10-v3.lean": "df402a5d4cce14482fe986a44375d1f3f6af2ef95d8a97ca190cda20125335e4"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 26.974248400016222,
+ "stdout": "'SpectralH.nilpotent_shift_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.nilpotent_shift_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.polynomial_shift_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH.polynomial_shift_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralH904.native_polynomial_blocks_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_selected_finite_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralCycle9B.native_selected_L2_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral34B.normalizedJet_norm_one_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral34B.native_cross_component_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral35B.native_distinct_component_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral35B.native_distinct_component_riesz_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral36B.native_cross_component_L2_independent' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

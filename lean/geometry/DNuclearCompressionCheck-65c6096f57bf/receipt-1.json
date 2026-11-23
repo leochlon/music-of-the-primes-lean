@@ -1,0 +1,14 @@
+{
+ "request_id": "95db58ee90804aef9d4fbc628a8e44c2",
+ "target": "DNuclearCompressionCheck.lean",
+ "theorem": "DNuclearKernel.source_compression_kernel",
+ "source_sha256": {
+  "DNuclearCompressionCheck.lean": "65c6096f57bf6844eb3cc6980337ecf205f6d47b0f7c0b932753140857b70290"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 33.34594090399332,
+ "stdout": "DNuclearKernel.source_compression_kernel.{u_1, u_2} {X : Type u_1} {ι : Type u_2} [MeasurableSpace X] [Countable ι]\n  (nu : Measure X) [SigmaFinite nu] (b : X → ℝ) (hb : ∀ (x : X), 0 < b x) (hbm : Measurable b)\n  (S : Submodule ℂ ↥(Lp ℂ 2 nu)) [S.HasOrthogonalProjection] (A : ↥(Lp ℂ 2 nu) →L[ℂ] ↥(Lp ℂ 2 nu))\n  (hz : ((1 - S.starProjection).comp A).comp S.starProjection = 0) (u v : ι → ↥Sᗮ)\n  (hc : Summable fun i => ‖u i‖ * ‖v i‖)\n  (hB : ∀ (y : ↥Sᗮ), HasSum (fun i => ⟪u i, y⟫_ℂ • v i) ((Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL)) y)) :\n  have k := DNuclearKernel.kernel nu b (fun i => ↑(u i)) fun i => ↑(v i);\n  have PA := Sᗮ.starProjection.comp A;\n  AEStronglyMeasurable (fun p => k p.1 p.2) (nu.prod nu) ∧\n    (∀ (F : ↥(Lp ℂ 2 nu)),\n        (∀ᵐ (x : X) ∂nu, Integrable (fun y => k x y * (↑↑F y / ↑(b y))) nu) ∧\n          ↑↑(PA F) =ᶠ[ae nu] fun x => ↑(b x) * ∫ (y : X), k x y * (↑↑F y / ↑(b y)) ∂nu) ∧\n      Integrable (fun x => k x x) nu ∧ ∫ (x : X), k x x ∂nu = Masullo.TraceClass.trace PA\n'DNuclearKernel.source_compression_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DNuclearKernel.source_compression_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\nDNuclearKernel.source_compression_kernel.{u_1, u_2} {X : Type u_1} {ι : Type u_2} [MeasurableSpace X] [Countable ι]\n  (nu : Measure X) [SigmaFinite nu] (b : X → ℝ) (hb : ∀ (x : X), 0 < b x) (hbm : Measurable b)\n  (S : Submodule ℂ ↥(Lp ℂ 2 nu)) [S.HasOrthogonalProjection] (A : ↥(Lp ℂ 2 nu) →L[ℂ] ↥(Lp ℂ 2 nu))\n  (hz : ((1 - S.starProjection).comp A).comp S.starProjection = 0) (u v : ι → ↥Sᗮ)\n  (hc : Summable fun i => ‖u i‖ * ‖v i‖)\n  (hB : ∀ (y : ↥Sᗮ), HasSum (fun i => ⟪u i, y⟫_ℂ • v i) ((Sᗮ.orthogonalProjection.comp (A.comp Sᗮ.subtypeL)) y)) :\n  have k := DNuclearKernel.kernel nu b (fun i => ↑(u i)) fun i => ↑(v i);\n  have PA := Sᗮ.starProjection.comp A;\n  AEStronglyMeasurable (fun p => k p.1 p.2) (nu.prod nu) ∧\n    (∀ (F : ↥(Lp ℂ 2 nu)),\n        (∀ᵐ (x : X) ∂nu, Integrable (fun y => k x y * (↑↑F y / ↑(b y))) nu) ∧\n          ↑↑(PA F) =ᶠ[ae nu] fun x => ↑(b x) * ∫ (y : X), k x y * (↑↑F y / ↑(b y)) ∂nu) ∧\n      Integrable (fun x => k x x) nu ∧ ∫ (x : X), k x x ∂nu = Masullo.TraceClass.trace PA\n",
+ "stderr": ""
+}

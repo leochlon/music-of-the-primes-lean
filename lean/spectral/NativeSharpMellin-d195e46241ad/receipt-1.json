@@ -1,0 +1,15 @@
+{
+ "request_id": "followupD634sharp2",
+ "target": "NativeSharpMellin.lean",
+ "theorem": null,
+ "source_sha256": {
+  "NativeSharpMellin.lean": "d195e46241ad43f4044408cf38463c1f85092772cc802d03c4064a229cdd7a46",
+  "preserved/NativeSharpMellin.cycle8.v2.lean": "d195e46241ad43f4044408cf38463c1f85092772cc802d03c4064a229cdd7a46"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 47.819037151988596,
+ "stdout": "'ActualMeasuredActionC6.actual_jet_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_jet_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_jet_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_compact_measured_jet_action' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualMeasuredActionC6.actual_log_kernel_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralRound11B.genuineMellinJet_normalization.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (chi : UnitaryHeckeCharacter K) (z : ℂ) (a s alpha : ℝ) (m : ℕ) (x : HeckeIdeleClasses K) :\n  genuineNormalizedMellinJet K chi z a s alpha m x * ↑(nativeHalfWeight alpha s (classLog K x)) =\n    genuineMellinJet K chi z a m x\n'SpectralRound11B.genuineMellinJet_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeConvolutionFubiniD.native_translated_product_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'NativeConvolutionFubiniD.native_translated_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_convolution_product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralA902Weighted.native_weighted_convolution_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD633.native_weighted_convolution_triangular' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD633.native_weighted_convolution_mellin' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC903.native_sharp_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralC903.native_sharp_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD634.native_sharp_logged_convolution_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD634.native_sharp_mellin_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD634.native_sharp_logged_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FollowupD634.native_sharp_convolution_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

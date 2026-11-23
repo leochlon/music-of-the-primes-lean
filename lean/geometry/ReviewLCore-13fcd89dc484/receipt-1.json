@@ -1,0 +1,14 @@
+{
+ "request_id": "cb0b0467d7d64388be2b65f1a5c3b4d8",
+ "target": "ReviewLCore.lean",
+ "theorem": "ReviewL.compensated_source_limit",
+ "source_sha256": {
+  "ReviewLCore.lean": "13fcd89dc48485acc1a477e513ac063fc9c36274f45538f3b72c09db92d6e6b5"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.544892976991832,
+ "stdout": "'ReviewL.compensated_orthogonal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.compensated_source_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.convolution_first_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.projection_order_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.retained_source_return' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.diagonal_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.masked_zero_correction' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ReviewL.compensated_source_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nReviewL.compensated_source_limit.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] (E : Submodule ℂ H)\n  [E.HasOrthogonalProjection] (F : ℕ → Submodule ℂ H) [∀ (n : ℕ), (F n).HasOrthogonalProjection] (k : ℕ → H →L[ℂ] H)\n  (hrange : ∀ (n : ℕ) (x : H), (k n) (E.starProjection x) ∈ F n)\n  (herr : Tendsto (fun n => ‖ContinuousLinearMap.id ℂ H - k n‖) atTop (𝓝 0)) (x : H) :\n  Tendsto (fun n => (F n).starProjection (E.starProjection x)) atTop (𝓝 (E.starProjection x))\n",
+ "stderr": ""
+}

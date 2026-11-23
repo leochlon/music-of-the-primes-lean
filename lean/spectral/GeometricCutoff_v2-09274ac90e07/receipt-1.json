@@ -1,0 +1,15 @@
+{
+ "request_id": "followupF630cutoff2",
+ "target": "GeometricCutoff.lean",
+ "theorem": "Geometric30F.ordered_PA_two_cutoff_trace_limit",
+ "source_sha256": {
+  "GeometricCutoff.lean": "09274ac90e0747a6a2bc608cab1c1fa3cf5b58603307acddf4ac17a2f7e4e4b5",
+  "preserved/GeometricCutoff_v2.lean": "09274ac90e0747a6a2bc608cab1c1fa3cf5b58603307acddf4ac17a2f7e4e4b5"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 19.179859605967067,
+ "stdout": "Spectral19.rankOne_diagonal_bound.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : ι → H) (hb : Orthonormal ℂ b) (u v : H) :\n  (Summable fun i => ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖) ∧ ∑' (i : ι), ‖⟪u, b i⟫_ℂ * ⟪b i, v⟫_ℂ‖ ≤ ‖u‖ * ‖v‖\n'Spectral19.rankOne_diagonal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_diagonal_interchange.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖) :\n  (Summable fun p => ‖⟪u p.1, b p.2⟫_ℂ * ⟪b p.2, v p.1⟫_ℂ‖) ∧\n    ∑' (i : ι) (n : ℕ), ⟪u n, b i⟫_ℂ * ⟪b i, v n⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_diagonal_interchange' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectral19.nuclear_operator_diagonal.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  {ι : Type u_2} (b : HilbertBasis ι ℂ H) (T : H →L[ℂ] H) (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖)\n  (hT : ∀ (x : H), HasSum (fun n => ⟪u n, x⟫_ℂ • v n) (T x)) : ∑' (i : ι), ⟪b i, T (b i)⟫_ℂ = ∑' (n : ℕ), ⟪u n, v n⟫_ℂ\n'Spectral19.nuclear_operator_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Geometric30F.ordered_PA_cutoff_nuclear_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Geometric30F.ordered_complement_cutoff_identity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Geometric30F.ordered_PA_two_cutoff_trace_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Geometric30F.ordered_PA_two_cutoff_trace_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\nGeometric30F.ordered_PA_two_cutoff_trace_limit.{u_1, u_2} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n  [CompleteSpace H] (E : Submodule ℂ H) [CompleteSpace ↥E] {ι : Type u_2} (b : HilbertBasis ι ℂ H) (A : H →L[ℂ] H)\n  (u v : ℕ → H) (hc : Summable fun n => ‖u n‖ * ‖v n‖)\n  (hPA : ∀ (x : H), HasSum (fun n => ⟪u n, x⟫_ℂ • v n) (E.starProjection (A x))) (L R : ℕ → H →L[ℂ] H) (C : ℝ)\n  (hbound : ∀ (k n : ℕ), ‖(R k) ((L k) (v n))‖ ≤ C * ‖v n‖)\n  (hstrong : ∀ (n : ℕ), Filter.Tendsto (fun k => (R k) ((L k) (v n))) Filter.atTop (nhds (v n))) :\n  Filter.Tendsto (fun k => ∑' (i : ι), ⟪b i, (L k) (E.starProjection (A ((R k) (b i))))⟫_ℂ) Filter.atTop\n    (nhds (∑' (n : ℕ), ⟪u n, v n⟫_ℂ))\n",
+ "stderr": ""
+}

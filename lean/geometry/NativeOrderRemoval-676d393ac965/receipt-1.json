@@ -1,0 +1,14 @@
+{
+ "request_id": "66b77c1cd08b4138b3f48a9983536a2b",
+ "target": "NativeOrderRemoval.lean",
+ "theorem": "NativeOrderRemoval.mixed_block",
+ "source_sha256": {
+  "NativeOrderRemoval.lean": "676d393ac9652d87d303bea8e39878d8322579fc99d88ee7ab4432fb204b8c72"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 4.070178024005145,
+ "stdout": "'NativeOrderRemoval.derivative_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'NativeOrderRemoval.mixed_block' depends on axioms: [propext]\n'NativeOrderRemoval.mixed_block' depends on axioms: [propext]\nNativeOrderRemoval.mixed_block.{u_1} {R : Type u_1} [Ring R] (p a : R) (_hp : p * p = p) (hinv : p * a * (1 - p) = 0) :\n  a * p - p * a = (1 - p) * a * p\n",
+ "stderr": ""
+}

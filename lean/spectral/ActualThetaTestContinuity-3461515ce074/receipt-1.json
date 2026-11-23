@@ -1,0 +1,15 @@
+{
+ "request_id": "spectralF909thetacont1",
+ "target": "ActualThetaTestContinuity.lean",
+ "theorem": "SpectralF909.actual_ideal_theta_continuous_test",
+ "source_sha256": {
+  "ActualThetaTestContinuity.lean": "3461515ce0746fbe40268ddc7e39cc602460e5b75c418d5a72eb26f5fc190d20",
+  "preserved/cycle12/ActualThetaTestContinuity.v1.lean": "3461515ce0746fbe40268ddc7e39cc602460e5b75c418d5a72eb26f5fc190d20"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.06848675996298,
+ "stdout": "'SpectralF909.actual_ideal_theta_CLM' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralF909.actual_ideal_theta_continuous_test' depends on axioms: [propext, Classical.choice, Quot.sound]\n'SpectralF909.actual_ideal_theta_continuous_test' depends on axioms: [propext, Classical.choice, Quot.sound]\nSpectralF909.actual_ideal_theta_continuous_test (K : Type) [Field K] [NumberField K] (I : (FractionalIdeal (𝓞 K)⁰ K)ˣ)\n  (a : mixedSpace K) : Continuous fun f => ∑' (x : ↥(idealLattice K I)), f (a + ↑x)\n",
+ "stderr": ""
+}

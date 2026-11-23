@@ -1,0 +1,10 @@
+{
+ "request_id": "1456277cce90499a9e400ec3c3af7304",
+ "target": "ReviewD.lean",
+ "theorem": "Round97D.genuine_correction_rankOneCost_finite_of_logHaar",
+ "source_sha256": {
+  "ReviewD.lean": "ebf385a180505ee30f4ecfb9534bc7bd6be08a925b26dc9b9924796d54068f31"
+ },
+ "compiled": true,
+ "exit_code": 0
+}

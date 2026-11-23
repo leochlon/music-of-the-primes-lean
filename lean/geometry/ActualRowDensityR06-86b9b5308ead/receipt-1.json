@@ -1,0 +1,14 @@
+{
+ "request_id": "d-global-r06-density-v2",
+ "target": "ActualRowDensityR06.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualRowDensityR06.lean": "86b9b5308ead16d5a3a82c0a7b9c893fe150a65cc9e000c6b931f8a10f4f45f8"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.219394727027975,
+ "stdout": "'ActualRowDensityR06.product_density_sq_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.multiplier_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.density_unique' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.cyclic_trace_not_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

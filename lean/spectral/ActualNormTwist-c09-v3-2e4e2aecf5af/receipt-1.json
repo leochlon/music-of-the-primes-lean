@@ -1,0 +1,15 @@
+{
+ "request_id": "followupB635riesz3",
+ "target": "ActualNormTwist.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualNormTwist.lean": "2e4e2aecf5afd1185b4fea235f2e955d9397ad7735c0e2e68ab77fca675c3eb9",
+  "submitted/ActualNormTwist-c09-v3.lean": "2e4e2aecf5afd1185b4fea235f2e955d9397ad7735c0e2e68ab77fca675c3eb9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 32.86232851695968,
+ "stdout": "Try this:\n  [apply] ring_nf\n  \n  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.\n    \n  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.\nTry this:\n  [apply] ring_nf\n  \n  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.\n    \n  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.\n'Spectral31B.genuineMellinJet_norm_twist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral31B.genuineNormalizedMellinJet_norm_twist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral31B.norm_twist_preserves_admission' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral32B.normTwist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral32B.classCharacter_normTwist' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral32B.actual_normTwist_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral32B.actual_normTwist_normalized_jet' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral33B.actual_cross_character_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral34B.actual_normalized_cross_character_collision' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral34B.normalizedJet_norm_one_translate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral34B.native_cross_component_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral35B.native_distinct_component_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Spectral35B.native_distinct_component_riesz_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

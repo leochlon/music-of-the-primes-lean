@@ -1,0 +1,14 @@
+{
+ "request_id": "b-global-r01-extension-2",
+ "target": "GlobalFiniteExtensionR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GlobalFiniteExtensionR01.lean": "041109f1f389d2815ba4f0020a13ffede6f3440b5b9804d928fa9adfe9b487df"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 61.34976960596396,
+ "stdout": "'GroundTheory.Automorphic.isTraceClass_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.trace_comp_comm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_isTraceClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR03.extension_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR04.actual_projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GroundTheory.Automorphic.tendsto_trace_comp' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.cutoff_geometric_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceR06.geometric_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualShellLimitR02.localized_carving_traceNorm_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualPrimaryTraceR05.finite_primary_traceClass' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalFiniteExtensionR01.finite_convolution_extension' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GlobalFiniteExtensionR01.exterior_cutoff_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+ "request_id": "conditional-c26-geometric-cutoff-v1",
+ "target": "GeometricCutoff.lean",
+ "theorem": null,
+ "source_sha256": {
+  "GeometricCutoff.lean": "2bb9092cca0892fa0150f1bbaf32f38b5f44b658aa8fdd35d9c00575c8c5dd43",
+  "preserved/GeometricCutoff.cycle05.v1.lean": "2bb9092cca0892fa0150f1bbaf32f38b5f44b658aa8fdd35d9c00575c8c5dd43"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 6.346772113000043,
+ "stdout": "'GeometricCutoffC26.genuine_projection_cutoff_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricCutoffC26.genuine_projection_wrong_order_cutoff_defect' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'GeometricCutoffC26.ordered_smoothed_complement_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricCutoffC26.ordered_complement_cutoff_strong_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

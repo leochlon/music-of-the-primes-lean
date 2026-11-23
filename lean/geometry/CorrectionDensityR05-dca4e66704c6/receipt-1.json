@@ -1,0 +1,14 @@
+{
+ "request_id": "d-correction-r05-density-v1",
+ "target": "CorrectionDensityR05.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionDensityR05.lean": "dca4e66704c623031397234423d5d1411a1f937b44b04dc105567524e8111083"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 10.311698198958766,
+ "stdout": "'DCorrectionApplicationR03.common_physical_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionApplicationR03.correction_diagonal_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionApplicationR03.correction_diagonal_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionApplicationR04.root_block_in_geometric_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionApplicationR04.root_block_trace' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionApplicationR04.anchored_block_scaled_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DSourceR04.fermat_eventually_large_norm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.product_density_sq_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.multiplier_row' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.density_unique' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ActualRowDensityR06.cyclic_trace_not_density' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionDensityR05.multiplier_density_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionDensityR05.penalty_exterior_block_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'DCorrectionDensityR05.common_density_path' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

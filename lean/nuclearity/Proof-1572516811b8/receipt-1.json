@@ -1,0 +1,14 @@
+{
+ "request_id": "1f841193461f4d11b6a284b3adb58775",
+ "target": "Proof.lean",
+ "theorem": "MasulloGRH.localEulerFactor_mul_integralUnit",
+ "source_sha256": {
+  "Proof.lean": "1572516811b841f86e094f506ca3b4026a07ab9c697ca85a2d88e22fe0cd430b"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.148131208028644,
+ "stdout": "MasulloGRH.principalIdelicModulus_eq_one.{u_1} (K : Type u_1) [Field K] [NumberField K] (x : K) (hx : x ≠ 0) :\n  principalIdelicModulus K x = 1\n'MasulloGRH.principalIdelicModulus_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.principalNormTwist_eq_one.{u_1} (K : Type u_1) [Field K] [NumberField K] (x : K) (hx : x ≠ 0) (τ : ℝ) :\n  Complex.exp (↑τ * Complex.I * ↑(Real.log (principalIdelicModulus K x))) = 1\n'MasulloGRH.principalNormTwist_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.localHeckeCharacter_unitary.{u_1} (K : Type u_1) [Field K] [NumberField K] (χ : UnitaryHeckeCharacter K)\n  (v : IsDedekindDomain.HeightOneSpectrum (NumberField.RingOfIntegers K))\n  (x : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v)ˣ) : ‖↑((localHeckeCharacter K χ v) x)‖ = 1\n'MasulloGRH.localHeckeCharacter_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.localEulerFactor_mul_integralUnit.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (χ : UnitaryHeckeCharacter K) (v : IsDedekindDomain.HeightOneSpectrum (NumberField.RingOfIntegers K))\n  (u : (↥(IsDedekindDomain.HeightOneSpectrum.adicCompletionIntegers K v))ˣ)\n  (π : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v)ˣ) (s : ℂ) :\n  localEulerFactor K χ v ((localIntegralUnit K v) u * π) s = localEulerFactor K χ v π s\n'MasulloGRH.localEulerFactor_mul_integralUnit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MasulloGRH.localEulerFactor_mul_integralUnit' depends on axioms: [propext, Classical.choice, Quot.sound]\nMasulloGRH.localEulerFactor_mul_integralUnit.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (χ : MasulloGRH.UnitaryHeckeCharacter K) (v : IsDedekindDomain.HeightOneSpectrum (NumberField.RingOfIntegers K))\n  (u : (↥(IsDedekindDomain.HeightOneSpectrum.adicCompletionIntegers K v))ˣ)\n  (π : (IsDedekindDomain.HeightOneSpectrum.adicCompletion K v)ˣ) (s : ℂ) :\n  MasulloGRH.localEulerFactor K χ v ((MasulloGRH.localIntegralUnit K v) u * π) s = MasulloGRH.localEulerFactor K χ v π s\n",
+ "stderr": ""
+}
