@@ -1,0 +1,14 @@
+{
+ "request_id": "b-global-r03-archimedean-v2",
+ "target": "ArchimedeanReturnR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ArchimedeanReturnR03.lean": "918703e978bfdcbc15e2bdc5d0d1590e81141e33c3efa7141c5b7cd260ed62bf"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.245526247948874,
+ "stdout": "'ArchimedeanReturnR03.real_even' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanReturnR03.real_odd' depends on axioms: [propext, Classical.choice, Quot.sound]\n'P2MW.S_Complex_hasSum_one_div_add_one_sub_one_div_add_eq_digamma_add_eulerMascheroniConstant.solution' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

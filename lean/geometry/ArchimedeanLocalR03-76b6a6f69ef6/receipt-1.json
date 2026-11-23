@@ -1,0 +1,14 @@
+{
+ "request_id": "i-global-r03-arch-v2",
+ "target": "ArchimedeanLocalR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ArchimedeanLocalR03.lean": "76b6a6f69ef636c0fbaf2ba00ef8feb92fbd05054b8f153bd602476870c1957e"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.225631761015393,
+ "stdout": "'ArchimedeanLocalR03.real_even_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanLocalR03.real_odd_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanLocalR03.complex_mode_series' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanLocalR03.log_sharp_local_pair' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

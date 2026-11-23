@@ -1,0 +1,14 @@
+{
+ "request_id": "g-correction-r03-halfplane-v2",
+ "target": "RetainedHalfPlaneR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "RetainedHalfPlaneR03.lean": "e0436f41413981ca74f358f6d9e9c9255a8e1948bc8d291a4fd415c9e9618a56"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 7.0907949899556115,
+ "stdout": "'RetainedHalfPlaneR03.source_escape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RetainedHalfPlaneR03.retained_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RetainedHalfPlaneR03.retained_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RetainedHalfPlaneR03.retained_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

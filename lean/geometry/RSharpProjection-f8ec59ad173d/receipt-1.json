@@ -1,0 +1,14 @@
+{
+ "request_id": "d02ac68ac66d4e76a7e2c612536bc78e",
+ "target": "RSharpProjection.lean",
+ "theorem": "RReview.Sharp.both_sharp_tests_compact",
+ "source_sha256": {
+  "RSharpProjection.lean": "f8ec59ad173d4031bf9da812bb14151edee12f92fb68845abf5c255d021f114a"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 14.152065020985901,
+ "stdout": "'RReview.ProjectionAndRemainder.projection_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.ProjectionAndRemainder.projected_shell_return' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.ProjectionAndRemainder.PA_and_order_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.ProjectionAndRemainder.fixed_source_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.ProjectionAndRemainder.both_compensated_limits' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.ProjectionAndRemainder.retained_omitted_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.Sharp.sharp_log' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.Sharp.both_sharp_tests_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'RReview.Sharp.both_sharp_tests_compact' depends on axioms: [propext, Classical.choice, Quot.sound]\nRReview.Sharp.both_sharp_tests_compact.{u_1} (K : Type u_1) [Field K] [NumberField K]\n  (phi : MasulloGRH.HeckeIdeleClasses K → ℂ) (hh : Continuous phi) (hc : HasCompactSupport phi) :\n  (Continuous (RReview.Sharp.sharp K phi) ∧ HasCompactSupport (RReview.Sharp.sharp K phi)) ∧\n    Continuous (RReview.Sharp.sharp K fun x => ↑(Masullo.IdeleClassGeometry.classLog K x) * phi x) ∧\n      HasCompactSupport (RReview.Sharp.sharp K fun x => ↑(Masullo.IdeleClassGeometry.classLog K x) * phi x)\n",
+ "stderr": ""
+}

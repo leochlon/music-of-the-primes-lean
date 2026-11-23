@@ -12,8 +12,8 @@ This repository accompanies our [review of the manuscript](https://hassana.io/mu
 |---|---|
 | [`ISSUES.md`](ISSUES.md) | The nine results the argument relies on and what is proved for each, then the 44 issues in manuscript order. Each issue has a description, the repair and its status, and a derivation. |
 | [`LEAN_MAP.md`](LEAN_MAP.md) | For each result and each issue, the Lean declarations involved: what each proves, the objects it is about, its scope and its hypotheses. |
-| [`MANIFEST.tsv`](MANIFEST.tsv) | All 1,302 declarations named in `LEAN_MAP.md`, with their status, source file and compiler receipts. |
-| [`lean/`](lean/) | 494 Lean sources and 619 compiler receipts, grouped by area: `spectral`, `nuclearity`, `geometry`, `geometric-trace` and `final-deduction`. Each folder holds one source and its receipts, and its name ends with the first 12 hex digits of the source's SHA-256. |
+| [`MANIFEST.tsv`](MANIFEST.tsv) | All 1,506 declarations named in `LEAN_MAP.md`, with their status, source file and compiler receipts. |
+| [`lean/`](lean/) | 531 Lean sources and 666 compiler receipts, grouped by area: `spectral`, `nuclearity`, `geometry`, `geometric-trace` and `final-deduction`. Each folder holds one source and its receipts, and its name ends with the first 12 hex digits of the source's SHA-256. |
 | `lakefile.lean`, `lake-manifest.json`, `lean-toolchain` | The Lean project: Lean `v4.27.0-rc1` and Mathlib at commit `fdddb3ea2c8c35de4455e033bc2a5df4d3a391ee`. |
 | [`LICENSE`](LICENSE), [`CITATION.cff`](CITATION.cff) | Licence and citation. |
 
@@ -21,9 +21,9 @@ Page numbers refer to the manuscript's PDF, whose page numbers match the printed
 
 ## Status of a declaration
 
-- **checked** (1,208 declarations): the source compiled with exit code 0, and `#print axioms` for the declaration lists only `propext`, `Classical.choice` and `Quot.sound`.
-- **accepted by Lean (linter warnings only)** (25): Lean elaborated the declaration and printed the same three axioms. The compile service rejected the file only because it treats linter warnings, such as an unused `simp` argument, as errors.
-- **in a checked file** (69): a definition or auxiliary lemma named in the map that has no `#print axioms` line of its own. It is part of a source file whose receipts are listed.
+- **checked** (1,393 declarations): the source compiled with exit code 0, and `#print axioms` for the declaration lists only `propext`, `Classical.choice` and `Quot.sound`.
+- **accepted by Lean (linter warnings only)** (26): Lean elaborated the declaration and printed the same three axioms. The compile service rejected the file only because it treats linter warnings, such as an unused `simp` argument, as errors.
+- **in a checked file** (87): a definition or auxiliary lemma named in the map that has no `#print axioms` line of its own. It is part of a source file whose receipts are listed.
 
 ## Receipts
 

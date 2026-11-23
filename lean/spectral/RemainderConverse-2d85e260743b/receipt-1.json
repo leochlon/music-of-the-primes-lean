@@ -1,0 +1,14 @@
+{
+ "request_id": "cb5782202d99488daccf77e58ec51f1a",
+ "target": "RemainderConverse.lean",
+ "theorem": null,
+ "source_sha256": {
+  "RemainderConverse.lean": "2d85e260743b3fd24774bfbde417067b5c5311cb93ab26405e949c9f2e2531b9"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.3456054190173745,
+ "stdout": "'BoundaryFreeTraceRepairD.critical_line_implies_remainder_independent' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+ "stderr": ""
+}

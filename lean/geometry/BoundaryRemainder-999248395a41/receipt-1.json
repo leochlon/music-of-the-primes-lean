@@ -1,0 +1,14 @@
+{
+ "request_id": "2b504cdba1a445568ae766cfa0fd3a8d",
+ "target": "submitted/BoundaryRemainder.v1.lean",
+ "theorem": "FReview.BoundaryRemainder.actual_retained_omitted_balance",
+ "source_sha256": {
+  "submitted/BoundaryRemainder.v1.lean": "999248395a410d16671ecebf07929850ba8ef3c73d68236ee79b74066704ee5c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 8.86627449496882,
+ "stdout": "'FReview.BoundaryRemainder.boundaryOrders_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.BoundaryRemainder.actual_retained_omitted_balance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FReview.BoundaryRemainder.actual_retained_omitted_balance' depends on axioms: [propext, Classical.choice, Quot.sound]\nFReview.BoundaryRemainder.actual_retained_omitted_balance (a l r s : ℝ) (h : ℝ → ℂ)\n  (rho : FReview.BoundaryRemainder.GenuineZero) :\n  ↑(FReview.BoundaryRemainder.retained a l r s rho) * FReview.BoundaryRemainder.radialMellin a h rho +\n      ↑(FReview.BoundaryRemainder.zeroOrder rho - FReview.BoundaryRemainder.retained a l r s rho) *\n        FReview.BoundaryRemainder.radialMellin a h rho =\n    ↑(FReview.BoundaryRemainder.zeroOrder rho) * FReview.BoundaryRemainder.radialMellin a h rho\n",
+ "stderr": ""
+}

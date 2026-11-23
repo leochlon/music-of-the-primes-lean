@@ -1,0 +1,14 @@
+{
+ "request_id": "a-global-r03-archimedean-v2",
+ "target": "ArchimedeanAssemblyR03.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ArchimedeanAssemblyR03.lean": "2239c675c2dc1c8ff663e69aed98d36b1c5d72c43206243e30a0497f5b55bba6"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.163083946041297,
+ "stdout": "'ArchimedeanAssemblyR03.real_even_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanAssemblyR03.real_odd_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanAssemblyR03.radial_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanAssemblyR03.logarithmic_radial_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ArchimedeanAssemblyR03.level_complement_cancels' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

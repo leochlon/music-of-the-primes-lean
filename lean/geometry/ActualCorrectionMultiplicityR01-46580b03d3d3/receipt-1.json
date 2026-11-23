@@ -1,0 +1,14 @@
+{
+ "request_id": "f-arithmetic-r01-multiplicity-v3",
+ "target": "ActualCorrectionMultiplicityR01.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ActualCorrectionMultiplicityR01.lean": "46580b03d3d38282273d8b9c877de5c2dcba0ab566cab10b187926191222ccf0"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 13.476987575995736,
+ "stdout": "'Masullo.ManuscriptRH.retainedCount_le_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.ManuscriptRH.actual_correction_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.ManuscriptRH.stripCorrection_eq_missing' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.ManuscriptRH.missingCount_of_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Masullo.ManuscriptRH.missingCount_of_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

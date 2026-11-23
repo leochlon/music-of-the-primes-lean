@@ -1,0 +1,14 @@
+{
+ "request_id": "cycle05_concrete_v1",
+ "target": "ConcreteAnnularCompensation.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ConcreteAnnularCompensation.lean": "f7d276b6cba1cc253a53de7c78467ba3b04018ad6c02c16fd09a93b743cebbee"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 27.927988417970482,
+ "stdout": "'FiniteHeightRepairE.native_difference_eq_omitted_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.raw_difference_limit_iff_omitted_difference_limit' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FiniteHeightRepairE.native_limits_equal_iff_omitted_limits_equal' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FiniteHeightRepairE.critical_line_of_actual_omitted_height_limits' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FiniteHeightRepairE.raw_limit_of_full_and_omitted' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FiniteHeightRepairE.critical_line_of_actual_omitted_height_limits_far' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FiniteHeightRepairE.actual_annular_sum_of_omitted_difference_limit' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FiniteHeightRepairE.concrete_annular_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

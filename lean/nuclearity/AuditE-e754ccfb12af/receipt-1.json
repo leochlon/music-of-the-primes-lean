@@ -1,0 +1,14 @@
+{
+ "request_id": "0b52df6effaf4b23a4fd563b45623fc1",
+ "target": "AuditE.lean",
+ "theorem": "MasulloGRH.paired_resolvent_uniform_bound",
+ "source_sha256": {
+  "AuditE.lean": "e754ccfb12af0852c6775aa6ea1e6b6bd03568f59e9ec827cf57acaf92aa9135"
+ },
+ "compiled": false,
+ "exit_code": 255,
+ "timed_out": false,
+ "elapsed_seconds": 2.5397123629809357,
+ "stdout": "",
+ "stderr": ""
+}

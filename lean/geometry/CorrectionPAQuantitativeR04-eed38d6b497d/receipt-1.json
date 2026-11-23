@@ -1,0 +1,14 @@
+{
+ "request_id": "h-correction-r04-pa-v2",
+ "target": "CorrectionPAQuantitativeR04.lean",
+ "theorem": null,
+ "source_sha256": {
+  "CorrectionPAQuantitativeR04.lean": "eed38d6b497dd3d06fcf451d627b054229c72a56dfccd2a0068e8fb196e0527c"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 12.40794152097078,
+ "stdout": "'ManuscriptRH.actual_correction_as_trace_difference' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ManuscriptRH.retained_real_separation_r03' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ManuscriptRH.actual_narrow_trace_limit_r03' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ManuscriptRH.actual_logged_PA_error_r04' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}

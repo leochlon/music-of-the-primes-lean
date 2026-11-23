@@ -1,0 +1,14 @@
+{
+ "request_id": "c-global-r03-archimedean-v2",
+ "target": "ArchimedeanLocalR03_C.lean",
+ "theorem": null,
+ "source_sha256": {
+  "ArchimedeanLocalR03_C.lean": "d6118b6ba203b397cd228a7e21dd56f4c339e0367f1052747b97a689dc190f88"
+ },
+ "compiled": true,
+ "exit_code": 0,
+ "timed_out": false,
+ "elapsed_seconds": 5.8900559230241925,
+ "stdout": "'GeometricTraceC.Archimedean.real_even' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.Archimedean.real_odd' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.Archimedean.real_radial_series' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.Archimedean.complex_radial_series' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.Archimedean.complex_measure_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GeometricTraceC.Archimedean.logged_shell' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}
