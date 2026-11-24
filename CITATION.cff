@@ -4,7 +4,7 @@ title: "The Music of the Primes: review and Lean formalisation"
 authors:
   - name: "Hassana Labs"
 date-released: 2026-11-23
-license: CC-BY-NC-4.0
+license: Apache-2.0
 type: dataset
 url: "https://hassana.io/music-of-the-primes/"
 repository-code: "https://github.com/leochlon/music-of-the-primes-lean"

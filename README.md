@@ -15,7 +15,7 @@ This repository accompanies our [review of the manuscript](https://hassana.io/mu
 | [`MANIFEST.tsv`](MANIFEST.tsv) | All 1,506 declarations named in `LEAN_MAP.md`, with their status, source file and compiler receipts. |
 | [`lean/`](lean/) | 531 Lean sources and 666 compiler receipts, grouped by area: `spectral`, `nuclearity`, `geometry`, `geometric-trace` and `final-deduction`. Each folder holds one source and its receipts, and its name ends with the first 12 hex digits of the source's SHA-256. |
 | `lakefile.lean`, `lake-manifest.json`, `lean-toolchain` | The Lean project: Lean `v4.27.0-rc1` and Mathlib at commit `fdddb3ea2c8c35de4455e033bc2a5df4d3a391ee`. |
-| [`LICENSE`](LICENSE), [`CITATION.cff`](CITATION.cff) | Licence and citation. |
+| [`LICENSE`](LICENSE), [`NOTICE`](NOTICE), [`CITATION.cff`](CITATION.cff) | Licence, notice and citation. |
 
 Page numbers refer to the manuscript's PDF, whose page numbers match the printed ones.
 
@@ -48,7 +48,7 @@ Each source is a standalone compilation unit, and different sources may declare 
 
 ## Licence
 
-Released under CC BY-NC 4.0; see [`LICENSE`](LICENSE).
+Released under the Apache License 2.0; see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
 
 ## Citation
 
